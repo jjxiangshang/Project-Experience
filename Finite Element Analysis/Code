@@ -1,1 +1,371 @@
-## empty
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% One dimensional finite element implementation for static linear
+% elasticity using quadratic shape function
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+function [u,reaction] = FinalProject()
+clear % clear the workspace variables
+clc % clear the command window
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Problem data
+%
+% length of ``bar''
+%
+Length = 8.0;
+%
+% cross sectional area (possibly a function of position)
+%
+Area = @(x) 4; %(the book example starts at x=2, I start at x=0)
+%
+% elastic modulus (possibly a function of position)
+%
+Eyoung = @(x) 8.0;
+%
+% body force (possibly a function of position)
+%
+bodyForce = @(x) 8.0;
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Create the mesh you want
+%
+% number of elements
+%
+nElem = 2;
+%
+% nodes per element
+%
+nNode = 3;
+%
+% number of integration points per element
+%
+nInt = 2;
+%
+% the total number of nodes in this mesh
+%
+nNodes = 2*nElem + 1;
+%
+% generate the mesh
+%
+coord = zeros(nNodes,1);
+for i=2:nNodes;
+    coord(i) = coord(i-1) + Length/(nNodes-1);
+%     disp(coord);
+end
+%
+% here is the element to nodal connectivity in the form
+%  node on left  = connect(elem,1)
+%  next node moving right = connect(elem,2)
+%  ....
+%  node on the right = connect(elem,nNode)
+%
+connect = zeros(nElem,nNode);
+for i=1:nNode;
+    connect(1,i) = i;
+end
+for i=2:nElem;
+    for j=1:nNode;
+        connect(i,j) = connect(i-1,j) + nNode - 1;
+%         disp(connect);
+    end
+end
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% init
+%
+nodeCoords = zeros(nNode,1);
+K = zeros(nNodes,nNodes);
+F = zeros(nNodes,1);
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% intial condition on the displacement (not really needed)
+%
+%u = 0.0*ones(nNodes,1);
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Boundary conditions
+%
+% traction boundary condition
+%
+traction = 0.0;
+elemTrac = nElem; % element with the traction, BC elem 2 under traction 
+nodeTrac = nNode; %nodeTrac = 2 local node number to apply the traction BC, elem 2 node 2 (local), same as left side
+%
+% point loading
+%
+Pload = 24;
+Xload = 3; % (I start at x=0, the book at x=2)
+%
+% displacement boundary condition
+%left side fixed
+Ubc = 0.0;
+nodeU = 1; % global node number to apply the displacement BC
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% loop over elements
+%
+for elem=1:nElem;
+    
+    % get the coordinates for the nodes on this element
+    %
+    for i=1:nNode;
+        nodeCoords(i) = coord(connect(elem,i));
+%         disp(nodeCoords);
+    end
+    
+
+    % compute this elements stiffness and force
+    %
+    [Ke,Fe] = element(nInt,nNode,nodeCoords,Area,Eyoung,bodyForce,Pload,Xload);
+%     disp(Ke);
+%     disp(Fe);
+    
+    % check for any traction boundary conditions on the right side
+    %
+    Fbc = zeros(nNode,1);%[0;0]
+    if(elem==elemTrac)
+        Fbc(nodeTrac,1) = Area()*traction;
+        disp(Fbc);
+    end
+    
+    
+    % assemble this elements stiffness contribution into the gloabl
+    %
+    for i=1:nNode;
+        for j=1:nNode;
+            row = connect(elem,i);
+            col = connect(elem,j);
+%             disp(row);
+%             disp(col);
+            K(row,col) = K(row,col) + Ke(i,j);%Ke local level K global level
+%             disp(K);
+        end
+    end
+    
+    % assemble this elements force into the global force
+    %
+    for i=1:nNode;
+        row = connect(elem,i);
+        F(row) = F(row) + Fe(i) + Fbc(i);
+    end
+    
+    
+end
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% impose temperature boundary condition using the penalty method
+%solve u,r (specifed condition)
+Ktmp = K(nodeU,nodeU); % needed to compute the reaction force later
+Ftmp = F(nodeU); % needed to compute the reaction force later
+%
+% compute penalty parameter
+%
+penalty = (1.e6)*(trace(K)/nNodes);
+%
+% modify the stiffness and force
+%
+K(nodeU,nodeU) = penalty;
+F(nodeU) = penalty*Ubc;
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Global system solve
+%
+% compute the displacement field
+%
+u = K\F;
+%
+% compute the reaction force
+%
+K(nodeU,nodeU) = Ktmp;
+reaction = K(nodeU,:)*u - Ftmp;
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Postprocessing to plot the displacement field
+%plot
+postprocess(Length,coord,u,reaction,nodeU)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+end
+
+function postprocess(Length,coord,u,reaction,nodeU)
+
+figure(1);
+clf;
+set(gca,'FontSize',12);
+plot(coord,u,'ko-','LineWidth',2);
+hold off;
+xlim([0 Length]);
+xlabel('Position');
+ylabel('Displacement');
+%
+fprintf('Reaction force at node %i is %d \n', nodeU, reaction);
+
+end
+
+function [Ke,Fe] = element(nInt,nNode,nodeCoords,Area,Eyoung,bodyForce,Pload,Xload)
+
+% obtain gauss points and weights
+%
+if(nInt==1);
+    [xi,w] = GaussInt1Pt();
+elseif(nInt==2)
+    [xi,w] = GaussInt2Pt();
+else
+    error('nInt is not programmed')
+end
+
+% obtain nodal coordinates
+%
+if(nNode==3);
+    x1 = nodeCoords(1,1);
+    x2 = nodeCoords(2,1);
+    x3 = nodeCoords(3,1);
+else
+    error('nNode is not programmed');
+end
+
+
+% init
+%
+Ke = zeros(nNode,nNode);
+Fe = zeros(nNode,1);
+
+
+%
+% loop over integration points
+%
+for intPt=1:nInt;
+    
+    % compute shape functions and derivatives
+    %
+    if(nNode==3);
+        [N,B,Jac] = shapeLinear(x1,x2,x3,xi(intPt));
+    else
+        error('nNode is not programmed');
+    end
+    
+    % current location
+    %
+    x = N*nodeCoords;%x=[N]*x
+
+
+    % update the element stiffness
+    %local level
+    Ke = Ke + Jac*w(intPt)*transpose(B)*Area(x)*Eyoung(x)*B;%gq
+%     disp(Ke);
+
+
+    % update the element force vector
+    %local level
+    Fe = Fe + Jac*w(intPt)*transpose(N)*bodyForce(x);
+%     disp(Fe);
+    
+        
+end % loop over integration points
+
+
+%
+% update the element force vector for point loading (I have assumed here
+% that the point load falls between two nodes and not exactly on a node)
+%B.C?
+if(Xload > nodeCoords(1) && Xload < nodeCoords(nNode));
+    % we have a point load here
+    %
+    % compute xi corresponding to Xload and the corresponding shape
+    % fucnctions
+    %
+    if(nNode==3);
+        xi = (2*Xload - x1 - x2)/(x2 - x1);
+%         disp(xi);
+        N = shapeLinear(x1,x2,x3,xi);
+    else
+        error('nNode is not programmed');
+    end
+    %
+    % update this elements force vector
+    %
+    Fe = Fe + transpose(N)*Pload;
+%     disp(Fe);
+    
+end
+
+
+return;
+end
+
+function [xi,w] = GaussInt1Pt()
+% Gauss integration locations and weights for 1pt integration
+xi = 0.0;
+%
+w = 2.0;
+return;
+end
+
+function [xi,w] = GaussInt2Pt()
+%gp = 2
+% Gauss integration locations and weights for 2pt integration
+xi(1) = -sqrt(1.0/3.0);
+xi(2) =  sqrt(1.0/3.0);
+%
+w(1) = 1.0;
+w(2) = 1.0;
+return;
+end
+
+function [N,B,Jac] = shapeLinear(x1,x2,x3,xi)
+% shape functions and derivatives for a 2-node 1D element
+
+% element length
+%
+Le = x3 - x1;
+
+% the shape function matrix
+%
+N = (2.0/(Le)^2)*[(xi-x2)*(xi-x3),-2*(xi-x1)*(xi-x3),(xi-x1)*(xi-x2)];
+
+% derivatives of shape functions
+%
+B = (2.0/(Le)^2)*[2*xi-x2-x3 -2*(2*xi-x1-x3) 2*xi-x1-x2];
+
+% the mapping jacobian
+%
+Jac = Le/2.0;
+
+return;
+end
+
+
