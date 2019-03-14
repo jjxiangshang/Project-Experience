@@ -1,0 +1,45 @@
+VERICUT-log
+*---------------------------------------------------------*
+*                                                         *
+*                 Mon Apr 17 15:22:58 2017
+                *
+*                                                         *
+*---------------------------------------------------------*
+
+
+
+*** Processing NC program file P:\Desktop\Creo Manufacture3\cgtpro.tp
+Mon Apr 17 15:23:03 2017
+
+
+77476 lines processed.
+
+
+*** Finished processing NC program file P:\Desktop\Creo Manufacture3\cgtpro.tp
+Mon Apr 17 15:23:35 2017
+
+
+***************************************************************************************************************
+Toolpath File : P:\Desktop\Creo Manufacture3\cgtpro.tp
+
+                                  Tool Summary
+                                 ==============
+
+Seq.  Record                                    Tool Description Cutter Height   Cutter Stick Out Original Time Air Time  
+---------------------------------------------------------------------------------------------------------------
+   1     8: LOADTL / 1 $$-> 4mm flat end mill   1: 4MMFEM        100             100              110818.653621 35.7332 % 
+   2  27317: LOADTL / 2 $$-> 4mm balll end drill 2: 4MMBEM       60              60               13388.964646 79.9132 % 
+   3  77458: LOADTL / 3 $$-> 11mm drilling      3: 11MMDRILLING  60              60               30.796429  0.2359 %  
+===============================================================================================================
+      Original Total Time:                                                                        124238.414696 40.4856 % 
+
+Number of Errors: 0
+Number of Warnings: 0
+Total cycle time since last rewind: 124238.414696
+Total air time since last rewind: 50298.711883
+***************************************************************************************************************
+
+Mon Apr 17 15:27:38 2017
+
+END-OF-FILE
+

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VcProject Version="6.0" Unit="millimeter">
+  <Simulation Choice="251261C229369573AA14"/>
+  <Setup Name="1" Active="on">
+    <Views>
+      <View Name="VIEW 1" Type="workpiece" Back="shaded" Draw="shaded" Trans="off">
+        <Light I="0" J="0" K="1"/>
+        <Attach>Stock 1</Attach>
+        <Rotation I="-18.087" J="-32.552" K="-57.670"/>
+        <Port XMin="0" XMax="0" YMin="0" YMax="0" ZMin="0" ZMax="0"/>
+      </View>
+    </Views>
+    <Build Loose="keep">
+      <Component Name="Stock 1" Type="stock" Visible="workpiece" Draw="shaded" Hue="5">
+        <Attach>Fixture</Attach>
+        <Position X="0" Y="0" Z="0"/>
+        <Rotation I="0" J="0" K="0"/>
+        <Poly Unit="millimeter">
+          <File>CALIPER_HANGER_WRK_01_1.stk</File>
+          <Position X="0" Y="0" Z="0"/>
+          <Rotation I="0" J="0" K="0"/>
+        </Poly>
+      </Component>
+      <Component Name="CALIPER_HANGER_1" Type="design" Visible="workpiece" Draw="shaded" Hue="7">
+        <Attach>Stock</Attach>
+        <Position X="0" Y="0" Z="0"/>
+        <Rotation I="0" J="0" K="0"/>
+        <Poly Unit="millimeter">
+          <File>CALIPER_HANGER_1.dsn</File>
+          <Position X="0" Y="0" Z="0"/>
+          <Rotation I="0" J="0" K="0"/>
+        </Poly>
+      </Component>
+    </Build>
+    <NCPrograms Selected="off" Type="Pro/Manufacturing_APT">
+      <NCProgram Use="off" Filter="off">
+        <File>cgtpro.tp</File>
+        <Orient>none</Orient>
+      </NCProgram>
+    </NCPrograms>
+    <APT Machine="mill"/>
+    <ToolMan>
+      <Library>cgtpro.tls</Library>
+    </ToolMan>
+    <Optipath Over="100">
+      <Output></Output>
+      <Material>CALIPER_HANGER_WRK_01</Material>
+      <Machine>3-AXIS</Machine>
+    </Optipath>
+  </Setup>
+</VcProject>

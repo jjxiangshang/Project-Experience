@@ -1,0 +1,690 @@
+ NC-GPOST Mill Version  6.6 P-14.0, Copyright(c) 2014
+ Date=05-01-2017 Time=14:29:31
+ Input  File=E:\QYL_Final_Project\Final Project\creo manufacturing\op010.ncl.3
+ Post   Name=C:\Program Files\PTC\Creo 3.0\M050\Parametric\bin\..\..\Common Files\x86e_win64\gpost\uncx01.p11
+ Option File=uncx01.p11
+ Filter File=uncx01.f11
+1 NC-GPOST FIL 6.6.WN00 
+         -1  INCLUD/UNCMIL.V00                                                               
+         -2  $$ GPOST MILL SYSTEM VOCABULARY TABLE                                           
+         -3  PPWORD/TLANGL,1                                                                 
+         -4  PPWORD/RETURN,7                                                                 
+         -5  PPWORD/RTRCTO,7                                                                 
+         -6  PPWORD/STEP,66                                                                  
+         -7  PPWORD/ABSOL,90                                                                 
+         -8  PPWORD/HOLDIA,157                                                               
+         -9  PPWORD/OSETNO,159                                                               
+        -10  PPWORD/BRKCHP,216                                                               
+        -11  PPWORD/HED,238                                                                  
+        -12  PPWORD/OFSETL,275                                                               
+        -13  PPWORD/DWELL,279                                                                
+        -14  PPWORD/FEDTO,281                                                                
+        -15  PPWORD/DEPTH,281                                                                
+        -16  PPWORD/CLEAR,280                                                                
+        -17  PPWORD/RAPTO,280                                                                
+        -18  PPWORD/INCH,303                                                                 
+        -19  PPWORD/CORNER,403                                                               
+        -20  PPWORD/DIAMET,157                                                               
+        -21  PPWORD/OFSTNO,1074                                                              
+        -22  PPWORD/CALSUB,3150                                                              
+        -23  PPWORD/DEFSUB,3151                                                              
+        -24  PPWORD/ENDSUB,3152                                                              
+        -25  PPWORD/VERIFY,3153                                                              
+        -26  PPWORD/3DCOMP,3155                                                              
+        -27  PPWORD/BACK,3156                                                                
+        -28  PPWORD/PNT,3157                                                                 
+        -29  PPWORD/CALIB,3158                                                               
+        -30  PPWORD/PROTCT,3159                                                              
+        -31  PPWORD/SCAN,3160                                                                
+        -32  PPWORD/PERMIN,3161                                                              
+        -33  PPWORD/RCTNGL,3162                                                              
+        -34  PPWORD/XDIM,3163                                                                
+        -35  PPWORD/YDIM,3164                                                                
+        -36  PPWORD/ROUND,3165                                                               
+        -37  PPWORD/XDIST,3166                                                               
+        -38  PPWORD/YDIST,3167                                                               
+        -39  PPWORD/DIST,3168                                                                
+        -40  PPWORD/CUTS,3169                                                                
+        -41  PPWORD/FINCUT,3170                                                              
+        -42  PPWORD/TLAXIS,3171                                                              
+        -43  PPWORD/PROBE,3172                                                               
+        -44  PPWORD/WIRE,3173                                                                
+        -45  PPWORD/UNLOAD,3174                                                              
+        -46  PPWORD/DIPM,3175                                                                
+        -47  PPWORD/TORCH,3176                                                               
+        -48  PPWORD/APPLY,3177                                                               
+        -49  PPWORD/PIERCE,3178                                                              
+        -50  PPWORD/YDIR,3179                                                                
+        -51  PPWORD/XDIR,3180                                                                
+        -52  PPWORD/FLAME,3181                                                               
+        -53  PPWORD/PUNCH,3182                                                               
+        -54  PPWORD/CLDIST,3183                                                              
+        -55  PPWORD/SYNCTR,3184                                                              
+        -56  PPWORD/UPPER,3185                                                               
+        -57  PPWORD/LOWER,3186                                                               
+        -58  PPWORD/FLUSH,3187                                                               
+        -59  PPWORD/GENRTR,3188                                                              
+        -60  PPWORD/CONST,3189                                                               
+        -61  PPWORD/WATTS,3190                                                               
+        -62  PPWORD/LASER,3191                                                               
+        -63  INCLUD/UNCMIL.S00                                                               
+        -64  $$  GPOST MILL SYSTEM STARTUP FILE                                              
+        -65                                                                                  
+        -66  REDEF/ON                                                                        
+        -67                                                                                  
+        -68                                                                                  
+        -69  A=1;B=2;C=3;D=4;E=5;F=6;G=7;H=8;I=9;J=10;K=11;L=12;M=13;N=14                    
+        -70  O=15;P=16;Q=17;R=18;S=19;T=20;U=21;V=22;W=23;X=24;Y=25;Z=26                     
+        -71                                                                                  
+        -72                                                                                  
+        -73                                                                                  
+        -74  $$ ****************************************************                         
+        -75  $$ *        M A C R O       S E C T I O N S           *                         
+        -76  $$ ****************************************************                         
+        -77                                                                                  
+        -78  DDATE = MACRO                                                                   
+        -79  $$ MACRO TO DISPLAY THE DATE AND TIME                                           
+        -80  $$ AS A MESSAGE TO OPERATOR                                                     
+        -81  DD=TEXT/TIMES                                                                   
+        -82  $$ EXTRACT TIME                                                                 
+        -83  DT=TEXT/RANGE,DD,10,17                                                          
+        -84  $$ EXTRACT DATE                                                                 
+        -85  DD=TEXT/RANGE,DD,1,8                                                            
+        -86  PPRINT/DD,'-',DT                                                                
+        -87  TERMAC                                                                          
+        -88                                                                                  
+        -89                                                                                  
+        -90                                                                                  
+        -91                                                                                  
+        -92  $$ ****************************************************                         
+        -93  $$ *        M A C H I N     S E C T I O N S           *                         
+        -94  $$ ****************************************************                         
+        -95                                                                                  
+        -96  CIMFIL/ON,MACHIN                                                                
+        -97   RSLT=POSTF(13)                                                                 
+        -98  SEQNO/OFF       $$ NO SEQUENCE NUMBER, ONLY ON LOADTL                           
+        -99    PROMPT=TEXT/'ENTER PROGRAM NUMBER'                                            
+       -100    RSLT=FILEF(0,1,PROMPT)                                                        
+       -101    STRNG=TEXT/READ,0                                                             
+       -102    SCALR=SCALF(STRNG)                                                            
+       -103    PRGNM=TEXT/CONVF,SCALR,4,0,0,1,1                                              
+       -104   INSERT/'O',PRGNM,'$'                                                           
+       -105  $$ INSERT FILE NAME                                                             
+       -106  $$ NAME OF CL FILE                                                              
+       -107  TXTPRT=TEXT/PART                                                                
+       -108  PPRINT/TXTPRT                                                                   
+       -109   $$ OUTPUT THE DATE AND TIME                                                    
+       -110  CALL/DDATE                                                                      
+       -111  CIMFIL/OFF                                                                      
+       -112                                                                                  
+       -113                                                                                  
+       -114  $$ ****************************************************                         
+       -115  $$ *        L O A D T L     S E C T I O N S           *                         
+       -116  $$ ****************************************************                         
+       -117                                                                                  
+       -118  CIMFIL/ON,LOADTL                                                                
+       -119  DMY=POSTF(20)   $$ SAVE CURRENT CL RECORD                                       
+       -120  SEQNO/ON                                                                        
+       -121  DMY=POSTF(21)   $$ RESTORE SAVED RECORD                                         
+       -122  $$ ADD OFFSET NUMBER IF NOT PROGRAMMED                                          
+       -123  NBEL=POSTF(5)      $$ NUMBER OF WORD                                            
+       -124  IF (NBEL.EQ.4) THEN                                                             
+       -125  $$ ONLY THE TOOL NUMBER HAS BEEN PROGRAMMED                                     
+       -126  $$ ADD ADJUST, OFFSET NUMBER=TOOL                                               
+       -127    DMY=POSTF(9,5,(ICODEF(ADJUST)))                                               
+       -128    DMY=POSTF(10,6,(POSTF(7,4)))                                                  
+       -129  $$ INCREASE NUMBER OF WORD                                                      
+       -130    DMY=POSTF(12,6)                                                               
+       -131  ENDIF                                                                           
+       -132  $$ PROCESS RECORD                                                               
+       -133  DMY=POSTF(13)                                                                   
+       -134  SEQNO/OFF                                                                       
+       -135  CIMFIL/OFF                                                                      
+       -136                                                                                  
+       -137                                                                                  
+       -138  $$ ****************************************************                         
+       -139  $$ *        C U T C O M     S E C T I O N S           *                         
+       -140  $$ ****************************************************                         
+       -141  CIMFIL/ON,CUTCOM                                                                
+       -142  $$ THIS FIL IS USED TO SET A DEFAULT DIAMETER OFFSET NUMBER                     
+       -143  SETV=POSTF(7,4)   $$ GET THE 4TH CL WORD                                        
+       -144  SETT=POSTF(6,4)   $$ GET THE TYPE OF THE 4TH CL WORD                            
+       -145  NBEL=POSTF(5)     $$ NUMBER OF WORD                                             
+       -146  IF(SETT.EQ.0.AND.SETV.NE.(ICODEF(OFF)).AND.NBEL.EQ.4)THEN                       
+       -147  $$ DEFAULT OFFSET NUMBER TO CURRENT TOOL NUMBER                                 
+       -148    DMY=POSTF(10,5,(POSTF(1,3,497)))                                              
+       -149  $$ CHANGE NUMBER OF ARGUMENT                                                    
+       -150    DMY=POSTF(12,5)                                                               
+       -151  ENDIF                                                                           
+       -152  $$ EXECUTE THE CURRENT RECORD (MODIFIED OR NOT``)                               
+       -153  DMY=POSTF(13)                                                                   
+       -154  CIMFIL/OFF                                                                      
+       -155                                                                                  
+       -156                                                                                  
+       -157  $$ ****************************************************                         
+       -158  $$ *        P P R I N T     S E C T I O N S           *                         
+       -159  $$ ****************************************************                         
+       -160                                                                                  
+       -161  CIMFIL/ON,PPRINT                                                                
+       -162  $$ MACRO ON PPRINT TO IGNORE PPRINT                                             
+       -163  $$ WITH THE WORD COMMENTS                                                       
+       -164  MESS=TEXT/CLW                                                                   
+       -165  COM=TEXT/'COMMENTS'                                                             
+       -166  RSLT=INDXF(MESS,COM)                                                            
+       -167  IF (RSLT.EQ.0) THEN                                                             
+       -168  $$ PROCESS THE PPRINT                                                           
+       -169    PPRINT/MESS                                                                   
+       -170  ENDIF                                                                           
+       -171  CIMFIL/OFF                                                                      
+       -172                                                                                  
+       -173                                                                                  
+       -174  $$ ****************************************************                         
+       -175  $$ *        F I N I     S E C T I O N S               *                         
+       -176  $$ ****************************************************                         
+       -177                                                                                  
+       -178  CIMFIL/ON,14        $$ FINI STATEMENT                                           
+       -179  DMY=POSTF(20)       $$ SAVE THE CURRENT RECORD                                  
+       -180  AUXFUN/30           $$ OUTPUT M30                                               
+       -181  DMY=POSTF(21)       $$ RECAL SAVED RECORD                                       
+       -182  DMY=POSTF(13)       $$ PROCESS THE RECORD                                       
+       -183  CIMFIL/OFF                                                                      
+       -184  INCLUD/UNCMIL.F00                                                               
+       -185  $$ ****************************************************                         
+       -186  $$ *             SYSTEM MILL FIL                      *                         
+       -187  $$ ****************************************************                         
+       -188                                                                                  
+       -189  	PRINT/OFF,IN					$$ USE FOR PRODUCTION                                         
+1 
+      1>PARTNO  / BUSHING_MANUFACTURE                                            
+      2>MACHIN/,11 
+      2>SEQNO/OFF 
+      2>INSERT O0020$                                                            
+1 NC-GPOST Mill UNCX01  6.6.WN00 P-14.0 BUILD=0176 MACHIN/UNCX01,11   DATE:  5/ 1/2017      PAGE   1
+ HAAS VF8                                                          
+  / BUSHING_MANUFACTURE                                            (INCH)
+  INPUT  CLREC N4G2X34Y34Z34R34I34J34Q34F33S5T2H2D2M2P34                     X         Y         Z       F      S                   
+
+      2      2 $ / BUSHING_MANUFACTURE                                            
+      2      2 %$
+      2      2 O0020$                                                            
+      2>PPRINT E:\QYL_Final_Project\Final Project\creo manufacturing\op010.ncl.3 
+      2      2 (E:\QYL_Final_Project\Final Project\creo manufacturing\op010.ncl.3)$
+      2>PPRINT 05/01/17-14:29:33                                                 
+      2      2 (05/01/17-14:29:33)$
+      8>UNITS/INCH 
+      9>TURRET/1 
+      9      9 ***WARNING***                                                    
++                            INVALID MAJOR WORD - TURRET, IGNORED
+     10>CAMERA/1,0,0,0,0,1,0,0,0,0,1,0 
+     11>SPINDL/RPM,2200,CLW 
+     11     11 S02200 M03$                                                                                     2200  
+     12>RAPID 
+     13>GOTO  /1.627135,0,.070313 
+     13     13 G00 X1.6271 Y.0000$                                          1.6271     .0000            600.0  
+     13     13 Z.0703$                                                                           .0703  
+     14>FEDRAT/10,IPM 
+     15>GOTO  /1.522135,0,.070313 
+     15     15 G01 X1.5221 F10.000$                                         1.5221                       10.0  
+     16>GOTO  /1.522135,0,-4.40625 
+     16     16 Z-4.4063$                                                                       -4.4063  
+     17>GOTO  /1.625312,0,-4.40625 
+     17     17 X1.6253$                                                     1.6253  
+     18>RAPID 
+     19>GOTO  /1.625312,0,.070313 
+     19     19 G00 Z.0703$                                                                       .0703  600.0  
+     20>FEDRAT/10,IPM 
+     21>GOTO  /1.473958,0,.070313 
+     21     21 G01 X1.4740$                                                 1.4740                       10.0  
+     22>GOTO  /1.473958,0,-4.40625 
+     22     22 Z-4.4063$                                                                       -4.4063  
+     23>GOTO  /1.577135,0,-4.40625 
+     23     23 X1.5771$                                                     1.5771  
+     24>RAPID 
+     25>GOTO  /1.577135,0,.070313 
+     25     25 G00 Z.0703$                                                                       .0703  600.0  
+     26>FEDRAT/10,IPM 
+     27>GOTO  /1.425781,0,.070313 
+1
+     27     27 G01 X1.4258$                                                 1.4258                       10.0  
+     28>GOTO  /1.425781,0,-4.40625 
+     28     28 Z-4.4063$                                                                       -4.4063  
+     29>GOTO  /1.528958,0,-4.40625 
+     29     29 X1.5290$                                                     1.5290  
+     30>RAPID 
+     31>GOTO  /1.528958,0,.070313 
+     31     31 G00 Z.0703$                                                                       .0703  600.0  
+     32>FEDRAT/10,IPM 
+     33>GOTO  /1.377604,0,.070313 
+     33     33 G01 X1.3776$                                                 1.3776                       10.0  
+     34>GOTO  /1.377604,0,-4.40625 
+     34     34 Z-4.4063$                                                                       -4.4063  
+     35>GOTO  /1.480781,0,-4.40625 
+     35     35 X1.4808$                                                     1.4808  
+     36>RAPID 
+     37>GOTO  /1.480781,0,.070313 
+     37     37 G00 Z.0703$                                                                       .0703  600.0  
+     38>FEDRAT/10,IPM 
+     39>GOTO  /1.329427,0,.070313 
+     39     39 G01 X1.3294$                                                 1.3294                       10.0  
+     40>GOTO  /1.329427,0,-4.40625 
+     40     40 Z-4.4063$                                                                       -4.4063  
+     41>GOTO  /1.432604,0,-4.40625 
+     41     41 X1.4326$                                                     1.4326  
+     42>RAPID 
+     43>GOTO  /1.432604,0,.070313 
+     43     43 G00 Z.0703$                                                                       .0703  600.0  
+     44>FEDRAT/10,IPM 
+     45>GOTO  /1.28125,0,.070313 
+     45     45 G01 X1.2813$                                                 1.2813                       10.0  
+     46>GOTO  /1.28125,0,-4.40625 
+     46     46 Z-4.4063$                                                                       -4.4063  
+     47>GOTO  /1.384427,0,-4.40625 
+     47     47 X1.3844$                                                     1.3844  
+     48>RAPID 
+     49>GOTO  /1.384427,0,.070313 
+     49     49 G00 Z.0703$                                                                       .0703  600.0  
+     50>FEDRAT/10,IPM 
+     51>GOTO  /1.23125,0,.070313 
+     51     51 G01 X1.2313$                                                 1.2313                       10.0  
+     52>GOTO  /1.23125,0,-4.03125 
+     52     52 Z-4.0313$                                                                       -4.0313  
+1
+     53>GOTO  /1.25,0,-4.03125 
+     53     53 X1.2500$                                                     1.2500  
+     55>ARCDAT/1.25,0,-4.0625,0,1,0,.03125 
+     55     55 G18$
+     56>GOTO  /1.28125,0,-4.0625 
+     56     57 G02 X1.2813 Z-4.0625 I.0000$                                 1.2813             -4.0625  
+     57>GOTO  /1.33625,0,-4.0625 
+     57     57 G01 X1.3363$                                                 1.3363  
+     58>RAPID 
+     59>GOTO  /1.33625,0,.070313 
+     59     59 G00 Z.0703$                                                                       .0703  600.0  
+     60>FEDRAT/10,IPM 
+     61>GOTO  /1.18125,0,.070313 
+     61     61 G01 X1.1813$                                                 1.1813                       10.0  
+     62>GOTO  /1.18125,0,-4.03125 
+     62     62 Z-4.0313$                                                                       -4.0313  
+     63>GOTO  /1.28625,0,-4.03125 
+     63     63 X1.2862$                                                     1.2862  
+     64>RAPID 
+     65>GOTO  /1.28625,0,.070313 
+     65     65 G00 Z.0703$                                                                       .0703  600.0  
+     66>FEDRAT/10,IPM 
+     67>GOTO  /1.13125,0,.070313 
+     67     67 G01 X1.1313$                                                 1.1313                       10.0  
+     68>GOTO  /1.13125,0,-4.03125 
+     68     68 Z-4.0313$                                                                       -4.0313  
+     69>GOTO  /1.23625,0,-4.03125 
+     69     69 X1.2363$                                                     1.2363  
+     70>RAPID 
+     71>GOTO  /1.23625,0,.070313 
+     71     71 G00 Z.0703$                                                                       .0703  600.0  
+     72>FEDRAT/10,IPM 
+     73>GOTO  /1.08125,0,.070313 
+     73     73 G01 X1.0813$                                                 1.0813                       10.0  
+     74>GOTO  /1.08125,0,-.03125 
+     74     74 Z-.0313$                                                                         -.0313  
+     75>GOTO  /1.09375,0,-.03125 
+     75     75 X1.0938$                                                     1.0938  
+     77>ARCDAT/1.09375,0,-.0625,0,1,0,.03125 
+     78>GOTO  /1.125,0,-.062559 
+     78     79 G02 X1.1250 Z-.0626 I.0000$                                  1.1250              -.0626  
+     79>GOTO  /1.117555,0,-4.03125 
+     79     79 G01 X1.1176 Z-4.0313$                                        1.1176             -4.0313  
+1
+     80>GOTO  /1.18625,0,-4.03125 
+     80     80 X1.1863$                                                     1.1863  
+     81>RAPID 
+     82>GOTO  /1.18625,0,.070313 
+     82     82 G00 Z.0703$                                                                       .0703  600.0  
+     83>FEDRAT/10,IPM 
+     84>GOTO  /1.03125,0,.070313 
+     84     84 G01 X1.0313$                                                 1.0313                       10.0  
+     85>GOTO  /1.03125,0,-.03125 
+     85     85 Z-.0313$                                                                         -.0313  
+     86>GOTO  /1.13625,0,-.03125 
+     86     86 X1.1363$                                                     1.1363  
+     87>RAPID 
+     88>GOTO  /1.13625,0,.070313 
+     88     88 G00 Z.0703$                                                                       .0703  600.0  
+     89>FEDRAT/10,IPM 
+     90>GOTO  /.98125,0,.070313 
+     90     90 G01 X.9813$                                                   .9813                       10.0  
+     91>GOTO  /.98125,0,-.03125 
+     91     91 Z-.0313$                                                                         -.0313  
+     92>GOTO  /1.08625,0,-.03125 
+     92     92 X1.0863$                                                     1.0863  
+     93>RAPID 
+     94>GOTO  /1.08625,0,.070313 
+     94     94 G00 Z.0703$                                                                       .0703  600.0  
+     95>FEDRAT/10,IPM 
+     96>GOTO  /.93125,0,.070313 
+     96     96 G01 X.9313$                                                   .9313                       10.0  
+     97>GOTO  /.93125,0,-.03125 
+     97     97 Z-.0313$                                                                         -.0313  
+     98>GOTO  /1.03625,0,-.03125 
+     98     98 X1.0362$                                                     1.0362  
+     99>RAPID 
+    100>GOTO  /1.03625,0,.070313 
+    100    100 G00 Z.0703$                                                                       .0703  600.0  
+    101>FEDRAT/10,IPM 
+    102>GOTO  /.88125,0,.070313 
+    102    102 G01 X.8813$                                                   .8813                       10.0  
+    103>GOTO  /.88125,0,-.03125 
+    103    103 Z-.0313$                                                                         -.0313  
+    104>GOTO  /.98625,0,-.03125 
+    104    104 X.9863$                                                       .9863  
+    105>RAPID 
+1
+    106>GOTO  /.98625,0,.070313 
+    106    106 G00 Z.0703$                                                                       .0703  600.0  
+    107>FEDRAT/10,IPM 
+    108>GOTO  /.83125,0,.070313 
+    108    108 G01 X.8313$                                                   .8313                       10.0  
+    109>GOTO  /.83125,0,-.03125 
+    109    109 Z-.0313$                                                                         -.0313  
+    110>GOTO  /.93625,0,-.03125 
+    110    110 X.9363$                                                       .9363  
+    111>RAPID 
+    112>GOTO  /.93625,0,.070313 
+    112    112 G00 Z.0703$                                                                       .0703  600.0  
+    113>FEDRAT/10,IPM 
+    114>GOTO  /.78125,0,.070313 
+    114    114 G01 X.7813$                                                   .7813                       10.0  
+    115>GOTO  /.78125,0,-.03125 
+    115    115 Z-.0313$                                                                         -.0313  
+    116>GOTO  /.88625,0,-.03125 
+    116    116 X.8863$                                                       .8863  
+    117>RAPID 
+    118>GOTO  /.88625,0,.070313 
+    118    118 G00 Z.0703$                                                                       .0703  600.0  
+    119>FEDRAT/10,IPM 
+    120>GOTO  /.73125,0,.070313 
+    120    120 G01 X.7313$                                                   .7313                       10.0  
+    121>GOTO  /.73125,0,-.03125 
+    121    121 Z-.0313$                                                                         -.0313  
+    122>GOTO  /.83625,0,-.03125 
+    122    122 X.8363$                                                       .8363  
+    123>RAPID 
+    124>GOTO  /.83625,0,.070313 
+    124    124 G00 Z.0703$                                                                       .0703  600.0  
+    125>FEDRAT/10,IPM 
+    126>GOTO  /.68125,0,.070313 
+    126    126 G01 X.6813$                                                   .6813                       10.0  
+    127>GOTO  /.68125,0,-.03125 
+    127    127 Z-.0313$                                                                         -.0313  
+    128>GOTO  /.78625,0,-.03125 
+    128    128 X.7863$                                                       .7863  
+    129>RAPID 
+    130>GOTO  /.78625,0,.070313 
+    130    130 G00 Z.0703$                                                                       .0703  600.0  
+    131>FEDRAT/10,IPM 
+1
+    132>GOTO  /.63125,0,.070313 
+    132    132 G01 X.6313$                                                   .6313                       10.0  
+    133>GOTO  /.63125,0,-.03125 
+    133    133 Z-.0313$                                                                         -.0313  
+    134>GOTO  /.73625,0,-.03125 
+    134    134 X.7363$                                                       .7363  
+    135>RAPID 
+    136>GOTO  /.73625,0,.070313 
+    136    136 G00 Z.0703$                                                                       .0703  600.0  
+    137>FEDRAT/10,IPM 
+    138>GOTO  /.58125,0,.070313 
+    138    138 G01 X.5813$                                                   .5813                       10.0  
+    139>GOTO  /.58125,0,-.03125 
+    139    139 Z-.0313$                                                                         -.0313  
+    140>GOTO  /.68625,0,-.03125 
+    140    140 X.6863$                                                       .6863  
+    141>RAPID 
+    142>GOTO  /.68625,0,.070313 
+    142    142 G00 Z.0703$                                                                       .0703  600.0  
+    143>FEDRAT/10,IPM 
+    144>GOTO  /.53125,0,.070313 
+    144    144 G01 X.5313$                                                   .5313                       10.0  
+    145>GOTO  /.53125,0,-.03125 
+    145    145 Z-.0313$                                                                         -.0313  
+    146>GOTO  /.63625,0,-.03125 
+    146    146 X.6363$                                                       .6363  
+    147>RAPID 
+    148>GOTO  /.63625,0,.070313 
+    148    148 G00 Z.0703$                                                                       .0703  600.0  
+    149>FEDRAT/10,IPM 
+    150>GOTO  /.48125,0,.070313 
+    150    150 G01 X.4813$                                                   .4813                       10.0  
+    151>GOTO  /.48125,0,-.03125 
+    151    151 Z-.0313$                                                                         -.0313  
+    152>GOTO  /.58625,0,-.03125 
+    152    152 X.5863$                                                       .5863  
+    153>RAPID 
+    154>GOTO  /.58625,0,.070313 
+    154    154 G00 Z.0703$                                                                       .0703  600.0  
+    155>FEDRAT/10,IPM 
+    156>GOTO  /.43125,0,.070313 
+    156    156 G01 X.4313$                                                   .4313                       10.0  
+    157>GOTO  /.43125,0,-.03125 
+1
+    157    157 Z-.0313$                                                                         -.0313  
+    158>GOTO  /.53625,0,-.03125 
+    158    158 X.5363$                                                       .5363  
+    159>RAPID 
+    160>GOTO  /.53625,0,.070313 
+    160    160 G00 Z.0703$                                                                       .0703  600.0  
+    161>FEDRAT/10,IPM 
+    162>GOTO  /.38125,0,.070313 
+    162    162 G01 X.3813$                                                   .3813                       10.0  
+    163>GOTO  /.38125,0,-.03125 
+    163    163 Z-.0313$                                                                         -.0313  
+    164>GOTO  /.48625,0,-.03125 
+    164    164 X.4863$                                                       .4863  
+    165>RAPID 
+    166>GOTO  /.48625,0,.070313 
+    166    166 G00 Z.0703$                                                                       .0703  600.0  
+    167>FEDRAT/10,IPM 
+    168>GOTO  /.33125,0,.070313 
+    168    168 G01 X.3313$                                                   .3313                       10.0  
+    169>GOTO  /.33125,0,-.03125 
+    169    169 Z-.0313$                                                                         -.0313  
+    170>GOTO  /.43625,0,-.03125 
+    170    170 X.4363$                                                       .4363  
+    171>RAPID 
+    172>GOTO  /.43625,0,.070313 
+    172    172 G00 Z.0703$                                                                       .0703  600.0  
+    173>FEDRAT/10,IPM 
+    174>GOTO  /.28125,0,.070313 
+    174    174 G01 X.2813$                                                   .2813                       10.0  
+    175>GOTO  /.28125,0,-.03125 
+    175    175 Z-.0313$                                                                         -.0313  
+    176>GOTO  /.38625,0,-.03125 
+    176    176 X.3863$                                                       .3863  
+    177>RAPID 
+    178>GOTO  /.38625,0,.070313 
+    178    178 G00 Z.0703$                                                                       .0703  600.0  
+    179>FEDRAT/10,IPM 
+    180>GOTO  /.23125,0,.070313 
+    180    180 G01 X.2313$                                                   .2313                       10.0  
+    181>GOTO  /.23125,0,-.03125 
+    181    181 Z-.0313$                                                                         -.0313  
+    182>GOTO  /.33625,0,-.03125 
+    182    182 X.3363$                                                       .3363  
+1
+    183>RAPID 
+    184>GOTO  /.33625,0,.070313 
+    184    184 G00 Z.0703$                                                                       .0703  600.0  
+    185>FEDRAT/10,IPM 
+    186>GOTO  /.18125,0,.070313 
+    186    186 G01 X.1813$                                                   .1813                       10.0  
+    187>GOTO  /.18125,0,-.03125 
+    187    187 Z-.0313$                                                                         -.0313  
+    188>GOTO  /.28625,0,-.03125 
+    188    188 X.2863$                                                       .2863  
+    189>RAPID 
+    190>GOTO  /.28625,0,.070313 
+    190    190 G00 Z.0703$                                                                       .0703  600.0  
+    191>FEDRAT/10,IPM 
+    192>GOTO  /.13125,0,.070313 
+    192    192 G01 X.1313$                                                   .1313                       10.0  
+    193>GOTO  /.13125,0,-.03125 
+    193    193 Z-.0313$                                                                         -.0313  
+    194>GOTO  /.23625,0,-.03125 
+    194    194 X.2363$                                                       .2363  
+    195>RAPID 
+    196>GOTO  /.23625,0,.070313 
+    196    196 G00 Z.0703$                                                                       .0703  600.0  
+    197>FEDRAT/10,IPM 
+    198>GOTO  /.08125,0,.070313 
+    198    198 G01 X.0813$                                                   .0813                       10.0  
+    199>GOTO  /.08125,0,-.03125 
+    199    199 Z-.0313$                                                                         -.0313  
+    200>GOTO  /.18625,0,-.03125 
+    200    200 X.1863$                                                       .1863  
+    201>RAPID 
+    202>GOTO  /.18625,0,.070313 
+    202    202 G00 Z.0703$                                                                       .0703  600.0  
+    203>FEDRAT/10,IPM 
+    204>GOTO  /.03125,0,.070313 
+    204    204 G01 X.0313$                                                   .0313                       10.0  
+    205>GOTO  /.03125,0,-.03125 
+    205    205 Z-.0313$                                                                         -.0313  
+    206>GOTO  /1.577135,0,-.03125 
+    206    206 X1.5771$                                                     1.5771  
+    209>TURRET/2 
+    209    209 ***WARNING***                                                    
++                            INVALID MAJOR WORD - TURRET, IGNORED
+    210>CAMERA/1,0,0,0,0,1,0,0,0,0,1,0 
+1
+    211>SPINDL/RPM,2200,CLW 
+    211    211 S02200$
+    212>RAPID 
+    213>GOTO  /1.30459,0,-.577679 
+    213    213 G00 X1.3046$                                                 1.3046                      600.0  
+    213    213 Z-.5777$                                                                         -.5777  
+    215>FEDRAT/1,IPM 
+    216>GOTO  /1.20459,0,-.577679 
+    216    216 G01 X1.2046 F1.000$                                          1.2046                        1.0  
+    217>GOTO  /.97375,0,-.577679 
+    217    217 X.9738$                                                       .9738  
+    218>GOTO  /1.20459,0,-.577679 
+    218    218 X1.2046$                                                     1.2046  
+    219>RAPID 
+    220>GOTO  /1.20459,0,-.532321 
+    220    220 G00 Z-.5323$                                                                     -.5323  600.0  
+    221>FEDRAT/1,IPM 
+    222>GOTO  /.97375,0,-.532321 
+    222    222 G01 X.9738$                                                   .9738                        1.0  
+    223>GOTO  /1.20459,0,-.532321 
+    223    223 X1.2046$                                                     1.2046  
+    224>RAPID 
+    225>GOTO  /1.20459,0,-.623036 
+    225    225 G00 Z-.6230$                                                                     -.6230  600.0  
+    226>FEDRAT/1,IPM 
+    227>GOTO  /.97375,0,-.623036 
+    227    227 G01 X.9738$                                                   .9738                        1.0  
+    228>GOTO  /1.20459,0,-.623036 
+    228    228 X1.2046$                                                     1.2046  
+    229>RAPID 
+    230>GOTO  /1.20459,0,-.486964 
+    230    230 G00 Z-.4870$                                                                     -.4870  600.0  
+    231>FEDRAT/1,IPM 
+    232>GOTO  /.97375,0,-.486964 
+    232    232 G01 X.9738$                                                   .9738                        1.0  
+    233>GOTO  /1.20459,0,-.486964 
+    233    233 X1.2046$                                                     1.2046  
+    234>RAPID 
+    235>GOTO  /1.20459,0,-.668393 
+    235    235 G00 Z-.6684$                                                                     -.6684  600.0  
+    236>FEDRAT/1,IPM 
+    237>GOTO  /.97375,0,-.668393 
+    237    237 G01 X.9738$                                                   .9738                        1.0  
+1
+    238>GOTO  /1.20459,0,-.668393 
+    238    238 X1.2046$                                                     1.2046  
+    239>RAPID 
+    240>GOTO  /1.20459,0,-.441607 
+    240    240 G00 Z-.4416$                                                                     -.4416  600.0  
+    241>FEDRAT/1,IPM 
+    242>GOTO  /.97375,0,-.441607 
+    242    242 G01 X.9738$                                                   .9738                        1.0  
+    243>GOTO  /1.20459,0,-.441607 
+    243    243 X1.2046$                                                     1.2046  
+    244>RAPID 
+    245>GOTO  /1.20459,0,-.71375 
+    245    245 G00 Z-.7138$                                                                     -.7138  600.0  
+    246>FEDRAT/1,IPM 
+    247>GOTO  /.97375,0,-.71375 
+    247    247 G01 X.9738$                                                   .9738                        1.0  
+    248>GOTO  /1.20459,0,-.71375 
+    248    248 X1.2046$                                                     1.2046  
+    249>RAPID 
+    250>GOTO  /1.20459,0,-.39625 
+    250    250 G00 Z-.3963$                                                                     -.3963  600.0  
+    251>FEDRAT/1,IPM 
+    252>GOTO  /.97375,0,-.39625 
+    252    252 G01 X.9738$                                                   .9738                        1.0  
+    253>GOTO  /1.20459,0,-.39625 
+    253    253 X1.2046$                                                     1.2046  
+    255>SPINDL/OFF 
+    258>TURRET/3 
+    258    258 ***WARNING***                                                    
++                            INVALID MAJOR WORD - TURRET, IGNORED
+    260>CAMERA/1,0,0,0,0,1,0,0,0,0,1,0 
+    261>SPINDL/RPM,400,CLW 
+    261    261 S00400$                                                                                          400  
+    262>RAPID 
+    263>GOTO  /0,0,.9375 
+    263    263 G00 Z.9375$                                                                       .9375  600.0  
+    263    263 X.0000$                                                       .0000  
+    264>CYCLE/DRILL,FEDTO,4.4375,IPM,2,CLEAR,.2 
+    265>GOTO  /0,0,-.0625 
+    265    265 G81 X.0000 Y.0000 Z-4.5000 R.1375 F2.000$                                         .1375    2.0  
+    266>CYCLE/OFF 
+    266    266 G80$
+    267>RAPID 
+    268>GOTO  /0,0,.9375 
+1
+    268    268 G00 Z.9375$                                                                       .9375  600.0  
+    269>SPINDL/OFF 
+    272>TURRET/4 
+    272    272 ***WARNING***                                                    
++                            INVALID MAJOR WORD - TURRET, IGNORED
+    274>CAMERA/1,0,0,0,0,1,0,0,0,0,1,0 
+    275>SPINDL/RPM,400,CLW 
+    275    275 S00400 M03$
+    276>RAPID 
+    277>GOTO  /0,0,.9375 
+    278>CYCLE/DRILL,FEDTO,.95,IPM,2,CLEAR,.2 
+    279>GOTO  /0,0,-.0625 
+    279    279 G81 X.0000 Y.0000 Z-1.0125 R.1375 F2.000$                                         .1375    2.0  
+    280>CYCLE/OFF 
+    280    280 G80$
+    281>RAPID 
+    282>GOTO  /0,0,.9375 
+    282    282 G00 Z.9375$                                                                       .9375  600.0  
+    283>SPINDL/OFF 
+    285>AUXFUN/30 
+    285    285 M30$
+    285>FINI
+    285    285 %$
+
+
+               TAPE    14.06 TIME    12.32 WARNING    4
+1
+
+
+                     X-AXIS               Y-AXIS               Z-AXIS
+ POST-MINIMUM         .0000                .0000              -4.4063
+ POST-MAXIMUM        1.6271                .0000              30.0000
+
+ TAPE-MINIMUM         .0000                .0000              -4.5000
+ TAPE-MAXIMUM        1.6271                .0000                .9375
+
+
+                     A-AXIS               B-AXIS               C-AXIS
+ POST-MINIMUM         .0000                .0000                .0000
+ POST-MAXIMUM         .0000                .0000                .0000
+
+ TAPE-MINIMUM         .0000                .0000                .0000
+ TAPE-MAXIMUM         .0000                .0000                .0000
+
+ Date=05-01-2017 Time=14:29:33

@@ -1,0 +1,141 @@
+﻿
+ PART CONNECTOR_HOLDER
+
+Units info for the major system 'millimeter Newton Second (mmNs)'
+
+                   Length  mm 
+                     Mass  tonne 
+                    Force  N 
+                     Time  sec 
+              Temperature  C 
+ FEATURES:
+
+
+ FEATURE NUMBER       1
+ INTERNAL FEATURE ID  1
+ CHILDREN = 40(#5) 
+
+
+ DATUM PLANE
+
+  NO.     ELEMENT NAME    INFO                                                  
+  ---     -------------   -------------                                         
+   1      Feature Name    Defined                                               
+   2      Constraints     Defined                                               
+   2.1    Constraint #1   Defined                                               
+   2.1.1  Constr Type     X Axis                                                
+   3      Flip Datum Dir  Defined                                               
+   4      Fit             Defined                                               
+   4.1    Fit Type        Default                                               
+
+ NAME = RIGHT
+
+    FEATURE IS IN LAYER(S) :
+      01___PRT_ALL_DTM_PLN - OPERATION = SHOWN
+      01___PRT_DEF_DTM_PLN - OPERATION = SHOWN
+
+
+ ********************
+
+
+ FEATURE NUMBER       2
+ INTERNAL FEATURE ID  3
+ CHILDREN = 40(#5) 
+
+
+ DATUM PLANE
+
+  NO.     ELEMENT NAME    INFO                                                  
+  ---     -------------   -------------                                         
+   1      Feature Name    Defined                                               
+   2      Constraints     Defined                                               
+   2.1    Constraint #1   Defined                                               
+   2.1.1  Constr Type     Y Axis                                                
+   3      Flip Datum Dir  Defined                                               
+   4      Fit             Defined                                               
+   4.1    Fit Type        Default                                               
+
+ NAME = TOP
+
+    FEATURE IS IN LAYER(S) :
+      01___PRT_ALL_DTM_PLN - OPERATION = SHOWN
+      01___PRT_DEF_DTM_PLN - OPERATION = SHOWN
+
+
+ ********************
+
+
+ FEATURE NUMBER       3
+ INTERNAL FEATURE ID  5
+ CHILDREN = 40(#5) 
+
+
+ DATUM PLANE
+
+  NO.     ELEMENT NAME    INFO                                                  
+  ---     -------------   -------------                                         
+   1      Feature Name    Defined                                               
+   2      Constraints     Defined                                               
+   2.1    Constraint #1   Defined                                               
+   2.1.1  Constr Type     Z Axis                                                
+   3      Flip Datum Dir  Defined                                               
+   4      Fit             Defined                                               
+   4.1    Fit Type        Default                                               
+
+ NAME = FRONT
+
+    FEATURE IS IN LAYER(S) :
+      01___PRT_ALL_DTM_PLN - OPERATION = SHOWN
+      01___PRT_DEF_DTM_PLN - OPERATION = SHOWN
+
+
+ ********************
+
+
+ FEATURE NUMBER       4
+ INTERNAL FEATURE ID  7
+
+
+ COORDINATE SYSTEM
+
+  NO.   ELEMENT NAME                   INFO                                     
+  ---   -------------                  -------------                            
+   1    Feature Name                   Defined                                  
+   2    Name Display Option            YES                                      
+   3    Display Zoom Dependent Option  NO                                       
+
+ NAME = PRT_CSYS_DEF
+
+    FEATURE IS IN LAYER(S) :
+      05___PRT_ALL_DTM_CSYS - OPERATION = SHOWN
+      05___PRT_DEF_DTM_CSYS - OPERATION = SHOWN
+
+
+ ********************
+
+
+ FEATURE NUMBER       5
+ INTERNAL FEATURE ID  40
+ PARENTS = 1(#1) 5(#3) 3(#2) 
+
+ PROTRUSION: Extrude
+ 
+ NO. ELEMENT NAME    INFO                                            STATUS
+ --- ------------ -----------                                        ------
+  1  Attributes   Both Sides                                         Defined   
+  2  Section      Sk. plane - Surface TOP of feat #2 (DATUM PLANE)   Defined   
+  3  Depth        Symmetrical Blind, depth = 6                       Defined   
+
+ SECTION NAME = Section 1 
+
+
+ FEATURE'S DIMENSIONS:
+ d0 = (Displayed:) 6
+      (   Stored:) 6.0 ( 0.01, -0.01 ) 
+ d1 = (Displayed:) 9
+      (   Stored:) 9.0 ( 0.01, -0.01 ) 
+ d2 = (Displayed:) 25
+      (   Stored:) 25.0 ( 0.01, -0.01 ) 
+
+ ********************
+

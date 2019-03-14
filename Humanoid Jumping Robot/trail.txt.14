@@ -1,0 +1,66 @@
+﻿!trail file version No. 1861
+!Creo  TM  4.0  (c) 2017 by PTC Inc.  All Rights Reserved.
+!Exit Logger data:
+!	Process ID: 3244
+!	Application: Creo_Parametric
+!	Start date&time: 2017/10/09  12:05:47
+!	language: usascii
+!	machine type: x86e_win64
+!	datecode: M020
+!	Server: NONE
+!	Workspace: NONE
+!	traceback file: C:\Users\Qingyang Liu\Desktop\Robotics Project\traceback.log
+!end Exit Logger data.
+< 0 1.774222 2252 0 0 1497 2560 0 0 1600 13
+!mem_use INCREASE Blocks 735193, AppSize 79455674, SysSize 92963512
+< 0 1.315556 1907 0 0 1110 2560 0 0 1600 13
+< 0 1.315556 1805 0 0 1110 2560 0 0 1600 13
+< 0 1.313185 1805 0 0 1108 2560 0 0 1600 13
+< 0 1.313185 1837 0 0 1108 2560 0 0 1600 13
+< 0 1.313185 1869 0 0 1108 2560 0 0 1600 13
+< 0 1.313185 1901 0 0 1108 2560 0 0 1600 13
+!%CIWelcome to Creo Parametric Educational Edition 4.0.
+!AFX datecode: 4.0 M020 2017.05.17.11
+!AFX exec path: C:\Program Files\PTC\Creo 4.0\M020\Common Files\afx\x86e_win64\afx40.dll
+!AFX text path: C:\Program Files\PTC\Creo 4.0\M020\Common Files\afx\
+< 0 1.572741 1901 0 0 1327 2560 0 0 1600 13
+< 0 1.313185 1901 0 0 1108 2560 0 0 1600 13
+< 0 1.304889 1901 0 0 1101 2560 0 0 1600 13
+#PART
+#RETRIEVE
+!%CPEnter object name: 
+!%TR
+C:\Users\Qingyang Liu\Desktop\Robotics Project\processor_holder.prt.10
+< 2 0.118519 178 0 0 100 2560 0 0 1600 13
+~ Trail `UI Desktop` `UI Desktop` `DLG_PREVIEW_POST` \
+ `file_open`
+!Command ProCmdModelOpenExe was pushed from the software.
+! 9-Oct-17 12:05:51  Start C:\Users\Qingyang Liu\Desktop\Robotics Project\processor_holder.prt.10
+! 9-Oct-17 12:05:51  End   C:\Users\Qingyang Liu\Desktop\Robotics Project\processor_holder.prt.10
+!%CWNew objects created with this educational version of Creo Parametric will not be
+!%C_compatible with commercially licensed Creo Parametric software.
+@ oa_sel_filter_set _30_
+@ stack attr 2
+~ Timer `UI Desktop` `UI Desktop` `EmbedBrowserTimer`
+!mem_use INCREASE Blocks 834111, AppSize 101398579, SysSize 121130992
+~ Sync LearnConn_Startup
+~ Activate `transient_balloon` `no`
+~ MButtonArm `main_dlg_cur` `proe_win` 9 1364 322 0 2 1901 1101 2560 1600 7607
+~ Move `main_dlg_cur` `proe_win` 9 1365 322 0 514 1901 1101 2560 1600 7707
+~ Move `main_dlg_cur` `proe_win` 9 1365 323 0 1026 1901 1101 2560 1600 7723
+~ Move `main_dlg_cur` `proe_win` 9 1365 324 0 1026 1901 1101 2560 1600 7761
+~ Move `main_dlg_cur` `proe_win` 9 1365 325 0 1026 1901 1101 2560 1600 7761
+~ Move `main_dlg_cur` `proe_win` 9 1365 326 0 1026 1901 1101 2560 1600 7776
+~ Move `main_dlg_cur` `proe_win` 9 1366 327 0 1538 1901 1101 2560 1600 7792
+~ Move `main_dlg_cur` `proe_win` 9 1368 327 0 514 1901 1101 2560 1600 7792
+~ Move `main_dlg_cur` `proe_win` 9 1368 328 0 1026 1901 1101 2560 1600 7807
+~ Move `main_dlg_cur` `proe_win` 9 1371 328 0 514 1901 1101 2560 1600 7845
+~ MButtonDisarm `main_dlg_cur` `proe_win` 9 1371 328 0 0 1901 1101 2560 1600 7845
+~ Close `main_dlg_cur` `main_dlg_cur`
+!Command ProCmdOSExit was pushed from the software.
+! Message Dialog: Warning
+!               : Creo Parametric Educational Edition will terminate and any unsaved work will be lost.
+!               : Do you really want to exit?
+~ FocusIn `UI Message Dialog` `yes`
+~ Activate `UI Message Dialog` `yes`
+!End of Trail File

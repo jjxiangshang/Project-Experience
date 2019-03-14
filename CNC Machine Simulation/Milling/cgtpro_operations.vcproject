@@ -1,0 +1,1995 @@
+<?xml version="1.0"?>
+<VcProject Version="7.1" Unit="millimeter" ProductName="Vericut">
+  <Simulation Choice="4E542C4D06800E0D0F0" />
+  <Log>vericut.log</Log>
+  <Display Resolution="auto"/>
+  <Export Process="features">
+    <Output Type="IGES" Format="binary" Color="green" ACISSolid="off"
+     Axes="stock" Unit="inch"/>
+    <File></File>
+    <Stock></Stock>
+    <Grid Count="1" Angle="30" Tol="0.05" ByColor="off" Scallop="off" Preview="on"
+     Plane="39" Cone="39" Cylinder="39" Sphere="39" Torus="39"
+     TorusSweep="39" Ellipse="39"/>
+    <Slice Direction="X" Count="100" Angle="30" Tol="0.005"/>
+  </Export>
+  <STLOutput Type="STL" Format="binary" Axes="active" Unit="inch">
+    <File></File>
+    <Stock></Stock>
+  </STLOutput>
+  <Color Hues="7" Shades="standard" Wrap="on" Method="next">
+    <Hue R="255" G="0" B="0">Red</Hue>
+    <Hue R="0" G="255" B="0">Green</Hue>
+    <Hue R="176" G="196" B="222">Light Steel Blue</Hue>
+    <Hue R="0" G="255" B="255">Cyan</Hue>
+    <Hue R="255" G="0" B="255">Magenta</Hue>
+    <Hue R="255" G="255" B="0">Yellow</Hue>
+    <Hue R="255" G="255" B="255">White</Hue>
+    <Hue R="255" G="165" B="0">Orange</Hue>
+    <Hue R="210" G="180" B="140">Tan</Hue>
+    <Hue R="245" G="245" B="220">Beige</Hue>
+    <Hue R="160" G="32" B="240">Purple</Hue>
+    <Hue R="255" G="215" B="0">Gold</Hue>
+    <Hue R="0" G="255" B="255">Cyan</Hue>
+    <Hue R="0" G="255" B="0">Green</Hue>
+    <Hue R="0" G="0" B="255">Blue</Hue>
+    <Hue R="255" G="255" B="0">Yellow</Hue>
+    <Hue R="255" G="0" B="255">Magenta</Hue>
+    <Hue R="255" G="165" B="0">Orange</Hue>
+    <Hue R="255" G="69" B="0">Orange Red</Hue>
+    <Hue R="255" G="140" B="0">Dark Orange</Hue>
+    <Hue R="255" G="215" B="0">Gold</Hue>
+    <Hue R="127" G="255" B="0">Chartreuse</Hue>
+    <Hue R="0" G="255" B="127">Spring Green</Hue>
+    <Hue R="0" G="191" B="255">Deep Sky Blue</Hue>
+    <Hue R="124" G="252" B="0">Lawn Green</Hue>
+    <Hue R="0" G="250" B="154">Medium Spring Green</Hue>
+    <Hue R="255" G="20" B="147">Deep Pink</Hue>
+    <Hue R="30" G="144" B="255">Dodger Blue</Hue>
+    <Hue R="148" G="0" B="211">Dark Violet</Hue>
+    <Hue R="0" G="206" B="209">Dark Turquoise</Hue>
+    <Hue R="160" G="32" B="240">Purple</Hue>
+    <Hue R="173" G="255" B="47">Green Yellow</Hue>
+    <Hue R="0" G="0" B="205">Medium Blue</Hue>
+    <Hue R="218" G="165" B="32">Goldenrod</Hue>
+    <Hue R="255" G="99" B="71">Tomato</Hue>
+    <Hue R="138" G="43" B="226">Blue Violet</Hue>
+    <Hue R="210" G="105" B="30">Chocolate</Hue>
+    <Hue R="199" G="21" B="133">Medium Violet Red</Hue>
+    <Hue R="208" G="32" B="144">Violet Red</Hue>
+    <Hue R="184" G="134" B="11">Dark Goldenrod</Hue>
+    <Hue R="64" G="224" B="208">Turquoise</Hue>
+    <Hue R="65" G="105" B="225">Royal Blue</Hue>
+    <Hue R="154" G="205" B="50">Yellow Green</Hue>
+    <Hue R="50" G="205" B="50">Lime Green</Hue>
+    <Hue R="153" G="50" B="204">Dark Orchid</Hue>
+    <Hue R="255" G="105" B="180">Hot Pink</Hue>
+    <Hue R="244" G="164" B="96">Sandy Brown</Hue>
+    <Hue R="32" G="178" B="170">Light Sea Green</Hue>
+    <Hue R="178" G="34" B="34">Firebrick</Hue>
+    <Hue R="132" G="112" B="255">Light Slate Blue</Hue>
+    <Hue R="205" G="133" B="63">Peru</Hue>
+    <Hue R="72" G="209" B="204">Medium Turquoise</Hue>
+    <Hue R="250" G="128" B="114">Salmon</Hue>
+    <Hue R="123" G="104" B="238">Medium Slate Blue</Hue>
+    <Hue R="255" G="160" B="122">Light Salmon</Hue>
+    <Hue R="0" G="0" B="128">Navy Blue</Hue>
+    <Hue R="0" G="0" B="128">Navy</Hue>
+    <Hue R="186" G="85" B="211">Medium Orchid</Hue>
+    <Hue R="165" G="42" B="42">Brown</Hue>
+    <Hue R="139" G="69" B="19">Saddle Brown</Hue>
+    <Hue R="60" G="179" B="113">Medium Sea Green</Hue>
+    <Hue R="160" G="82" B="45">Sienna</Hue>
+    <Hue R="135" G="206" B="250">Light Sky Blue</Hue>
+    <Hue R="106" G="90" B="205">Slate Blue</Hue>
+    <Hue R="205" G="92" B="92">Indian Red</Hue>
+    <Hue R="240" G="128" B="128">Light Coral</Hue>
+    <Hue R="233" G="150" B="122">Dark Salmon</Hue>
+    <Hue R="70" G="130" B="180">Steel Blue</Hue>
+    <Hue R="238" G="130" B="238">Violet</Hue>
+    <Hue R="147" G="112" B="219">Medium Purple</Hue>
+    <Hue R="219" G="112" B="147">Pale Violet Red</Hue>
+    <Hue R="107" G="142" B="35">Olive Drab</Hue>
+    <Hue R="218" G="112" B="214">Orchid</Hue>
+    <Hue R="34" G="139" B="34">Forest Green</Hue>
+    <Hue R="102" G="205" B="170">Medium Aquamarine</Hue>
+    <Hue R="240" G="230" B="140">Khaki</Hue>
+    <Hue R="0" G="100" B="0">Dark Green</Hue>
+    <Hue R="135" G="206" B="235">Sky Blue</Hue>
+    <Hue R="152" G="251" B="152">Pale Green</Hue>
+    <Hue R="46" G="139" B="87">Sea Green</Hue>
+    <Hue R="222" G="184" B="135">Burlywood</Hue>
+    <Hue R="25" G="25" B="112">Midnight Blue</Hue>
+    <Hue R="255" G="222" B="173">Navajo White</Hue>
+    <Hue R="189" G="183" B="107">Dark Khaki</Hue>
+    <Hue R="72" G="61" B="139">Dark Slate Blue</Hue>
+    <Hue R="255" G="228" B="181">Moccasin</Hue>
+    <Hue R="255" G="182" B="193">Light Pink</Hue>
+    <Hue R="255" G="218" B="185">Peach Puff</Hue>
+    <Hue R="210" G="180" B="140">Tan</Hue>
+    <Hue R="238" G="232" B="170">Pale Goldenrod</Hue>
+    <Hue R="245" G="222" B="179">Wheat</Hue>
+    <Hue R="95" G="158" B="160">Cadet Blue</Hue>
+    <Hue R="255" G="192" B="203">Pink</Hue>
+    <Hue R="175" G="238" B="238">Pale Turquoise</Hue>
+    <Hue R="85" G="107" B="47">Dark Olive Green</Hue>
+    <Hue R="255" G="228" B="196">Bisque</Hue>
+    <Hue R="173" G="216" B="230">Light Blue</Hue>
+    <Hue R="176" G="224" B="230">Powder Blue</Hue>
+    <Hue R="255" G="250" B="205">Lemon Chiffon</Hue>
+    <Hue R="255" G="235" B="205">Blanched Almond</Hue>
+    <Hue R="188" G="143" B="143">Rosy Brown</Hue>
+    <Hue R="143" G="188" B="143">Dark Sea Green</Hue>
+    <Hue R="255" G="239" B="213">Papaya Whip</Hue>
+    <Hue R="250" G="250" B="210">Light Goldenrod Yellow</Hue>
+    <Hue R="255" G="248" B="220">Cornsilk</Hue>
+    <Hue R="250" G="235" B="215">Antique White</Hue>
+    <Hue R="119" G="136" B="153">Light Slate Gray</Hue>
+    <Hue R="112" G="128" B="144">Slate Gray</Hue>
+    <Hue R="47" G="79" B="79">Dark Slate Gray</Hue>
+    <Hue R="255" G="255" B="224">Light Yellow</Hue>
+    <Hue R="224" G="255" B="255">Light Cyan</Hue>
+    <Hue R="216" G="191" B="216">Thistle</Hue>
+    <Hue R="253" G="245" B="230">Old Lace</Hue>
+    <Hue R="230" G="230" B="250">Lavender</Hue>
+    <Hue R="250" G="240" B="230">Linen</Hue>
+    <Hue R="255" G="245" B="238">Seashell</Hue>
+    <Hue R="255" G="240" B="245">Lavender Blush</Hue>
+    <Hue R="240" G="248" B="255">Alice Blue</Hue>
+    <Hue R="240" G="255" B="255">Azure</Hue>
+    <Hue R="240" G="255" B="240">Honeydew</Hue>
+    <Hue R="255" G="255" B="240">Ivory</Hue>
+    <Hue R="255" G="250" B="240">Floral White</Hue>
+    <Hue R="245" G="255" B="250">Mint Cream</Hue>
+    <Hue R="248" G="248" B="255">Ghost White</Hue>
+    <Hue R="211" G="211" B="211">Light Gray</Hue>
+    <Hue R="192" G="192" B="192">Gray</Hue>
+    <Hue R="220" G="220" B="220">Gainsboro</Hue>
+    <Hue R="0" G="0" B="192">Background Blue</Hue>
+    <Error Hue="0"/>
+    <Reset Hue="5"/>
+    <Floor Hue="5"/>
+    <Ceiling Hue="2"/>
+    <Wall Hue="6"/>
+    <Background Hue="2"/>
+    <CourseEdge RGB="0"/>
+    <TowEdge RGB="12632256"/>
+    <Cut Sequence="1" Hue="6"/>
+    <Cut Sequence="2" Hue="3"/>
+    <Cut Sequence="3" Hue="1"/>
+    <Cut Sequence="4" Hue="4"/>
+    <Cut Sequence="5" Hue="5"/>
+    <Feed Value="0" Hue="1"/>
+    <Back R="0" G="0" B="192">Background Blue</Back>
+    <Fore R="0" G="255" B="255">Cyan</Fore>
+  </Color>
+  <Report>
+    <File>proem_results.htm</File>
+  </Report>
+  <Record Type="VERICUT">
+    <Snap Error="off" Change="off" Cuts="off" Count="100" End="off"/>
+    <Append Delay="1">off</Append>
+    <Insert Delay="1"/>
+    <Animation>forward</Animation>
+    <AVI Left="0" Top="0" Width="0" Height="0" Rate="0"/>
+  </Record>
+  <Playback Speed="100" Delay="0" Error="off" Change="off"
+   Events="off" Count="1" End="on" Stop="on" Loop="off">
+    <File>proem</File>
+    <File></File>
+  </Playback>
+  <Picture Type="TIFF" Style="palette" Shading="intensity"
+   Orientation="portrait" Result="on" Render="off">
+    <File>vericut.tif</File>
+    <Script Margin="off" Left="0" Right="0" Top="0" Bottom="0"
+     Size="A4" Annotate="off"></Script>
+    <Render Size="off" Width="640" Height="480"
+     Shadow="on" Angle="15" Location="2"/>
+  </Picture>
+  <AutoSave>
+    <IP Change="off" Cuts="off" Count="1000" End="off" When="each" Error="off" Maximum="off" Value="1" Type="0">
+      <Save></Save>
+      <Oops></Oops>
+    </IP>
+    <VcSolid Change="off" Cuts="off" Count="0" End="off" When="each" Error="off" Maximum="off" Value="1" Type="0">
+      <Save></Save>
+      <Oops></Oops>
+    </VcSolid>
+    <Picture Change="off" Cuts="off" Count="1000" End="off" When="each" Error="off" Maximum="off" Value="1" Type="0">
+      <Save></Save>
+      <Oops></Oops>
+    </Picture>
+  </AutoSave>
+  <Views OpenGLSkip="36" OpenGLCourse="off">
+  </Views>
+  <Status>
+    <Order>-1,2,3,4,5,6,-7,-8,-9,-10,-11,-12,-13,-14,-15,-16</Order>
+    <Order>-17,-18,19,20,21,22,23,24,25,26,27,28,29,30,-31,-32</Order>
+    <Order>-33,-34,-35,-36,-37,-38,39,-40,-41,42,43,44,-45,-46,-47,48</Order>
+    <Order>49,50,51,52,53,54,55,56,57,58,-59,-60,-61,-62,-63,64</Order>
+    <Order>65,66,67,68,69,70,71</Order>
+  </Status>
+  <Graphs Tool="off" Cut="off" Interval="20"/>
+  <Start Type="start" Line="1" Tool="" Index="0">
+    <File></File>
+    <Text></Text>
+  </Start>
+  <Stop Type="end" Line="999999" Count="99" Index="0" StopAtCollision="off">
+    <File></File>
+    <Text>FINI</Text>
+    <Error Check="on" Count="9999"/>
+    <Warn Check="on" Count="9999"/>
+  </Stop>
+  <Cycles>
+    <Line>CYCLE/OFF</Line>
+    <Line>MODALS: cycle_op=off</Line>
+    <Line>CYCLE/ON</Line>
+    <Line>MODALS: cycle_op=on</Line>
+    <Line>$$ Pro/Engineer Drill Cycles</Line>
+    <Line>$$ Couplet Format in per min feed mode</Line>
+    <Line>$$ Drill CYCLE</Line>
+    <Line>CYCLE/DRILL,DEPTH,#fedto,IPM,#fedupm</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=off</Line>
+    <Line>CYCLE/DRILL,DEPTH,#fedto,IPM,#fedupm,CLEAR,#rapto</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=off</Line>
+    <Line>CYCLE/DRILL,DEPTH,#fedto,IPM,#fedupm,CLEAR,#rapto,RAPTO,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=off</Line>
+    <Line>CYCLE/DRILL,DEPTH,#fedto,IPM,#fedupm,CLEAR,#rapto,RAPTO,#,RETURN,#rtrcto</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=off</Line>
+    <Line>CYCLE/DRILL,DEPTH,#fedto,IPM,#fedupm,CLEAR,#rapto,RETURN,#rtrcto</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=off</Line>
+    <Line>CYCLE/DRILL,DEPTH,#fedto,IPM,#fedupm,CLEAR,#rapto,RETURN</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=off</Line>
+    <Line>$$ Drill CYCLE with DWELL</Line>
+    <Line>CYCLE/DRILL,DEPTH,#fedto,IPM,#fedupm,DWELL,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=off</Line>
+    <Line>CYCLE/DRILL,DEPTH,#fedto,IPM,#fedupm,CLEAR,#rapto,DWELL,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=off</Line>
+    <Line>CYCLE/DRILL,DEPTH,#fedto,IPM,#fedupm,CLEAR,#rapto,RAPTO,#,DWELL,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=off</Line>
+    <Line>CYCLE/DRILL,DEPTH,#fedto,IPM,#fedupm,CLEAR,#rapto,RAPTO,#,RETURN,#rtrcto,DWELL,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=off</Line>
+    <Line>CYCLE/DRILL,DEPTH,#fedto,IPM,#fedupm,CLEAR,#rapto,RETURN,#rtrcto,DWELL,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=off</Line>
+    <Line>CYCLE/DRILL,DEPTH,#fedto,IPM,#fedupm,CLEAR,#rapto,RETURN,DWELL,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=off</Line>
+    <Line>$$ Drill CYCLE in MMPM</Line>
+    <Line>CYCLE/DRILL,DEPTH,#fedto,MMPM,#fedupm</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=off</Line>
+    <Line>CYCLE/DRILL,DEPTH,#fedto,MMPM,#fedupm,CLEAR,#rapto</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=off</Line>
+    <Line>CYCLE/DRILL,DEPTH,#fedto,MMPM,#fedupm,CLEAR,#rapto,RAPTO,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=off</Line>
+    <Line>CYCLE/DRILL,DEPTH,#fedto,MMPM,#fedupm,CLEAR,#rapto,RAPTO,#,RETURN,#rtrcto</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=off</Line>
+    <Line>CYCLE/DRILL,DEPTH,#fedto,MMPM,#fedupm,CLEAR,#rapto,RETURN,#rtrcto</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=off</Line>
+    <Line>CYCLE/DRILL,DEPTH,#fedto,MMPM,#fedupm,CLEAR,#rapto,RETURN</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=off</Line>
+    <Line>$$ Drill CYCLE in MMPM with DWELL</Line>
+    <Line>CYCLE/DRILL,DEPTH,#fedto,MMPM,#fedupm,DWELL,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=off</Line>
+    <Line>CYCLE/DRILL,DEPTH,#fedto,MMPM,#fedupm,CLEAR,#rapto,DWELL,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=off</Line>
+    <Line>CYCLE/DRILL,DEPTH,#fedto,MMPM,#fedupm,CLEAR,#rapto,RAPTO,#,DWELL,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=off</Line>
+    <Line>CYCLE/DRILL,DEPTH,#fedto,MMPM,#fedupm,CLEAR,#rapto,RAPTO,#,RETURN,#rtrcto,DWELL,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=off</Line>
+    <Line>CYCLE/DRILL,DEPTH,#fedto,MMPM,#fedupm,CLEAR,#rapto,RETURN,#rtrcto,DWELL,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=off</Line>
+    <Line>CYCLE/DRILL,DEPTH,#fedto,MMPM,#fedupm,CLEAR,#rapto,RETURN,DWELL,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=off</Line>
+    <Line>$$ Deep Drill CYCLE with feed list</Line>
+    <Line>CYCLE/DEEP,DEPTH,#fedlist,IPM,#fedupm</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, deep_retract=on, csink_mode=off</Line>
+    <Line>CYCLE/DEEP,DEPTH,#fedlist,IPM,#fedupm,CLEAR,#rapto</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, deep_retract=on, csink_mode=off</Line>
+    <Line>CYCLE/DEEP,DEPTH,#fedlist,IPM,#fedupm,CLEAR,#rapto,RAPTO,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, deep_retract=on, csink_mode=off</Line>
+    <Line>CYCLE/DEEP,DEPTH,#fedlist,IPM,#fedupm,CLEAR,#rapto,RAPTO,#,RETURN,#rtrcto</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, deep_retract=on, csink_mode=off</Line>
+    <Line>CYCLE/DEEP,DEPTH,#fedlist,IPM,#fedupm,CLEAR,#rapto,RETURN,#rtrcto</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, deep_retract=on, csink_mode=off</Line>
+    <Line>CYCLE/DEEP,DEPTH,#fedlist,IPM,#fedupm,CLEAR,#rapto,RETURN</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, deep_retract=on, csink_mode=off</Line>
+    <Line>$$ Deep Drill CYCLE with increment value</Line>
+    <Line>CYCLE/DEEP,DEPTH,#fedto,STEP,#step,IPM,#fedupm</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, deep_retract=on, csink_mode=off</Line>
+    <Line>CYCLE/DEEP,DEPTH,#fedto,STEP,#step,IPM,#fedupm,CLEAR,#rapto</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, deep_retract=on, csink_mode=off</Line>
+    <Line>CYCLE/DEEP,DEPTH,#fedto,STEP,#step,IPM,#fedupm,CLEAR,#rapto,RAPTO,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, deep_retract=on, csink_mode=off</Line>
+    <Line>CYCLE/DEEP,DEPTH,#fedto,STEP,#step,IPM,#fedupm,CLEAR,#rapto,RAPTO,#,RETURN,#rtrcto</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, deep_retract=on, csink_mode=off</Line>
+    <Line>CYCLE/DEEP,DEPTH,#fedto,STEP,#step,IPM,#fedupm,CLEAR,#rapto,RETURN,#rtrcto</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, deep_retract=on, csink_mode=off</Line>
+    <Line>CYCLE/DEEP,DEPTH,#fedto,STEP,#step,IPM,#fedupm,CLEAR,#rapto,RETURN</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, deep_retract=on, csink_mode=off</Line>
+    <Line>$$ Deep Drill CYCLE with feed list in MMPM</Line>
+    <Line>CYCLE/DEEP,DEPTH,#fedlist,MMPM,#fedupm</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, deep_retract=on, csink_mode=off</Line>
+    <Line>CYCLE/DEEP,DEPTH,#fedlist,MMPM,#fedupm,CLEAR,#rapto</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, deep_retract=on, csink_mode=off</Line>
+    <Line>CYCLE/DEEP,DEPTH,#fedlist,MMPM,#fedupm,CLEAR,#rapto,RAPTO,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, deep_retract=on, csink_mode=off</Line>
+    <Line>CYCLE/DEEP,DEPTH,#fedto,STEP,#step,MMPM,#fedupm,CLEAR,#rapto,RAPTO,#,RETURN,#rtrcto</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, deep_retract=on, csink_mode=off</Line>
+    <Line>CYCLE/DEEP,DEPTH,#fedlist,MMPM,#fedupm,CLEAR,#rapto,RETURN,#rtrcto</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, deep_retract=on, csink_mode=off</Line>
+    <Line>CYCLE/DEEP,DEPTH,#fedlist,MMPM,#fedupm,CLEAR,#rapto,RETURN</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, deep_retract=on, csink_mode=off</Line>
+    <Line>$$ Deep Drill CYCLE with increment value in MMPM</Line>
+    <Line>CYCLE/DEEP,DEPTH,#fedto,STEP,#step,MMPM,#fedupm</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, deep_retract=on, csink_mode=off</Line>
+    <Line>CYCLE/DEEP,DEPTH,#fedto,STEP,#step,MMPM,#fedupm,CLEAR,#rapto</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, deep_retract=on, csink_mode=off</Line>
+    <Line>CYCLE/DEEP,DEPTH,#fedto,STEP,#step,MMPM,#fedupm,CLEAR,#rapto,RAPTO,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, deep_retract=on, csink_mode=off</Line>
+    <Line>CYCLE/DEEP,DEPTH,#fedto,STEP,#step,MMPM,#fedupm,CLEAR,#rapto,RAPTO,#,RETURN,#rtrcto</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, deep_retract=on, csink_mode=off</Line>
+    <Line>CYCLE/DEEP,DEPTH,#fedto,STEP,#step,MMPM,#fedupm,CLEAR,#rapto,RETURN,#rtrcto</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, deep_retract=on, csink_mode=off</Line>
+    <Line>CYCLE/DEEP,DEPTH,#fedto,STEP,#step,MMPM,#fedupm,CLEAR,#rapto,RETURN</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, deep_retract=on, csink_mode=off</Line>
+    <Line>$$ Break Chip Drill CYCLE with feed list</Line>
+    <Line>CYCLE/BRKCHP,DEPTH,#fedlist,IPM,#fedupm</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, deep_retract=off, csink_mode=off</Line>
+    <Line>CYCLE/BRKCHP,DEPTH,#fedlist,IPM,#fedupm,CLEAR,#rapto</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, deep_retract=off, csink_mode=off</Line>
+    <Line>CYCLE/BRKCHP,DEPTH,#fedlist,IPM,#fedupm,CLEAR,#rapto,RAPTO,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, deep_retract=off, csink_mode=off</Line>
+    <Line>CYCLE/BRKCHP,DEPTH,#fedlist,IPM,#fedupm,CLEAR,#rapto,RAPTO,#,RETURN,#rtrcto</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, deep_retract=off, csink_mode=off</Line>
+    <Line>CYCLE/BRKCHP,DEPTH,#fedlist,IPM,#fedupm,CLEAR,#rapto,RAPTO,#,RETURN,#rtrcto,DWELL,#,BACK,#,TIMES,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, deep_retract=off, csink_mode=off</Line>
+    <Line>CYCLE/BRKCHP,DEPTH,#fedlist,IPM,#fedupm,CLEAR,#rapto,RETURN,#rtrcto</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, deep_retract=off, csink_mode=off</Line>
+    <Line>CYCLE/BRKCHP,DEPTH,#fedlist,IPM,#fedupm,CLEAR,#rapto,RETURN</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, deep_retract=off, csink_mode=off</Line>
+    <Line>$$ Break Chip Drill CYCLE with increment value</Line>
+    <Line>CYCLE/BRKCHP,DEPTH,#fedto,STEP,#step,IPM,#fedupm</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, deep_retract=off, csink_mode=off</Line>
+    <Line>CYCLE/BRKCHP,DEPTH,#fedto,STEP,#step,IPM,#fedupm,CLEAR,#rapto</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, deep_retract=off, csink_mode=off</Line>
+    <Line>CYCLE/BRKCHP,DEPTH,#fedto,STEP,#step,IPM,#fedupm,CLEAR,#rapto,RAPTO,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, deep_retract=off, csink_mode=off</Line>
+    <Line>CYCLE/BRKCHP,DEPTH,#fedto,STEP,#step,IPM,#fedupm,CLEAR,#rapto,RAPTO,#,RETURN,#rtrcto</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, deep_retract=off, csink_mode=off</Line>
+    <Line>CYCLE/BRKCHP,DEPTH,#fedto,STEP,#step,IPM,#fedupm,CLEAR,#rapto,RAPTO,#,RETURN,#rtrcto,DWELL,#,BACK,#,TIMES,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, deep_retract=off, csink_mode=off</Line>
+    <Line>CYCLE/BRKCHP,DEPTH,#fedto,STEP,#step,IPM,#fedupm,CLEAR,#rapto,RETURN,#rtrcto</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, deep_retract=off, csink_mode=off</Line>
+    <Line>CYCLE/BRKCHP,DEPTH,#fedto,STEP,#step,IPM,#fedupm,CLEAR,#rapto,RETURN</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, deep_retract=off, csink_mode=off</Line>
+    <Line>$$ Break Chip Drill CYCLE with feed list in MMPM</Line>
+    <Line>CYCLE/BRKCHP,DEPTH,#fedlist,MMPM,#fedupm</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, deep_retract=off, csink_mode=off</Line>
+    <Line>CYCLE/BRKCHP,DEPTH,#fedlist,MMPM,#fedupm,CLEAR,#rapto</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, deep_retract=off, csink_mode=off</Line>
+    <Line>CYCLE/BRKCHP,DEPTH,#fedlist,MMPM,#fedupm,CLEAR,#rapto,RAPTO,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, deep_retract=off, csink_mode=off</Line>
+    <Line>CYCLE/BRKCHP,DEPTH,#fedlist,MMPM,#fedupm,CLEAR,#rapto,RAPTO,#,RETURN,#rtrcto</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, deep_retract=off, csink_mode=off</Line>
+    <Line>CYCLE/BRKCHP,DEPTH,#fedlist,MMPM,#fedupm,CLEAR,#rapto,RAPTO,#,RETURN,#rtrcto,DWELL,#,BACK,#,TIMES,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, deep_retract=off, csink_mode=off</Line>
+    <Line>CYCLE/BRKCHP,DEPTH,#fedlist,MMPM,#fedupm,CLEAR,#rapto,RETURN,#rtrcto</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, deep_retract=off, csink_mode=off</Line>
+    <Line>CYCLE/BRKCHP,DEPTH,#fedlist,MMPM,#fedupm,CLEAR,#rapto,RETURN</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, deep_retract=off, csink_mode=off</Line>
+    <Line>$$ Break Chip Drill CYCLE with increment value in MMPM</Line>
+    <Line>CYCLE/BRKCHP,DEPTH,#fedto,STEP,#step,MMPM,#fedupm</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, deep_retract=off, csink_mode=off</Line>
+    <Line>CYCLE/BRKCHP,DEPTH,#fedto,STEP,#step,MMPM,#fedupm,CLEAR,#rapto</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, deep_retract=off, csink_mode=off</Line>
+    <Line>CYCLE/BRKCHP,DEPTH,#fedto,STEP,#step,MMPM,#fedupm,CLEAR,#rapto,RAPTO,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, deep_retract=off, csink_mode=off</Line>
+    <Line>CYCLE/BRKCHP,DEPTH,#fedto,STEP,#step,MMPM,#fedupm,CLEAR,#rapto,RAPTO,#,RETURN,#rtrcto</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, deep_retract=off, csink_mode=off</Line>
+    <Line>CYCLE/BRKCHP,DEPTH,#fedto,STEP,#step,MMPM,#fedupm,CLEAR,#rapto,RAPTO,#,RETURN,#rtrcto,DWELL,#,BACK,#,TIMES,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, deep_retract=off, csink_mode=off</Line>
+    <Line>CYCLE/BRKCHP,DEPTH,#fedto,STEP,#step,MMPM,#fedupm,CLEAR,#rapto,RETURN,#rtrcto</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, deep_retract=off, csink_mode=off</Line>
+    <Line>CYCLE/BRKCHP,DEPTH,#fedto,STEP,#step,MMPM,#fedupm,CLEAR,#rapto,RETURN</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, deep_retract=off, csink_mode=off</Line>
+    <Line>$$ Thru Drill CYCLE</Line>
+    <Line>CYCLE/THRU,DEPTH,#fedto,IPM,#fedupm</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=off</Line>
+    <Line>CYCLE/THRU,DEPTH,#fedto,IPM,#fedupm,CLEAR,#rapto</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=off</Line>
+    <Line>CYCLE/THRU,DEPTH,#fedto,IPM,#fedupm,CLEAR,#rapto,RAPTO,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=off</Line>
+    <Line>CYCLE/THRU,DEPTH,#fedto,IPM,#fedupm,CLEAR,#rapto,RAPTO,#,RETURN,#rtrcto</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=off</Line>
+    <Line>CYCLE/THRU,DEPTH,#fedto,IPM,#fedupm,CLEAR,#rapto,RETURN,#rtrcto</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=off</Line>
+    <Line>CYCLE/THRU,DEPTH,#fedto,IPM,#fedupm,CLEAR,#rapto,RETURN</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=off</Line>
+    <Line>$$ Thru Drill CYCLE with feed list</Line>
+    <Line>CYCLE/THRU,DEPTH,#fedlist,IPM,#fedupm</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=off</Line>
+    <Line>CYCLE/THRU,DEPTH,#fedlist,IPM,#fedupm,CLEAR,#rapto</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=off</Line>
+    <Line>CYCLE/THRU,DEPTH,#fedlist,IPM,#fedupm,CLEAR,#rapto,RAPTO,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=off</Line>
+    <Line>CYCLE/THRU,DEPTH,#fedlist,IPM,#fedupm,CLEAR,#rapto,RAPTO,#,RETURN,#rtrcto</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=off</Line>
+    <Line>CYCLE/THRU,DEPTH,#fedlist,IPM,#fedupm,CLEAR,#rapto,RETURN,#rtrcto</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=off</Line>
+    <Line>CYCLE/THRU,DEPTH,#fedlist,IPM,#fedupm,CLEAR,#rapto,RETURN</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=off</Line>
+    <Line>$$ Thru Drill CYCLE in MMPM</Line>
+    <Line>CYCLE/THRU,DEPTH,#fedto,MMPM,#fedupm</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=off</Line>
+    <Line>CYCLE/THRU,DEPTH,#fedto,MMPM,#fedupm,CLEAR,#rapto</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=off</Line>
+    <Line>CYCLE/THRU,DEPTH,#fedto,MMPM,#fedupm,CLEAR,#rapto,RAPTO,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=off</Line>
+    <Line>CYCLE/THRU,DEPTH,#fedto,MMPM,#fedupm,CLEAR,#rapto,RAPTO,#,RETURN,#rtrcto</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=off</Line>
+    <Line>CYCLE/THRU,DEPTH,#fedto,MMPM,#fedupm,CLEAR,#rapto,RETURN,#rtrcto</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=off</Line>
+    <Line>CYCLE/THRU,DEPTH,#fedto,MMPM,#fedupm,CLEAR,#rapto,RETURN</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=off</Line>
+    <Line>$$ Thru Drill CYCLE with feed list in MMPM</Line>
+    <Line>CYCLE/THRU,DEPTH,#fedlist,MMPM,#fedupm</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=off</Line>
+    <Line>CYCLE/THRU,DEPTH,#fedlist,MMPM,#fedupm,CLEAR,#rapto</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=off</Line>
+    <Line>CYCLE/THRU,DEPTH,#fedlist,MMPM,#fedupm,CLEAR,#rapto,RAPTO,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=off</Line>
+    <Line>CYCLE/THRU,DEPTH,#fedlist,MMPM,#fedupm,CLEAR,#rapto,RAPTO,#,RETURN,#rtrcto</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=off</Line>
+    <Line>CYCLE/THRU,DEPTH,#fedlist,MMPM,#fedupm,CLEAR,#rapto,RETURN,#rtrcto</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=off</Line>
+    <Line>CYCLE/THRU,DEPTH,#fedlist,MMPM,#fedupm,CLEAR,#rapto,RETURN</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=off</Line>
+    <Line>$$ Face CYCLE</Line>
+    <Line>CYCLE/FACE,DEPTH,#fedto,IPM,#fedupm</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=off</Line>
+    <Line>CYCLE/FACE,DEPTH,#fedto,IPM,#fedupm,CLEAR,#rapto</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=off</Line>
+    <Line>CYCLE/FACE,DEPTH,#fedto,IPM,#fedupm,CLEAR,#rapto,RAPTO,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=off</Line>
+    <Line>CYCLE/FACE,DEPTH,#fedto,IPM,#fedupm,CLEAR,#rapto,RAPTO,#,RETURN,#rtrcto</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=off</Line>
+    <Line>CYCLE/FACE,DEPTH,#fedto,IPM,#fedupm,CLEAR,#rapto,RETURN,#rtrcto</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=off</Line>
+    <Line>CYCLE/FACE,DEPTH,#fedto,IPM,#fedupm,CLEAR,#rapto,RETURN</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=off</Line>
+    <Line>$$ Face CYCLE with DWELL</Line>
+    <Line>CYCLE/FACE,DEPTH,#fedto,IPM,#fedupm,DWELL,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=off</Line>
+    <Line>CYCLE/FACE,DEPTH,#fedto,IPM,#fedupm,CLEAR,#rapto,DWELL,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=off</Line>
+    <Line>CYCLE/FACE,DEPTH,#fedto,IPM,#fedupm,CLEAR,#rapto,RAPTO,#,DWELL,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=off</Line>
+    <Line>CYCLE/FACE,DEPTH,#fedto,IPM,#fedupm,CLEAR,#rapto,RAPTO,#,RETURN,#rtrcto,DWELL,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=off</Line>
+    <Line>CYCLE/FACE,DEPTH,#fedto,IPM,#fedupm,CLEAR,#rapto,RETURN,#rtrcto,DWELL,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=off</Line>
+    <Line>CYCLE/FACE,DEPTH,#fedto,IPM,#fedupm,CLEAR,#rapto,RETURN,DWELL,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=off</Line>
+    <Line>$$ Face CYCLE in MMPM</Line>
+    <Line>CYCLE/FACE,DEPTH,#fedto,MMPM,#fedupm</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=off</Line>
+    <Line>CYCLE/FACE,DEPTH,#fedto,MMPM,#fedupm,CLEAR,#rapto</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=off</Line>
+    <Line>CYCLE/FACE,DEPTH,#fedto,MMPM,#fedupm,CLEAR,#rapto,RAPTO,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=off</Line>
+    <Line>CYCLE/FACE,DEPTH,#fedto,MMPM,#fedupm,CLEAR,#rapto,RAPTO,#,RETURN,#rtrcto</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=off</Line>
+    <Line>CYCLE/FACE,DEPTH,#fedto,MMPM,#fedupm,CLEAR,#rapto,RETURN,#rtrcto</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=off</Line>
+    <Line>CYCLE/FACE,DEPTH,#fedto,MMPM,#fedupm,CLEAR,#rapto,RETURN</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=off</Line>
+    <Line>$$ Face CYCLE in MMPM with DWELL</Line>
+    <Line>CYCLE/FACE,DEPTH,#fedto,MMPM,#fedupm,DWELL,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=off</Line>
+    <Line>CYCLE/FACE,DEPTH,#fedto,MMPM,#fedupm,CLEAR,#rapto,DWELL,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=off</Line>
+    <Line>CYCLE/FACE,DEPTH,#fedto,MMPM,#fedupm,CLEAR,#rapto,RAPTO,#,DWELL,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=off</Line>
+    <Line>CYCLE/FACE,DEPTH,#fedto,MMPM,#fedupm,CLEAR,#rapto,RAPTO,#,RETURN,#rtrcto,DWELL,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=off</Line>
+    <Line>CYCLE/FACE,DEPTH,#fedto,MMPM,#fedupm,CLEAR,#rapto,RETURN,#rtrcto,DWELL,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=off</Line>
+    <Line>CYCLE/FACE,DEPTH,#fedto,MMPM,#fedupm,CLEAR,#rapto,RETURN,DWELL,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=off</Line>
+    <Line>$$ Bore CYCLE</Line>
+    <Line>CYCLE/BORE,DEPTH,#fedto,IPM,#fedupm</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=fedrat, csink_mode=off</Line>
+    <Line>CYCLE/BORE,DEPTH,#fedto,IPM,#fedupm,CLEAR,#rapto</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=fedrat, csink_mode=off</Line>
+    <Line>CYCLE/BORE,DEPTH,#fedto,IPM,#fedupm,CLEAR,#rapto,RAPTO,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=fedrat, csink_mode=off</Line>
+    <Line>CYCLE/BORE,DEPTH,#fedto,IPM,#fedupm,CLEAR,#rapto,RAPTO,#,RETURN,#rtrcto</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=fedrat, csink_mode=off</Line>
+    <Line>CYCLE/BORE,DEPTH,#fedto,IPM,#fedupm,CLEAR,#rapto,RETURN,#rtrcto</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=fedrat, csink_mode=off</Line>
+    <Line>CYCLE/BORE,DEPTH,#fedto,IPM,#fedupm,CLEAR,#rapto,RETURN</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=fedrat, csink_mode=off</Line>
+    <Line>$$ Bore CYCLE with DWELL</Line>
+    <Line>CYCLE/BORE,DEPTH,#fedto,IPM,#fedupm,DWELL,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=fedrat, csink_mode=off</Line>
+    <Line>CYCLE/BORE,DEPTH,#fedto,IPM,#fedupm,CLEAR,#rapto,DWELL,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=fedrat, csink_mode=off</Line>
+    <Line>CYCLE/BORE,DEPTH,#fedto,IPM,#fedupm,CLEAR,#rapto,RAPTO,#,DWELL,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=fedrat, csink_mode=off</Line>
+    <Line>CYCLE/BORE,DEPTH,#fedto,IPM,#fedupm,CLEAR,#rapto,RAPTO,#,RETURN,#rtrcto,DWELL,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=fedrat, csink_mode=off</Line>
+    <Line>CYCLE/BORE,DEPTH,#fedto,IPM,#fedupm,CLEAR,#rapto,RETURN,#rtrcto,DWELL,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=fedrat, csink_mode=off</Line>
+    <Line>CYCLE/BORE,DEPTH,#fedto,IPM,#fedupm,CLEAR,#rapto,RETURN,DWELL,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=fedrat, csink_mode=off</Line>
+    <Line>$$ Bore CYCLE with Orient</Line>
+    <Line>CYCLE/BORE,DEPTH,#fedto,IPM,#fedupm,ORIENT,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=fedrat, csink_mode=off</Line>
+    <Line>CYCLE/BORE,DEPTH,#fedto,IPM,#fedupm,CLEAR,#rapto,#,ORIENT,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=fedrat, csink_mode=off</Line>
+    <Line>CYCLE/BORE,DEPTH,#fedto,IPM,#fedupm,CLEAR,#rapto,#,ORIENT,#,RAPTO,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=fedrat, csink_mode=off</Line>
+    <Line>CYCLE/BORE,DEPTH,#fedto,IPM,#fedupm,CLEAR,#rapto,#,ORIENT,#,RAPTO,#,RETURN,#rtrcto</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=fedrat, csink_mode=off</Line>
+    <Line>CYCLE/BORE,DEPTH,#fedto,IPM,#fedupm,CLEAR,#rapto,#,ORIENT,#,RETURN,#rtrcto</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=fedrat, csink_mode=off</Line>
+    <Line>CYCLE/BORE,DEPTH,#fedto,IPM,#fedupm,CLEAR,#rapto,#,ORIENT,#,RETURN</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=fedrat, csink_mode=off</Line>
+    <Line>$$ Bore CYCLE in MMPM</Line>
+    <Line>CYCLE/BORE,DEPTH,#fedto,MMPM,#fedupm</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=fedrat, csink_mode=off</Line>
+    <Line>CYCLE/BORE,DEPTH,#fedto,MMPM,#fedupm,CLEAR,#rapto</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=fedrat, csink_mode=off</Line>
+    <Line>CYCLE/BORE,DEPTH,#fedto,MMPM,#fedupm,CLEAR,#rapto,RAPTO,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=fedrat, csink_mode=off</Line>
+    <Line>CYCLE/BORE,DEPTH,#fedto,MMPM,#fedupm,CLEAR,#rapto,RAPTO,#,RETURN,#rtrcto</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=fedrat, csink_mode=off</Line>
+    <Line>CYCLE/BORE,DEPTH,#fedto,MMPM,#fedupm,CLEAR,#rapto,RETURN,#rtrcto</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=fedrat, csink_mode=off</Line>
+    <Line>CYCLE/BORE,DEPTH,#fedto,MMPM,#fedupm,CLEAR,#rapto,RETURN</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=fedrat, csink_mode=off</Line>
+    <Line>$$ Bore CYCLE in MMPM with DWELL</Line>
+    <Line>CYCLE/BORE,DEPTH,#fedto,MMPM,#fedupm,DWELL,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=fedrat, csink_mode=off</Line>
+    <Line>CYCLE/BORE,DEPTH,#fedto,MMPM,#fedupm,CLEAR,#rapto,DWELL,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=fedrat, csink_mode=off</Line>
+    <Line>CYCLE/BORE,DEPTH,#fedto,MMPM,#fedupm,CLEAR,#rapto,RAPTO,#,DWELL,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=fedrat, csink_mode=off</Line>
+    <Line>CYCLE/BORE,DEPTH,#fedto,MMPM,#fedupm,CLEAR,#rapto,RAPTO,#,RETURN,#rtrcto,DWELL,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=fedrat, csink_mode=off</Line>
+    <Line>CYCLE/BORE,DEPTH,#fedto,MMPM,#fedupm,CLEAR,#rapto,RETURN,#rtrcto,DWELL,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=fedrat, csink_mode=off</Line>
+    <Line>CYCLE/BORE,DEPTH,#fedto,MMPM,#fedupm,CLEAR,#rapto,RETURN,DWELL,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=fedrat, csink_mode=off</Line>
+    <Line>$$ Bore CYCLE in MMPM with Orient</Line>
+    <Line>CYCLE/BORE,DEPTH,#fedto,MMPM,#fedupm,ORIENT,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=fedrat, csink_mode=off</Line>
+    <Line>CYCLE/BORE,DEPTH,#fedto,MMPM,#fedupm,CLEAR,#rapto,#,ORIENT,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=fedrat, csink_mode=off</Line>
+    <Line>CYCLE/BORE,DEPTH,#fedto,MMPM,#fedupm,CLEAR,#rapto,#,ORIENT,#,RAPTO,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=fedrat, csink_mode=off</Line>
+    <Line>CYCLE/BORE,DEPTH,#fedto,MMPM,#fedupm,CLEAR,#rapto,#,ORIENT,#,RAPTO,#,RETURN,#rtrcto</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=fedrat, csink_mode=off</Line>
+    <Line>CYCLE/BORE,DEPTH,#fedto,MMPM,#fedupm,CLEAR,#rapto,#,ORIENT,#,RETURN,#rtrcto</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=fedrat, csink_mode=off</Line>
+    <Line>CYCLE/BORE,DEPTH,#fedto,MMPM,#fedupm,CLEAR,#rapto,#,ORIENT,#,RETURN</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=fedrat, csink_mode=off</Line>
+    <Line>$$ Countersink CYCLE</Line>
+    <Line>CYCLE/CSINK,DIAMET,#cskdia,TLANGL,#tlangl,IPM,#fedupm</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=on</Line>
+    <Line>CYCLE/CSINK,DIAMET,#cskdia,TLANGL,#tlangl,IPM,#fedupm,CLEAR,#rapto</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=on</Line>
+    <Line>CYCLE/CSINK,DIAMET,#cskdia,TLANGL,#tlangl,IPM,#fedupm,CLEAR,#rapto,RAPTO,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=on</Line>
+    <Line>CYCLE/CSINK,DIAMET,#cskdia,TLANGL,#tlangl,IPM,#fedupm,CLEAR,#rapto,RAPTO,#,RETURN,#rtrcto</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=on</Line>
+    <Line>CYCLE/CSINK,DIAMET,#cskdia,TLANGL,#tlangl,IPM,#fedupm,CLEAR,#rapto,RETURN,#rtrcto</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=on</Line>
+    <Line>CYCLE/CSINK,DIAMET,#cskdia,TLANGL,#tlangl,IPM,#fedupm,CLEAR,#rapto,RETURN</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=on</Line>
+    <Line>$$ Countersink CYCLE with DWELL</Line>
+    <Line>CYCLE/CSINK,DIAMET,#cskdia,TLANGL,#tlangl,IPM,#fedupm,DWELL,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=on</Line>
+    <Line>CYCLE/CSINK,DIAMET,#cskdia,TLANGL,#tlangl,IPM,#fedupm,CLEAR,#rapto,DWELL,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=on</Line>
+    <Line>CYCLE/CSINK,DIAMET,#cskdia,TLANGL,#tlangl,IPM,#fedupm,CLEAR,#rapto,RAPTO,#,DWELL,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=on</Line>
+    <Line>CYCLE/CSINK,DIAMET,#cskdia,TLANGL,#tlangl,IPM,#fedupm,CLEAR,#rapto,RAPTO,#,RETURN,#rtrcto,DWELL,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=on</Line>
+    <Line>CYCLE/CSINK,DIAMET,#cskdia,TLANGL,#tlangl,IPM,#fedupm,CLEAR,#rapto,RETURN,#rtrcto,DWELL,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=on</Line>
+    <Line>CYCLE/CSINK,DIAMET,#cskdia,TLANGL,#tlangl,IPM,#fedupm,CLEAR,#rapto,RETURN,DWELL,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=on</Line>
+    <Line>$$ Countersink CYCLE in MMPM</Line>
+    <Line>CYCLE/CSINK,DIAMET,#cskdia,TLANGL,#tlangl,MMPM,#fedupm</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=on</Line>
+    <Line>CYCLE/CSINK,DIAMET,#cskdia,TLANGL,#tlangl,MMPM,#fedupm,CLEAR,#rapto</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=on</Line>
+    <Line>CYCLE/CSINK,DIAMET,#cskdia,TLANGL,#tlangl,MMPM,#fedupm,CLEAR,#rapto,RAPTO,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=on</Line>
+    <Line>CYCLE/CSINK,DIAMET,#cskdia,TLANGL,#tlangl,MMPM,#fedupm,CLEAR,#rapto,RAPTO,#,RETURN,#rtrcto</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=on</Line>
+    <Line>CYCLE/CSINK,DIAMET,#cskdia,TLANGL,#tlangl,MMPM,#fedupm,CLEAR,#rapto,RETURN,#rtrcto</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=on</Line>
+    <Line>CYCLE/CSINK,DIAMET,#cskdia,TLANGL,#tlangl,MMPM,#fedupm,CLEAR,#rapto,RETURN</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=on</Line>
+    <Line>$$ Countersink CYCLE in MMPM with DWELL</Line>
+    <Line>CYCLE/CSINK,DIAMET,#cskdia,TLANGL,#tlangl,MMPM,#fedupm,DWELL,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=on</Line>
+    <Line>CYCLE/CSINK,DIAMET,#cskdia,TLANGL,#tlangl,MMPM,#fedupm,CLEAR,#rapto,DWELL,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=on</Line>
+    <Line>CYCLE/CSINK,DIAMET,#cskdia,TLANGL,#tlangl,MMPM,#fedupm,CLEAR,#rapto,RAPTO,#,DWELL,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=on</Line>
+    <Line>CYCLE/CSINK,DIAMET,#cskdia,TLANGL,#tlangl,MMPM,#fedupm,CLEAR,#rapto,RAPTO,#,RETURN,#rtrcto,DWELL,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=on</Line>
+    <Line>CYCLE/CSINK,DIAMET,#cskdia,TLANGL,#tlangl,MMPM,#fedupm,CLEAR,#rapto,RETURN,#rtrcto,DWELL,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=on</Line>
+    <Line>CYCLE/CSINK,DIAMET,#cskdia,TLANGL,#tlangl,MMPM,#fedupm,CLEAR,#rapto,RETURN,DWELL,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=on</Line>
+    <Line>$$ Tap CYCLE</Line>
+    <Line>CYCLE/TAP,DEPTH,#fedto,TPI,#fedupm</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=fedrat, csink_mode=off</Line>
+    <Line>CYCLE/TAP,DEPTH,#fedto,TPI,#fedupm,CLEAR,#rapto</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=fedrat, csink_mode=off</Line>
+    <Line>CYCLE/TAP,DEPTH,#fedto,TPI,#fedupm,CLEAR,#rapto,RAPTO,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=fedrat, csink_mode=off</Line>
+    <Line>CYCLE/TAP,DEPTH,#fedto,TPI,#fedupm,CLEAR,#rapto,RAPTO,#,RETURN,#rtrcto</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=fedrat, csink_mode=off</Line>
+    <Line>CYCLE/TAP,DEPTH,#fedto,TPI,#fedupm,CLEAR,#rapto,RETURN,#rtrcto</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=fedrat, csink_mode=off</Line>
+    <Line>CYCLE/TAP,DEPTH,#fedto,TPI,#fedupm,CLEAR,#rapto,RETURN</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=fedrat, csink_mode=off</Line>
+    <Line>$$ Tap CYCLE with Invers</Line>
+    <Line>CYCLE/TAP,DEPTH,#fedto,TPI,#fedupm,INVERS</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=fedrat, csink_mode=off</Line>
+    <Line>CYCLE/TAP,DEPTH,#fedto,TPI,#fedupm,CLEAR,#rapto,INVERS</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=fedrat, csink_mode=off</Line>
+    <Line>CYCLE/TAP,DEPTH,#fedto,TPI,#fedupm,CLEAR,#rapto,INVERS,RAPTO,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=fedrat, csink_mode=off</Line>
+    <Line>CYCLE/TAP,DEPTH,#fedto,TPI,#fedupm,CLEAR,#rapto,INVERS,RAPTO,#,RETURN,#rtrcto</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=fedrat, csink_mode=off</Line>
+    <Line>CYCLE/TAP,DEPTH,#fedto,TPI,#fedupm,CLEAR,#rapto,INVERS,RETURN,#rtrcto</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=fedrat, csink_mode=off</Line>
+    <Line>CYCLE/TAP,DEPTH,#fedto,TPI,#fedupm,CLEAR,#rapto,INVERS,RETURN</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=fedrat, csink_mode=off</Line>
+    <Line>$$ Tap CYCLE in threads per mm</Line>
+    <Line>CYCLE/TAP,DEPTH,#fedto,TPMM,#fedupm</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=fedrat, csink_mode=off</Line>
+    <Line>CYCLE/TAP,DEPTH,#fedto,TPMM,#fedupm,CLEAR,#rapto</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=fedrat, csink_mode=off</Line>
+    <Line>CYCLE/TAP,DEPTH,#fedto,TPMM,#fedupm,CLEAR,#rapto,RAPTO,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=fedrat, csink_mode=off</Line>
+    <Line>CYCLE/TAP,DEPTH,#fedto,TPMM,#fedupm,CLEAR,#rapto,RAPTO,#,RETURN,#rtrcto</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=fedrat, csink_mode=off</Line>
+    <Line>CYCLE/TAP,DEPTH,#fedto,TPMM,#fedupm,CLEAR,#rapto,RETURN,#rtrcto</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=fedrat, csink_mode=off</Line>
+    <Line>CYCLE/TAP,DEPTH,#fedto,TPMM,#fedupm,CLEAR,#rapto,RETURN</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=fedrat, csink_mode=off</Line>
+    <Line>$$ Tap CYCLE with Invers in threads per mm</Line>
+    <Line>CYCLE/TAP,DEPTH,#fedto,TPMM,#fedupm,INVERS</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=fedrat, csink_mode=off</Line>
+    <Line>CYCLE/TAP,DEPTH,#fedto,TPMM,#fedupm,CLEAR,#rapto,INVERS</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=fedrat, csink_mode=off</Line>
+    <Line>CYCLE/TAP,DEPTH,#fedto,TPMM,#fedupm,CLEAR,#rapto,INVERS,RAPTO,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=fedrat, csink_mode=off</Line>
+    <Line>CYCLE/TAP,DEPTH,#fedto,TPMM,#fedupm,CLEAR,#rapto,INVERS,RAPTO,#,RETURN,#rtrcto</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=fedrat, csink_mode=off</Line>
+    <Line>CYCLE/TAP,DEPTH,#fedto,TPMM,#fedupm,CLEAR,#rapto,INVERS,RETURN,#rtrcto</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=fedrat, csink_mode=off</Line>
+    <Line>CYCLE/TAP,DEPTH,#fedto,TPMM,#fedupm,CLEAR,#rapto,INVERS,RETURN</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=fedrat, csink_mode=off</Line>
+    <Line>$$ Ream CYCLE</Line>
+    <Line>CYCLE/REAM,DEPTH,#fedto,IPM,#fedupm</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=off</Line>
+    <Line>CYCLE/REAM,DEPTH,#fedto,IPM,#fedupm,CLEAR,#rapto</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=off</Line>
+    <Line>CYCLE/REAM,DEPTH,#fedto,IPM,#fedupm,CLEAR,#rapto,RAPTO,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=off</Line>
+    <Line>CYCLE/REAM,DEPTH,#fedto,IPM,#fedupm,CLEAR,#rapto,RAPTO,#,RETURN,#rtrcto</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=off</Line>
+    <Line>CYCLE/REAM,DEPTH,#fedto,IPM,#fedupm,CLEAR,#rapto,RETURN,#rtrcto</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=off</Line>
+    <Line>CYCLE/REAM,DEPTH,#fedto,IPM,#fedupm,CLEAR,#rapto,RETURN</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=off</Line>
+    <Line>$$ Ream CYCLE with DWELL</Line>
+    <Line>CYCLE/REAM,DEPTH,#fedto,IPM,#fedupm,DWELL,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=off</Line>
+    <Line>CYCLE/REAM,DEPTH,#fedto,IPM,#fedupm,CLEAR,#rapto,DWELL,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=off</Line>
+    <Line>CYCLE/REAM,DEPTH,#fedto,IPM,#fedupm,CLEAR,#rapto,RAPTO,#,DWELL,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=off</Line>
+    <Line>CYCLE/REAM,DEPTH,#fedto,IPM,#fedupm,CLEAR,#rapto,RAPTO,#,RETURN,#rtrcto,DWELL,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=off</Line>
+    <Line>CYCLE/REAM,DEPTH,#fedto,IPM,#fedupm,CLEAR,#rapto,RETURN,#rtrcto,DWELL,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=off</Line>
+    <Line>CYCLE/REAM,DEPTH,#fedto,IPM,#fedupm,CLEAR,#rapto,RETURN,DWELL,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=off</Line>
+    <Line>$$ Ream CYCLE in MMPM</Line>
+    <Line>CYCLE/REAM,DEPTH,#fedto,MMPM,#fedupm</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=off</Line>
+    <Line>CYCLE/REAM,DEPTH,#fedto,MMPM,#fedupm,CLEAR,#rapto</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=off</Line>
+    <Line>CYCLE/REAM,DEPTH,#fedto,MMPM,#fedupm,CLEAR,#rapto,RAPTO,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=off</Line>
+    <Line>CYCLE/REAM,DEPTH,#fedto,MMPM,#fedupm,CLEAR,#rapto,RAPTO,#,RETURN,#rtrcto</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=off</Line>
+    <Line>CYCLE/REAM,DEPTH,#fedto,MMPM,#fedupm,CLEAR,#rapto,RETURN,#rtrcto</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=off</Line>
+    <Line>CYCLE/REAM,DEPTH,#fedto,MMPM,#fedupm,CLEAR,#rapto,RETURN</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=off</Line>
+    <Line>$$ Ream CYCLE in MMPM with DWELL</Line>
+    <Line>CYCLE/REAM,DEPTH,#fedto,MMPM,#fedupm,DWELL,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=off</Line>
+    <Line>CYCLE/REAM,DEPTH,#fedto,MMPM,#fedupm,CLEAR,#rapto,DWELL,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=off</Line>
+    <Line>CYCLE/REAM,DEPTH,#fedto,MMPM,#fedupm,CLEAR,#rapto,RAPTO,#,DWELL,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=off</Line>
+    <Line>CYCLE/REAM,DEPTH,#fedto,MMPM,#fedupm,CLEAR,#rapto,RAPTO,#,RETURN,#rtrcto,DWELL,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=off</Line>
+    <Line>CYCLE/REAM,DEPTH,#fedto,MMPM,#fedupm,CLEAR,#rapto,RETURN,#rtrcto,DWELL,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=off</Line>
+    <Line>CYCLE/REAM,DEPTH,#fedto,MMPM,#fedupm,CLEAR,#rapto,RETURN,DWELL,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=off</Line>
+    <Line>$$ Couplet Format in per rev feed mode</Line>
+    <Line>$$ Drill CYCLE in IPR</Line>
+    <Line>CYCLE/DRILL,DEPTH,#fedto,IPR,#fedupm</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=off</Line>
+    <Line>CYCLE/DRILL,DEPTH,#fedto,IPR,#fedupm,CLEAR,#rapto</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=off</Line>
+    <Line>CYCLE/DRILL,DEPTH,#fedto,IPR,#fedupm,CLEAR,#rapto,RAPTO,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=off</Line>
+    <Line>CYCLE/DRILL,DEPTH,#fedto,IPR,#fedupm,CLEAR,#rapto,RETURN,#rtrcto</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=off</Line>
+    <Line>CYCLE/DRILL,DEPTH,#fedto,IPR,#fedupm,CLEAR,#rapto,RETURN</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=off</Line>
+    <Line>$$ Drill CYCLE with DWELL in IPR</Line>
+    <Line>CYCLE/DRILL,DEPTH,#fedto,IPR,#fedupm,DWELL,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=off</Line>
+    <Line>CYCLE/DRILL,DEPTH,#fedto,IPR,#fedupm,CLEAR,#rapto,DWELL,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=off</Line>
+    <Line>CYCLE/DRILL,DEPTH,#fedto,IPR,#fedupm,CLEAR,#rapto,RAPTO,#,DWELL,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=off</Line>
+    <Line>CYCLE/DRILL,DEPTH,#fedto,IPR,#fedupm,CLEAR,#rapto,RETURN,#rtrcto,DWELL,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=off</Line>
+    <Line>CYCLE/DRILL,DEPTH,#fedto,IPR,#fedupm,CLEAR,#rapto,RETURN,DWELL,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=off</Line>
+    <Line>$$ Drill CYCLE in MMPR</Line>
+    <Line>CYCLE/DRILL,DEPTH,#fedto,MMPR,#fedupm</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=off</Line>
+    <Line>CYCLE/DRILL,DEPTH,#fedto,MMPR,#fedupm,CLEAR,#rapto</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=off</Line>
+    <Line>CYCLE/DRILL,DEPTH,#fedto,MMPR,#fedupm,CLEAR,#rapto,RAPTO,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=off</Line>
+    <Line>CYCLE/DRILL,DEPTH,#fedto,MMPR,#fedupm,CLEAR,#rapto,RETURN,#rtrcto</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=off</Line>
+    <Line>CYCLE/DRILL,DEPTH,#fedto,MMPR,#fedupm,CLEAR,#rapto,RETURN</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=off</Line>
+    <Line>$$ Drill CYCLE in MMPR with DWELL</Line>
+    <Line>CYCLE/DRILL,DEPTH,#fedto,MMPR,#fedupm,DWELL,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=off</Line>
+    <Line>CYCLE/DRILL,DEPTH,#fedto,MMPR,#fedupm,CLEAR,#rapto,DWELL,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=off</Line>
+    <Line>CYCLE/DRILL,DEPTH,#fedto,MMPR,#fedupm,CLEAR,#rapto,RAPTO,#,DWELL,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=off</Line>
+    <Line>CYCLE/DRILL,DEPTH,#fedto,MMPR,#fedupm,CLEAR,#rapto,RETURN,#rtrcto,DWELL,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=off</Line>
+    <Line>CYCLE/DRILL,DEPTH,#fedto,MMPR,#fedupm,CLEAR,#rapto,RETURN,DWELL,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=off</Line>
+    <Line>$$ Deep Drill CYCLE with feed list in IPR</Line>
+    <Line>CYCLE/DEEP,DEPTH,#fedlist,IPR,#fedupm</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, deep_retract=on, csink_mode=off</Line>
+    <Line>CYCLE/DEEP,DEPTH,#fedlist,IPR,#fedupm,CLEAR,#rapto</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, deep_retract=on, csink_mode=off</Line>
+    <Line>CYCLE/DEEP,DEPTH,#fedlist,IPR,#fedupm,CLEAR,#rapto,RAPTO,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, deep_retract=on, csink_mode=off</Line>
+    <Line>CYCLE/DEEP,DEPTH,#fedlist,IPR,#fedupm,CLEAR,#rapto,RETURN,#rtrcto</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, deep_retract=on, csink_mode=off</Line>
+    <Line>CYCLE/DEEP,DEPTH,#fedlist,IPR,#fedupm,CLEAR,#rapto,RETURN</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, deep_retract=on, csink_mode=off</Line>
+    <Line>$$ Deep Drill CYCLE with increment value in IPR</Line>
+    <Line>CYCLE/DEEP,DEPTH,#fedto,STEP,#step,IPR,#fedupm</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, deep_retract=on, csink_mode=off</Line>
+    <Line>CYCLE/DEEP,DEPTH,#fedto,STEP,#step,IPR,#fedupm,CLEAR,#rapto</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, deep_retract=on, csink_mode=off</Line>
+    <Line>CYCLE/DEEP,DEPTH,#fedto,STEP,#step,IPR,#fedupm,CLEAR,#rapto,RAPTO,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, deep_retract=on, csink_mode=off</Line>
+    <Line>CYCLE/DEEP,DEPTH,#fedto,STEP,#step,IPR,#fedupm,CLEAR,#rapto,RETURN,#rtrcto</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, deep_retract=on, csink_mode=off</Line>
+    <Line>CYCLE/DEEP,DEPTH,#fedto,STEP,#step,IPR,#fedupm,CLEAR,#rapto,RETURN</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, deep_retract=on, csink_mode=off</Line>
+    <Line>$$ Deep Drill CYCLE with feed list in MMPR</Line>
+    <Line>CYCLE/DEEP,DEPTH,#fedlist,MMPR,#fedupm</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, deep_retract=on, csink_mode=off</Line>
+    <Line>CYCLE/DEEP,DEPTH,#fedlist,MMPR,#fedupm,CLEAR,#rapto</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, deep_retract=on, csink_mode=off</Line>
+    <Line>CYCLE/DEEP,DEPTH,#fedlist,MMPR,#fedupm,CLEAR,#rapto,RAPTO,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, deep_retract=on, csink_mode=off</Line>
+    <Line>CYCLE/DEEP,DEPTH,#fedlist,MMPR,#fedupm,CLEAR,#rapto,RETURN,#rtrcto</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, deep_retract=on, csink_mode=off</Line>
+    <Line>CYCLE/DEEP,DEPTH,#fedlist,MMPR,#fedupm,CLEAR,#rapto,RETURN</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, deep_retract=on, csink_mode=off</Line>
+    <Line>$$ Deep Drill CYCLE with increment value in MMPR</Line>
+    <Line>CYCLE/DEEP,DEPTH,#fedto,STEP,#step,MMPR,#fedupm</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, deep_retract=on, csink_mode=off</Line>
+    <Line>CYCLE/DEEP,DEPTH,#fedto,STEP,#step,MMPR,#fedupm,CLEAR,#rapto</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, deep_retract=on, csink_mode=off</Line>
+    <Line>CYCLE/DEEP,DEPTH,#fedto,STEP,#step,MMPR,#fedupm,CLEAR,#rapto,RAPTO,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, deep_retract=on, csink_mode=off</Line>
+    <Line>CYCLE/DEEP,DEPTH,#fedto,STEP,#step,MMPR,#fedupm,CLEAR,#rapto,RETURN,#rtrcto</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, deep_retract=on, csink_mode=off</Line>
+    <Line>CYCLE/DEEP,DEPTH,#fedto,STEP,#step,MMPR,#fedupm,CLEAR,#rapto,RETURN</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, deep_retract=on, csink_mode=off</Line>
+    <Line>$$ Break Chip Drill CYCLE with feed list in IPR</Line>
+    <Line>CYCLE/BRKCHP,DEPTH,#fedlist,IPR,#fedupm</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, deep_retract=off, csink_mode=off</Line>
+    <Line>CYCLE/BRKCHP,DEPTH,#fedlist,IPR,#fedupm,CLEAR,#rapto</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, deep_retract=off, csink_mode=off</Line>
+    <Line>CYCLE/BRKCHP,DEPTH,#fedlist,IPR,#fedupm,CLEAR,#rapto,RAPTO,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, deep_retract=off, csink_mode=off</Line>
+    <Line>CYCLE/BRKCHP,DEPTH,#fedlist,IPR,#fedupm,CLEAR,#rapto,RAPTO,#,RETURN,#rtrcto</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, deep_retract=off, csink_mode=off</Line>
+    <Line>CYCLE/BRKCHP,DEPTH,#fedlist,IPR,#fedupm,CLEAR,#rapto,RETURN,#rtrcto</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, deep_retract=off, csink_mode=off</Line>
+    <Line>CYCLE/BRKCHP,DEPTH,#fedlist,IPR,#fedupm,CLEAR,#rapto,RETURN</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, deep_retract=off, csink_mode=off</Line>
+    <Line>$$ Break Chip Drill CYCLE with increment value in IPR</Line>
+    <Line>CYCLE/BRKCHP,DEPTH,#fedto,STEP,#step,IPR,#fedupm</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, deep_retract=off, csink_mode=off</Line>
+    <Line>CYCLE/BRKCHP,DEPTH,#fedto,STEP,#step,IPR,#fedupm,CLEAR,#rapto</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, deep_retract=off, csink_mode=off</Line>
+    <Line>CYCLE/BRKCHP,DEPTH,#fedto,STEP,#step,IPR,#fedupm,CLEAR,#rapto,RAPTO,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, deep_retract=off, csink_mode=off</Line>
+    <Line>CYCLE/BRKCHP,DEPTH,#fedto,STEP,#step,IPR,#fedupm,CLEAR,#rapto,RETURN,#rtrcto</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, deep_retract=off, csink_mode=off</Line>
+    <Line>CYCLE/BRKCHP,DEPTH,#fedto,STEP,#step,IPR,#fedupm,CLEAR,#rapto,RETURN</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, deep_retract=off, csink_mode=off</Line>
+    <Line>$$ Break Chip Drill CYCLE with feed list in MMPR</Line>
+    <Line>CYCLE/BRKCHP,DEPTH,#fedlist,MMPR,#fedupm</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, deep_retract=off, csink_mode=off</Line>
+    <Line>CYCLE/BRKCHP,DEPTH,#fedlist,MMPR,#fedupm,CLEAR,#rapto</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, deep_retract=off, csink_mode=off</Line>
+    <Line>CYCLE/BRKCHP,DEPTH,#fedlist,MMPR,#fedupm,CLEAR,#rapto,RAPTO,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, deep_retract=off, csink_mode=off</Line>
+    <Line>CYCLE/BRKCHP,DEPTH,#fedlist,MMPR,#fedupm,CLEAR,#rapto,RETURN,#rtrcto</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, deep_retract=off, csink_mode=off</Line>
+    <Line>CYCLE/BRKCHP,DEPTH,#fedlist,MMPR,#fedupm,CLEAR,#rapto,RETURN</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, deep_retract=off, csink_mode=off</Line>
+    <Line>$$ Break Chip Drill CYCLE with increment value in MMPR</Line>
+    <Line>CYCLE/BRKCHP,DEPTH,#fedto,STEP,#step,MMPR,#fedupm</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, deep_retract=off, csink_mode=off</Line>
+    <Line>CYCLE/BRKCHP,DEPTH,#fedto,STEP,#step,MMPR,#fedupm,CLEAR,#rapto</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, deep_retract=off, csink_mode=off</Line>
+    <Line>CYCLE/BRKCHP,DEPTH,#fedto,STEP,#step,MMPR,#fedupm,CLEAR,#rapto,RAPTO,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, deep_retract=off, csink_mode=off</Line>
+    <Line>CYCLE/BRKCHP,DEPTH,#fedto,STEP,#step,MMPR,#fedupm,CLEAR,#rapto,RETURN,#rtrcto</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, deep_retract=off, csink_mode=off</Line>
+    <Line>CYCLE/BRKCHP,DEPTH,#fedto,STEP,#step,MMPR,#fedupm,CLEAR,#rapto,RETURN</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, deep_retract=off, csink_mode=off</Line>
+    <Line>$$ Thru Drill CYCLE in IPR</Line>
+    <Line>CYCLE/THRU,DEPTH,#fedto,IPR,#fedupm</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=off</Line>
+    <Line>CYCLE/THRU,DEPTH,#fedto,IPR,#fedupm,CLEAR,#rapto</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=off</Line>
+    <Line>CYCLE/THRU,DEPTH,#fedto,IPR,#fedupm,CLEAR,#rapto,RAPTO,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=off</Line>
+    <Line>CYCLE/THRU,DEPTH,#fedto,IPR,#fedupm,CLEAR,#rapto,RETURN,#rtrcto</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=off</Line>
+    <Line>CYCLE/THRU,DEPTH,#fedto,IPR,#fedupm,CLEAR,#rapto,RETURN</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=off</Line>
+    <Line>$$ Thru Drill CYCLE with feed list in IPR</Line>
+    <Line>CYCLE/THRU,DEPTH,#fedlist,IPR,#fedupm</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=off</Line>
+    <Line>CYCLE/THRU,DEPTH,#fedlist,IPR,#fedupm,CLEAR,#rapto</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=off</Line>
+    <Line>CYCLE/THRU,DEPTH,#fedlist,IPR,#fedupm,CLEAR,#rapto,RAPTO,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=off</Line>
+    <Line>CYCLE/THRU,DEPTH,#fedlist,IPR,#fedupm,CLEAR,#rapto,RETURN,#rtrcto</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=off</Line>
+    <Line>CYCLE/THRU,DEPTH,#fedlist,IPR,#fedupm,CLEAR,#rapto,RETURN</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=off</Line>
+    <Line>$$ Thru Drill CYCLE in MMPR</Line>
+    <Line>CYCLE/THRU,DEPTH,#fedto,MMPR,#fedupm</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=off</Line>
+    <Line>CYCLE/THRU,DEPTH,#fedto,MMPR,#fedupm,CLEAR,#rapto</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=off</Line>
+    <Line>CYCLE/THRU,DEPTH,#fedto,MMPR,#fedupm,CLEAR,#rapto,RAPTO,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=off</Line>
+    <Line>CYCLE/THRU,DEPTH,#fedto,MMPR,#fedupm,CLEAR,#rapto,RETURN,#rtrcto</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=off</Line>
+    <Line>CYCLE/THRU,DEPTH,#fedto,MMPR,#fedupm,CLEAR,#rapto,RETURN</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=off</Line>
+    <Line>$$ Thru Drill CYCLE with feed list in MMPR</Line>
+    <Line>CYCLE/THRU,DEPTH,#fedlist,MMPR,#fedupm</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=off</Line>
+    <Line>CYCLE/THRU,DEPTH,#fedlist,MMPR,#fedupm,CLEAR,#rapto</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=off</Line>
+    <Line>CYCLE/THRU,DEPTH,#fedlist,MMPR,#fedupm,CLEAR,#rapto,RAPTO,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=off</Line>
+    <Line>CYCLE/THRU,DEPTH,#fedlist,MMPR,#fedupm,CLEAR,#rapto,RETURN,#rtrcto</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=off</Line>
+    <Line>CYCLE/THRU,DEPTH,#fedlist,MMPR,#fedupm,CLEAR,#rapto,RETURN</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=off</Line>
+    <Line>$$ Face CYCLE in IPR</Line>
+    <Line>CYCLE/FACE,DEPTH,#fedto,IPR,#fedupm</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=off</Line>
+    <Line>CYCLE/FACE,DEPTH,#fedto,IPR,#fedupm,CLEAR,#rapto</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=off</Line>
+    <Line>CYCLE/FACE,DEPTH,#fedto,IPR,#fedupm,CLEAR,#rapto,RAPTO,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=off</Line>
+    <Line>CYCLE/FACE,DEPTH,#fedto,IPR,#fedupm,CLEAR,#rapto,RETURN,#rtrcto</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=off</Line>
+    <Line>CYCLE/FACE,DEPTH,#fedto,IPR,#fedupm,CLEAR,#rapto,RETURN</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=off</Line>
+    <Line>$$ Face CYCLE with DWELL in IPR</Line>
+    <Line>CYCLE/FACE,DEPTH,#fedto,IPR,#fedupm,DWELL,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=off</Line>
+    <Line>CYCLE/FACE,DEPTH,#fedto,IPR,#fedupm,CLEAR,#rapto,DWELL,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=off</Line>
+    <Line>CYCLE/FACE,DEPTH,#fedto,IPR,#fedupm,CLEAR,#rapto,RAPTO,#,DWELL,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=off</Line>
+    <Line>CYCLE/FACE,DEPTH,#fedto,IPR,#fedupm,CLEAR,#rapto,RETURN,#rtrcto,DWELL,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=off</Line>
+    <Line>CYCLE/FACE,DEPTH,#fedto,IPR,#fedupm,CLEAR,#rapto,RETURN,DWELL,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=off</Line>
+    <Line>$$ Face CYCLE in MMPR</Line>
+    <Line>CYCLE/FACE,DEPTH,#fedto,MMPR,#fedupm</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=off</Line>
+    <Line>CYCLE/FACE,DEPTH,#fedto,MMPR,#fedupm,CLEAR,#rapto</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=off</Line>
+    <Line>CYCLE/FACE,DEPTH,#fedto,MMPR,#fedupm,CLEAR,#rapto,RAPTO,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=off</Line>
+    <Line>CYCLE/FACE,DEPTH,#fedto,MMPR,#fedupm,CLEAR,#rapto,RETURN,#rtrcto</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=off</Line>
+    <Line>CYCLE/FACE,DEPTH,#fedto,MMPR,#fedupm,CLEAR,#rapto,RETURN</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=off</Line>
+    <Line>$$ Face CYCLE in MMPR with DWELL</Line>
+    <Line>CYCLE/FACE,DEPTH,#fedto,MMPR,#fedupm,DWELL,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=off</Line>
+    <Line>CYCLE/FACE,DEPTH,#fedto,MMPR,#fedupm,CLEAR,#rapto,DWELL,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=off</Line>
+    <Line>CYCLE/FACE,DEPTH,#fedto,MMPR,#fedupm,CLEAR,#rapto,RAPTO,#,DWELL,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=off</Line>
+    <Line>CYCLE/FACE,DEPTH,#fedto,MMPR,#fedupm,CLEAR,#rapto,RETURN,#rtrcto,DWELL,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=off</Line>
+    <Line>CYCLE/FACE,DEPTH,#fedto,MMPR,#fedupm,CLEAR,#rapto,RETURN,DWELL,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=off</Line>
+    <Line>$$ Bore CYCLE in IPR</Line>
+    <Line>CYCLE/BORE,DEPTH,#fedto,IPR,#fedupm</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=fedrat, csink_mode=off</Line>
+    <Line>CYCLE/BORE,DEPTH,#fedto,IPR,#fedupm,CLEAR,#rapto</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=fedrat, csink_mode=off</Line>
+    <Line>CYCLE/BORE,DEPTH,#fedto,IPR,#fedupm,CLEAR,#rapto,RAPTO,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=fedrat, csink_mode=off</Line>
+    <Line>CYCLE/BORE,DEPTH,#fedto,IPR,#fedupm,CLEAR,#rapto,RETURN,#rtrcto</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=fedrat, csink_mode=off</Line>
+    <Line>CYCLE/BORE,DEPTH,#fedto,IPR,#fedupm,CLEAR,#rapto,RETURN</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=fedrat, csink_mode=off</Line>
+    <Line>$$ Bore CYCLE with DWELL in IPR</Line>
+    <Line>CYCLE/BORE,DEPTH,#fedto,IPR,#fedupm,DWELL,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=fedrat, csink_mode=off</Line>
+    <Line>CYCLE/BORE,DEPTH,#fedto,IPR,#fedupm,CLEAR,#rapto,DWELL,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=fedrat, csink_mode=off</Line>
+    <Line>CYCLE/BORE,DEPTH,#fedto,IPR,#fedupm,CLEAR,#rapto,RAPTO,#,DWELL,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=fedrat, csink_mode=off</Line>
+    <Line>CYCLE/BORE,DEPTH,#fedto,IPR,#fedupm,CLEAR,#rapto,RETURN,#rtrcto,DWELL,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=fedrat, csink_mode=off</Line>
+    <Line>CYCLE/BORE,DEPTH,#fedto,IPR,#fedupm,CLEAR,#rapto,RETURN,DWELL,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=fedrat, csink_mode=off</Line>
+    <Line>$$ Bore CYCLE with Orient in IPR</Line>
+    <Line>CYCLE/BORE,DEPTH,#fedto,IPR,#fedupm,ORIENT,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=fedrat, csink_mode=off</Line>
+    <Line>CYCLE/BORE,DEPTH,#fedto,IPR,#fedupm,CLEAR,#rapto,#,ORIENT,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=fedrat, csink_mode=off</Line>
+    <Line>CYCLE/BORE,DEPTH,#fedto,IPR,#fedupm,CLEAR,#rapto,#,ORIENT,#,RAPTO,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=fedrat, csink_mode=off</Line>
+    <Line>CYCLE/BORE,DEPTH,#fedto,IPR,#fedupm,CLEAR,#rapto,#,ORIENT,#,RETURN,#rtrcto</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=fedrat, csink_mode=off</Line>
+    <Line>CYCLE/BORE,DEPTH,#fedto,IPR,#fedupm,CLEAR,#rapto,#,ORIENT,#,RETURN</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=fedrat, csink_mode=off</Line>
+    <Line>$$ Bore CYCLE in MMPR</Line>
+    <Line>CYCLE/BORE,DEPTH,#fedto,MMPR,#fedupm</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=fedrat, csink_mode=off</Line>
+    <Line>CYCLE/BORE,DEPTH,#fedto,MMPR,#fedupm,CLEAR,#rapto</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=fedrat, csink_mode=off</Line>
+    <Line>CYCLE/BORE,DEPTH,#fedto,MMPR,#fedupm,CLEAR,#rapto,RAPTO,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=fedrat, csink_mode=off</Line>
+    <Line>CYCLE/BORE,DEPTH,#fedto,MMPR,#fedupm,CLEAR,#rapto,RETURN,#rtrcto</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=fedrat, csink_mode=off</Line>
+    <Line>CYCLE/BORE,DEPTH,#fedto,MMPR,#fedupm,CLEAR,#rapto,RETURN</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=fedrat, csink_mode=off</Line>
+    <Line>$$ Bore CYCLE in MMPR with DWELL</Line>
+    <Line>CYCLE/BORE,DEPTH,#fedto,MMPR,#fedupm,DWELL,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=fedrat, csink_mode=off</Line>
+    <Line>CYCLE/BORE,DEPTH,#fedto,MMPR,#fedupm,CLEAR,#rapto,DWELL,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=fedrat, csink_mode=off</Line>
+    <Line>CYCLE/BORE,DEPTH,#fedto,MMPR,#fedupm,CLEAR,#rapto,RAPTO,#,DWELL,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=fedrat, csink_mode=off</Line>
+    <Line>CYCLE/BORE,DEPTH,#fedto,MMPR,#fedupm,CLEAR,#rapto,RETURN,#rtrcto,DWELL,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=fedrat, csink_mode=off</Line>
+    <Line>CYCLE/BORE,DEPTH,#fedto,MMPR,#fedupm,CLEAR,#rapto,RETURN,DWELL,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=fedrat, csink_mode=off</Line>
+    <Line>$$ Bore CYCLE in MMPR with Orient</Line>
+    <Line>CYCLE/BORE,DEPTH,#fedto,MMPR,#fedupm,ORIENT,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=fedrat, csink_mode=off</Line>
+    <Line>CYCLE/BORE,DEPTH,#fedto,MMPR,#fedupm,CLEAR,#rapto,#,ORIENT,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=fedrat, csink_mode=off</Line>
+    <Line>CYCLE/BORE,DEPTH,#fedto,MMPR,#fedupm,CLEAR,#rapto,#,ORIENT,#,RAPTO,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=fedrat, csink_mode=off</Line>
+    <Line>CYCLE/BORE,DEPTH,#fedto,MMPR,#fedupm,CLEAR,#rapto,#,ORIENT,#,RETURN,#rtrcto</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=fedrat, csink_mode=off</Line>
+    <Line>CYCLE/BORE,DEPTH,#fedto,MMPR,#fedupm,CLEAR,#rapto,#,ORIENT,#,RETURN</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=fedrat, csink_mode=off</Line>
+    <Line>$$ Countersink CYCLE in IPR</Line>
+    <Line>CYCLE/CSINK,DIAMET,#cskdia,TLANGL,#tlangl,IPR,#fedupm</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=on</Line>
+    <Line>CYCLE/CSINK,DIAMET,#cskdia,TLANGL,#tlangl,IPR,#fedupm,CLEAR,#rapto</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=on</Line>
+    <Line>CYCLE/CSINK,DIAMET,#cskdia,TLANGL,#tlangl,IPR,#fedupm,CLEAR,#rapto,RAPTO,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=on</Line>
+    <Line>CYCLE/CSINK,DIAMET,#cskdia,TLANGL,#tlangl,IPR,#fedupm,CLEAR,#rapto,RETURN,#rtrcto</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=on</Line>
+    <Line>CYCLE/CSINK,DIAMET,#cskdia,TLANGL,#tlangl,IPR,#fedupm,CLEAR,#rapto,RETURN</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=on</Line>
+    <Line>$$ Countersink CYCLE with DWELL in IPR</Line>
+    <Line>CYCLE/CSINK,DIAMET,#cskdia,TLANGL,#tlangl,IPR,#fedupm,DWELL,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=on</Line>
+    <Line>CYCLE/CSINK,DIAMET,#cskdia,TLANGL,#tlangl,IPR,#fedupm,CLEAR,#rapto,DWELL,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=on</Line>
+    <Line>CYCLE/CSINK,DIAMET,#cskdia,TLANGL,#tlangl,IPR,#fedupm,CLEAR,#rapto,RAPTO,#,DWELL,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=on</Line>
+    <Line>CYCLE/CSINK,DIAMET,#cskdia,TLANGL,#tlangl,IPR,#fedupm,CLEAR,#rapto,RETURN,#rtrcto,DWELL,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=on</Line>
+    <Line>CYCLE/CSINK,DIAMET,#cskdia,TLANGL,#tlangl,IPR,#fedupm,CLEAR,#rapto,RETURN,DWELL,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=on</Line>
+    <Line>$$ Countersink CYCLE with DWELL per rev in IPR</Line>
+    <Line>CYCLE/CSINK,DIAMET,#cskdia,TLANGL,#tlangl,IPR,#fedupm,REV,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=on</Line>
+    <Line>CYCLE/CSINK,DIAMET,#cskdia,TLANGL,#tlangl,IPR,#fedupm,CLEAR,#rapto,REV,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=on</Line>
+    <Line>CYCLE/CSINK,DIAMET,#cskdia,TLANGL,#tlangl,IPR,#fedupm,CLEAR,#rapto,RAPTO,#,REV,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=on</Line>
+    <Line>CYCLE/CSINK,DIAMET,#cskdia,TLANGL,#tlangl,IPR,#fedupm,CLEAR,#rapto,RETURN,#rtrcto,REV,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=on</Line>
+    <Line>CYCLE/CSINK,DIAMET,#cskdia,TLANGL,#tlangl,IPR,#fedupm,CLEAR,#rapto,RETURN,REV,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=on</Line>
+    <Line>$$ Countersink CYCLE in MMPR</Line>
+    <Line>CYCLE/CSINK,DIAMET,#cskdia,TLANGL,#tlangl,MMPR,#fedupm</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=on</Line>
+    <Line>CYCLE/CSINK,DIAMET,#cskdia,TLANGL,#tlangl,MMPR,#fedupm,CLEAR,#rapto</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=on</Line>
+    <Line>CYCLE/CSINK,DIAMET,#cskdia,TLANGL,#tlangl,MMPR,#fedupm,CLEAR,#rapto,RAPTO,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=on</Line>
+    <Line>CYCLE/CSINK,DIAMET,#cskdia,TLANGL,#tlangl,MMPR,#fedupm,CLEAR,#rapto,RETURN,#rtrcto</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=on</Line>
+    <Line>CYCLE/CSINK,DIAMET,#cskdia,TLANGL,#tlangl,MMPR,#fedupm,CLEAR,#rapto,RETURN</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=on</Line>
+    <Line>$$ Countersink CYCLE in MMPR with DWELL</Line>
+    <Line>CYCLE/CSINK,DIAMET,#cskdia,TLANGL,#tlangl,MMPR,#fedupm,DWELL,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=on</Line>
+    <Line>CYCLE/CSINK,DIAMET,#cskdia,TLANGL,#tlangl,MMPR,#fedupm,CLEAR,#rapto,DWELL,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=on</Line>
+    <Line>CYCLE/CSINK,DIAMET,#cskdia,TLANGL,#tlangl,MMPR,#fedupm,CLEAR,#rapto,RAPTO,#,DWELL,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=on</Line>
+    <Line>CYCLE/CSINK,DIAMET,#cskdia,TLANGL,#tlangl,MMPR,#fedupm,CLEAR,#rapto,RETURN,#rtrcto,DWELL,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=on</Line>
+    <Line>CYCLE/CSINK,DIAMET,#cskdia,TLANGL,#tlangl,MMPR,#fedupm,CLEAR,#rapto,RETURN,DWELL,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=on</Line>
+    <Line>$$ Countersink CYCLE in MMPR with DWELL per rev</Line>
+    <Line>CYCLE/CSINK,DIAMET,#cskdia,TLANGL,#tlangl,MMPR,#fedupm,REV,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=on</Line>
+    <Line>CYCLE/CSINK,DIAMET,#cskdia,TLANGL,#tlangl,MMPR,#fedupm,CLEAR,#rapto,REV,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=on</Line>
+    <Line>CYCLE/CSINK,DIAMET,#cskdia,TLANGL,#tlangl,MMPR,#fedupm,CLEAR,#rapto,RAPTO,#,REV,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=on</Line>
+    <Line>CYCLE/CSINK,DIAMET,#cskdia,TLANGL,#tlangl,MMPR,#fedupm,CLEAR,#rapto,RETURN,#rtrcto,REV,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=on</Line>
+    <Line>CYCLE/CSINK,DIAMET,#cskdia,TLANGL,#tlangl,MMPR,#fedupm,CLEAR,#rapto,RETURN,REV,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=on</Line>
+    <Line>$$ Tap CYCLE in IPR</Line>
+    <Line>CYCLE/TAP,DEPTH,#fedto,IPR,#fedupm</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=fedrat, csink_mode=off</Line>
+    <Line>CYCLE/TAP,DEPTH,#fedto,IPR,#fedupm,CLEAR,#rapto</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=fedrat, csink_mode=off</Line>
+    <Line>CYCLE/TAP,DEPTH,#fedto,IPR,#fedupm,CLEAR,#rapto,RAPTO,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=fedrat, csink_mode=off</Line>
+    <Line>CYCLE/TAP,DEPTH,#fedto,IPR,#fedupm,CLEAR,#rapto,RETURN,#rtrcto</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=fedrat, csink_mode=off</Line>
+    <Line>CYCLE/TAP,DEPTH,#fedto,IPR,#fedupm,CLEAR,#rapto,RETURN</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=fedrat, csink_mode=off</Line>
+    <Line>$$ Tap CYCLE with Invers in IPR</Line>
+    <Line>CYCLE/TAP,DEPTH,#fedto,IPR,#fedupm,INVERS</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=fedrat, csink_mode=off</Line>
+    <Line>CYCLE/TAP,DEPTH,#fedto,IPR,#fedupm,CLEAR,#rapto,INVERS</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=fedrat, csink_mode=off</Line>
+    <Line>CYCLE/TAP,DEPTH,#fedto,IPR,#fedupm,CLEAR,#rapto,INVERS,RAPTO,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=fedrat, csink_mode=off</Line>
+    <Line>CYCLE/TAP,DEPTH,#fedto,IPR,#fedupm,CLEAR,#rapto,INVERS,RETURN,#rtrcto</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=fedrat, csink_mode=off</Line>
+    <Line>CYCLE/TAP,DEPTH,#fedto,IPR,#fedupm,CLEAR,#rapto,INVERS,RETURN</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=fedrat, csink_mode=off</Line>
+    <Line>$$ Tap CYCLE in MMPR</Line>
+    <Line>CYCLE/TAP,DEPTH,#fedto,MMPR,#fedupm</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=fedrat, csink_mode=off</Line>
+    <Line>CYCLE/TAP,DEPTH,#fedto,MMPR,#fedupm,CLEAR,#rapto</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=fedrat, csink_mode=off</Line>
+    <Line>CYCLE/TAP,DEPTH,#fedto,MMPR,#fedupm,CLEAR,#rapto,RAPTO,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=fedrat, csink_mode=off</Line>
+    <Line>CYCLE/TAP,DEPTH,#fedto,MMPR,#fedupm,CLEAR,#rapto,RETURN,#rtrcto</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=fedrat, csink_mode=off</Line>
+    <Line>CYCLE/TAP,DEPTH,#fedto,MMPR,#fedupm,CLEAR,#rapto,RETURN</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=fedrat, csink_mode=off</Line>
+    <Line>$$ Tap CYCLE with Invers in MMPR</Line>
+    <Line>CYCLE/TAP,DEPTH,#fedto,MMPR,#fedupm,INVERS</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=fedrat, csink_mode=off</Line>
+    <Line>CYCLE/TAP,DEPTH,#fedto,MMPR,#fedupm,CLEAR,#rapto,INVERS</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=fedrat, csink_mode=off</Line>
+    <Line>CYCLE/TAP,DEPTH,#fedto,MMPR,#fedupm,CLEAR,#rapto,INVERS,RAPTO,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=fedrat, csink_mode=off</Line>
+    <Line>CYCLE/TAP,DEPTH,#fedto,MMPR,#fedupm,CLEAR,#rapto,INVERS,RETURN,#rtrcto</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=fedrat, csink_mode=off</Line>
+    <Line>CYCLE/TAP,DEPTH,#fedto,MMPR,#fedupm,CLEAR,#rapto,INVERS,RETURN</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=fedrat, csink_mode=off</Line>
+    <Line>$$ Ream CYCLE in IPR</Line>
+    <Line>CYCLE/REAM,DEPTH,#fedto,IPR,#fedupm</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=off</Line>
+    <Line>CYCLE/REAM,DEPTH,#fedto,IPR,#fedupm,CLEAR,#rapto</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=off</Line>
+    <Line>CYCLE/REAM,DEPTH,#fedto,IPR,#fedupm,CLEAR,#rapto,RAPTO,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=off</Line>
+    <Line>CYCLE/REAM,DEPTH,#fedto,IPR,#fedupm,CLEAR,#rapto,RETURN,#rtrcto</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=off</Line>
+    <Line>CYCLE/REAM,DEPTH,#fedto,IPR,#fedupm,CLEAR,#rapto,RETURN</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=off</Line>
+    <Line>$$ Ream CYCLE with DWELL in IPR</Line>
+    <Line>CYCLE/REAM,DEPTH,#fedto,IPR,#fedupm,DWELL,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=off</Line>
+    <Line>CYCLE/REAM,DEPTH,#fedto,IPR,#fedupm,CLEAR,#rapto,DWELL,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=off</Line>
+    <Line>CYCLE/REAM,DEPTH,#fedto,IPR,#fedupm,CLEAR,#rapto,RAPTO,#,DWELL,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=off</Line>
+    <Line>CYCLE/REAM,DEPTH,#fedto,IPR,#fedupm,CLEAR,#rapto,RETURN,#rtrcto,DWELL,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=off</Line>
+    <Line>CYCLE/REAM,DEPTH,#fedto,IPR,#fedupm,CLEAR,#rapto,RETURN,DWELL,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=off</Line>
+    <Line>$$ Ream CYCLE in MMPR</Line>
+    <Line>CYCLE/REAM,DEPTH,#fedto,MMPR,#fedupm</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=off</Line>
+    <Line>CYCLE/REAM,DEPTH,#fedto,MMPR,#fedupm,CLEAR,#rapto</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=off</Line>
+    <Line>CYCLE/REAM,DEPTH,#fedto,MMPR,#fedupm,CLEAR,#rapto,RAPTO,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=off</Line>
+    <Line>CYCLE/REAM,DEPTH,#fedto,MMPR,#fedupm,CLEAR,#rapto,RETURN,#rtrcto</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=off</Line>
+    <Line>CYCLE/REAM,DEPTH,#fedto,MMPR,#fedupm,CLEAR,#rapto,RETURN</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=off</Line>
+    <Line>$$ Ream CYCLE in MMPR with DWELL</Line>
+    <Line>CYCLE/REAM,DEPTH,#fedto,MMPR,#fedupm,DWELL,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=off</Line>
+    <Line>CYCLE/REAM,DEPTH,#fedto,MMPR,#fedupm,CLEAR,#rapto,DWELL,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=off</Line>
+    <Line>CYCLE/REAM,DEPTH,#fedto,MMPR,#fedupm,CLEAR,#rapto,RAPTO,#,DWELL,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=off</Line>
+    <Line>CYCLE/REAM,DEPTH,#fedto,MMPR,#fedupm,CLEAR,#rapto,RETURN,#rtrcto,DWELL,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=off</Line>
+    <Line>CYCLE/REAM,DEPTH,#fedto,MMPR,#fedupm,CLEAR,#rapto,RETURN,DWELL,#</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=off</Line>
+    <Line>$$ A Few Pro/E Fixed Cycle Formats in per min feed mode</Line>
+    <Line>$$ Fixed Drill CYCLE</Line>
+    <Line>CYCLE/DRILL,#fedto,#fedupm,IPM,#rapto</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=off</Line>
+    <Line>$$ Fixed Drill CYCLE in MMPM</Line>
+    <Line>CYCLE/DRILL,#fedto,#fedupm,MMPM,#rapto</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=off</Line>
+    <Line>$$ Fixed Deep Drill CYCLE with increment value</Line>
+    <Line>CYCLE/DEEP,#fedto,#fedupm,IPM,#rapto,#step</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, deep_retract=on, csink_mode=off</Line>
+    <Line>$$ Fixed Deep Drill CYCLE with increment value in MMPM</Line>
+    <Line>CYCLE/DEEP,#fedto,#fedupm,MMPM,#rapto,#step</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, deep_retract=on, csink_mode=off</Line>
+    <Line>$$ Fixed Tap CYCLE in threads per in</Line>
+    <Line>CYCLE/TAP,#fedto,#fedupm,TPI,#rapto</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=fedrat, csink_mode=off</Line>
+    <Line>$$ Fixed Tap CYCLE in threads per mm</Line>
+    <Line>CYCLE/TAP,#fedto,#fedupm,TPMM,#rapto</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=fedrat, csink_mode=off</Line>
+    <Line>$$ A Few Pro/E Fixed Cycle Formats in per rev feed mode</Line>
+    <Line>$$ Fixed Drill CYCLE in IPR</Line>
+    <Line>CYCLE/DRILL,#fedto,#fedupm,IPR,#rapto</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=off</Line>
+    <Line>$$ Fixed Drill CYCLE in MMPR</Line>
+    <Line>CYCLE/DRILL,#fedto,#fedupm,MMPR,#rapto</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, csink_mode=off</Line>
+    <Line>$$ Fixed Deep Drill CYCLE with increment value in IPR</Line>
+    <Line>CYCLE/DEEP,#fedto,#fedupm,IPR,#rapto,#step</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, deep_retract=on, csink_mode=off</Line>
+    <Line>$$ Fixed Deep Drill CYCLE with increment value in MMPR</Line>
+    <Line>CYCLE/DEEP,#fedto,#fedupm,MMPR,#rapto,#step</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=rapid, deep_retract=on, csink_mode=off</Line>
+    <Line>$$ Fixed Tap CYCLE in inch per rev</Line>
+    <Line>CYCLE/TAP,#fedto,#fedupm,IPR,#rapto</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=fedrat, csink_mode=off</Line>
+    <Line>$$ Fixed Tap CYCLE in mm per rev</Line>
+    <Line>CYCLE/TAP,#fedto,#fedupm,MMPR,#rapto</Line>
+    <Line>MODALS: cycle_op=on, retract_mode=fedrat, csink_mode=off</Line>
+  </Cycles>
+  <AutoDiff Method="solid" Type="gouge" Report="on" Uncut="off" Vectors="off">
+    <Stock Name="" Display="off" Type="solid"/>
+    <Design Display="off" Type="solid" Check="on" Keep="on"/>
+    <Constant Gouge="on" Tol="0.1" Excess="off" Minimum="0.1"/>
+    <Solid>
+      <Gouge Tol="0.1" Hue="0"/>
+      <Excess Tol="0.1" Hue="4"/>
+    </Solid>
+    <Surface>
+      <Gouge Value="5" Hue="4"/>
+      <Gouge Value="0.6" Hue="0"/>
+      <Gouge Value="0.5" Hue="5"/>
+      <Gouge Value="0.4" Hue="3"/>
+      <Gouge Value="0.3" Hue="2"/>
+      <Gouge Value="0.2" Hue="1"/>
+      <Gouge Value="0.1" Hue="6"/>
+      <Gouge Value="0" Hue="4"/>
+      <Excess Value="5" Hue="4"/>
+      <Excess Value="0.6" Hue="0"/>
+      <Excess Value="0.5" Hue="5"/>
+      <Excess Value="0.4" Hue="3"/>
+      <Excess Value="0.3" Hue="2"/>
+      <Excess Value="0.2" Hue="1"/>
+      <Excess Value="0.1" Hue="6"/>
+      <Excess Value="0" Hue="4"/>
+      <Minimum Check="off" Tol="0" Hue="0"/>
+    </Surface>
+    <Point>
+      <Gouge Tol="0.02" Distance="13"/>
+      <Excess Tol="0.02" Distance="13"/>
+      <Normal X="0" Y="0" Z="1" Direction="out"/>
+    </Point>
+    <Profile>
+      <Gouge Tol="0.4" Hue="0"/>
+      <Excess Tol="0.4" Hue="4"/>
+    </Profile>
+    <Region Limits="off" Entire="off" Improve="off">
+      <Minimum X="0" Y="0" Z="0"/>
+      <Maximum X="1" Y="1" Z="1"/>
+    </Region>
+  </AutoDiff>
+  <Setup Name="1" Active="on">
+    <Property Export="off" StockCheck="off">
+      <Tolerance Model="0.25" NURBS="0.05" Volume="0.5"/>
+      <Cutting Base="tool" Tol="0.25"/>
+      <Review DoReview="on" DoMaterial="off" DoMachine="off" DoCutConditions="off"/>
+    </Property>
+    <Report>
+      <File></File>
+    </Report>
+    <Views Layout="tile vertically">
+      <View Name="VIEW 1" Type="workpiece"
+       Back="shaded" Draw="shaded" Trans="off">
+        <Light I="0" J="0" K="1"/>
+        <Attach>Stock 1</Attach>
+        <Rotation I="-26.23" J="1.432" K="20.639"/>
+        <Port XMin="-179.285995204" XMax="239.930298173" YMin="-53.2009982559"
+         YMax="169.774663376" ZMin="-281.912162669" ZMax="197.215649853"/>
+        <Location X="0" Y="0" Width="100" Height="100" Front="0" Order="1"/>
+        <OpenGL Accel="off" Perspective="off" Angle="15" Clip="25" Translucency="100"/>
+      </View>
+      <File>floor.jpg</File>
+      <File>ceiling.jpg</File>
+      <File>x_wall.jpg</File>
+      <File>y_wall.jpg</File>
+    </Views>
+    <Section Mouse="off" Count="5" Delay="0" Start="0" End="-1">
+    </Section>
+    <Build Loose="keep">
+      <Component Name="Stock 1"
+       Subsystem="1"
+       Type="stock" Visible="workpiece" Draw="shaded" Hue="5">
+        <Attach>Attach</Attach>
+        <Position X="0" Y="0" Z="0"/>
+        <Rotation I="0" J="0" K="0"/>
+        <Poly Unit="millimeter" Visible="on" Mirror="Off" MirrorCsys="0" Hue="-1">
+          <File>P:\Desktop\Creo Manufacture3\MILL_WNIDOW_WRK_01_1.stk</File>
+          <Position X="0" Y="0" Z="0"/>
+          <Rotation I="0" J="0" K="0"/>
+        </Poly>
+      </Component>
+      <Component Name="CALIPER_HANGER_1"
+       Subsystem="1"
+       Type="design" Visible="workpiece" Draw="shaded" Hue="7">
+        <Attach>Attach</Attach>
+        <Position X="0" Y="0" Z="0"/>
+        <Rotation I="0" J="0" K="0"/>
+        <Poly Unit="millimeter" Visible="on" Mirror="Off" MirrorCsys="0" Hue="-1">
+          <File>P:\Desktop\Creo Manufacture3\CALIPER_HANGER_1.dsn</File>
+          <Position X="0" Y="0" Z="0"/>
+          <Rotation I="0" J="0" K="0"/>
+        </Poly>
+      </Component>
+      <MachineAttributes>
+        <Component Name="CALIPER_HANGER_1" Visible="workpiece" Count="1">
+          <Model Visible="on"/>
+        </Component>
+        <Component Name="Stock 1" Visible="workpiece" Count="2">
+          <Model Visible="on"/>
+          <Model Visible="on"/>
+        </Component>
+        <Component Name="Attach" Visible="machine" Count="0">
+        </Component>
+        <Component Name="Base" Visible="machine" Count="0">
+        </Component>
+      </MachineAttributes>
+    </Build>
+    <NCPrograms Type="Pro/Manufacturing_APT" Change="tool_num" List="tool_num">
+      <Init Flag="off"></Init>
+      <Over Flag="off"></Over>
+      <NCProgram Use="on" Filter="off">
+        <File>P:\Desktop\Creo Manufacture3\cgtpro.tp</File>
+        <Orient>none</Orient>
+        <Ident></Ident>
+      </NCProgram>
+    </NCPrograms>
+    <Filter Type="arc" Accel="off" Remove="off">
+      <File></File>
+      <Arc XY="on" YZ="on" XZ="on" Fit="0.01" Flat="0.0001"
+       Points="5" Small="0.1" Large="9999"/>
+      <NURBS Tol="0.01" Points="5" Order="4"/>
+    </Filter>
+    <ToolChange>
+    </ToolChange>
+    <Motion Fast="5000" Animation="off" Skip="0" SpinCheck="off" SpindleOn="off"
+     Cycle="full" MaxDist="100" MinMotionDist="0.1" MaxMotionDist="10" Removal="standard" LimitsCheck="off"
+     Angle="45" MinLimit="0.01" MaxLimit="0.01" Tol="0" AutoLoad="off"/>
+    <Tool CutterVisible="all" HolderVisible="all" Draw="translucent" Control="tip"
+     HolderStockCollision="on" HolderFixtureCollision="on" CutterFixtureCollision="on"
+     HolderStockNearMiss="0" HolderFixtureNearMiss="0" CutterFixtureNearMiss="0"
+     MinHeight="0" Clear="0" MinCalcKeep="off"/>
+    <GCode Prog="tool_tip" Init="on" Comp="off" Type="convert"
+     Column="0" Accel="off" Feed="0.2">
+      <Block Skip="/" Apply="immediate">
+        <Switch>on</Switch>
+        <Switch>on</Switch>
+        <Switch>on</Switch>
+        <Switch>on</Switch>
+        <Switch>on</Switch>
+        <Switch>on</Switch>
+        <Switch>on</Switch>
+        <Switch>on</Switch>
+        <Switch>on</Switch>
+        <Switch>on</Switch>
+      </Block>
+      <Wire XY="0" UV="25" Diameter="0.25"/>
+      <Output APT="off">
+        <APT></APT>
+        <Log></Log>
+      </Output>
+      <Modal Macro="mmDEBUG_OFFSETS" Value="mmNO_TEXT"/>
+      <Modal Macro="mmDEBUG_DELTA_INFO" Value="mmNO_TEXT"/>
+      <Modal Macro="mmDEBUG_RATE_CALCULATIONS" Value="mmNO_TEXT"/>
+      <Modal Macro="mmDEBUG_LOOP_LOGIC" Value="mmNO_TEXT"/>
+      <Modal Macro="mmDEBUG_MACRO_ARGS" Value="mmNO_TEXT"/>
+      <Modal Macro="mmDEBUG_INTERSECT_POINTS" Value="mmNO_TEXT"/>
+      <Modal Macro="mmDEBUG_CUTCOM_LOOK_AHEAD" Value="mmNO_TEXT"/>
+      <Modal Macro="mmDEBUG_CYCLE_VALUES" Value="mmNO_TEXT"/>
+      <Modal Macro="mmDEBUG_SUBSTITUTION" Value="mmNO_TEXT"/>
+      <Modal Macro="mmDEBUG_VARIABLES" Value="mmNO_TEXT"/>
+      <Modal Macro="mmDEBUG_TURNING" Value="mmNO_TEXT"/>
+      <Modal Macro="mmDEBUG_WIREDM" Value="mmNO_TEXT"/>
+      <Modal Macro="mmDEBUG_OPTIPATH" Value="mmNO_TEXT"/>
+      <Modal Macro="mmDEBUG_CONTROL_API" Value="mmNO_TEXT"/>
+      <Modal Macro="mmDEBUG_TIMING" Value="mmNO_TEXT"/>
+      <Modal Macro="mmDEBUG_ACTIVE_COMPONENTS" Value="mmNO_TEXT"/>
+      <Modal Macro="mmSEND_ERROR" Value="mmTO_LOG_N_SCREEN"/>
+      <Modal Macro="mmSEND_WARN" Value="mmTO_LOG"/>
+      <Modal Macro="mmSEND_INFO" Value="mmTO_LOG"/>
+      <Modal Macro="mmSEND_DEBUG" Value="mmTO_LOG"/>
+      <Modal Macro="mmSEND_MACRO_MODAL" Value="mmTO_LOG"/>
+      <Modal Macro="mmSEND_INPUT" Value="mmTO_LOG"/>
+      <Modal Macro="mmSEND_OUTPUT" Value="mmTO_OUTPUT_N_LOG"/>
+      <Modal Macro="mmOUTPUT_FILENAME_FORMAT" Value="mmLOCAL_FILENAME"/>
+      <Modal Macro="mmOUTPUT_SEQUENCE_NUMBERS" Value="mmYES_TEXT"/>
+      <Modal Macro="mmOUTPUT_WORD_NOT_DEFINED" Value="mmYES_TEXT"/>
+      <Modal Macro="mmDISPLAY_ERRORS_DURING_SCAN" Value="mmNO_TEXT"/>
+    </GCode>
+    <APT Machine="mill" Unit="millimeter" Multax="on" Clear="2500"
+     Rapid="linear" Major="warn">
+      <Angle Maximum="45" Reset="90"/>
+      <Circle Process="on" Reverse="off" Chords="off" FourAxis="off" Tolerance="0"/>
+      <Tool Reset="off"/>
+      <Matrix Process="off"/>
+      <Home Motion="from" Distance="600"/>
+      <Rotation Philosophy="table" Angle="relative" Direction="shortest"
+       Rotate="ignore" Rotabl="ignore" Rothed="ignore">
+        <Center X="0" Y="0" Z="0"/>
+      </Rotation>
+      <Turn>#zval, #xval</Turn>
+      <CycleSet>*</CycleSet>
+    </APT>
+    <CSystems Simulation="off">
+      <Machine>Orientation 1</Machine>
+      <CSystem Name="Orientation 1" Type="component" Visible="none" Color="-1" Transition="off">
+        <Attach></Attach>
+        <Position X="0" Y="0" Z="0"/>
+        <Rotation I="0" J="0" K="0"/>
+      </CSystem>
+    </CSystems>
+    <IP_SvFiles Count="0" IP_Project="">
+    </IP_SvFiles>
+    <ToolMan>
+      <Library>P:\Desktop\Creo Manufacture3\cgtpro.tls</Library>
+    </ToolMan>
+    <Control>
+      <File></File>
+      <VNCext VNCexternal="off"/>
+      <TNCkinematics Index="0"/>
+    </Control>
+    <Machine Simulation="on" Up="Z+">
+      <File></File>
+      <Collision Detect="off" Ignore="none">
+      </Collision>
+      <Travel Beyond="on" LogError="off" Hue="0"/>
+    </Machine>
+    <Inspect>
+    </Inspect>
+    <DieSink Animation="off" Speed="100">
+      <Stock Display="on" Type="solid"></Stock>
+      <Electrode Display="off" Type="solid"/>
+      <Burned Display="off" Type="solid"/>
+    </DieSink>
+    <OptiPath Over="100" AptDecimals="10">
+      <Output></Output>
+      <Material>MILL_WNIDOW_WRK_01</Material>
+      <Machine>3-AXIS</Machine>
+      <Learn Append="off" Update="off" Reset="off" Change="-1"
+       Clean="-1" Minimum="-1" Maximum="-1" Air="-1">
+        <Library></Library>
+      </Learn>
+    </OptiPath>
+    <SetupPlans>
+    </SetupPlans>
+  </Setup>
+  <Thumbnail Width="128" Height="68" Format="rrggbb">
+383f47383f47383f47383f47383f47383f47383f47383f47383f47383f47383f47383f47383f47383f47383f47383f47
+383f47383f47383f47383f47383f47383f47383f47383f47383f47383f47383f47383f47383f47383f47383f47383f47
+383f47383f47383f47383f47383f47383f47383f47383f47383f47383f47383f47383f47383f47383f47383f47383f47
+383f47383f47383f47383f47383f47383f47383f47383f47383f47383f47383f47383f47383f47383f47383f47383f47
+383f47383f47383f47383f47383f47383f47383f47383f47383f47383f47383f47383f47383f47383f47383f47383f47
+383f47383f47383f47383f47383f47383f47383f47383f47383f47383f47383f47383f47383f47383f47383f47383f47
+383f47383f47383f47383f47383f47383f47383f47383f47383f47383f47383f47383f47383f47383f47383f47383f47
+383f47383f47383f47383f47383f47383f47383f47383f47383f47383f47383f47383f47383f47383f47383f47383f47
+3a414a3a414a3a414a3a414a3a414a3a414a3a414a3a414a3a414a3a414a3a414a3a414a3a41493a414a3a414a3a414a
+3a414a3a414a3a414a3a414a3a414a3a414a3a414a3a414a3a414a3a414a3a414a3a414a3a414a3a414a3a414a3a414a
+3a414a3a414a3a41493a414a3a414a3a414a3a414a3a414a3a414a3a414a3a414a3a414a3a414a3a414a3a414a3a414a
+3a414a3a414a3a414a3a414a3a414a3a414a3a414a3a41493a414a3a414a3a414a3a414a3a414a3a414a3a414a3a414a
+3a414a3a414a3a41493a414a3a414a3a414a3a414a3a414a3a414a3a414a3a414a3a414a3a414a3a414a3a414a3a414a
+3a414a3a414a3a414a3a414a3a414a3a414a3a414a3a414a3a414a3a414a3a414a3a414a3a414a3a41493a414a3a414a
+3a414a3a414a3a41493a414a3a414a3a414a3a414a3a414a3a41493a414a3a414a3a414a3a414a3a41493a414a3a414a
+3a414a3a414a3a414a3a414a3a414a3a414a3a414a3a414a3a414a3a414a3a414a3a414a3a414a3a414a3a414a3a414a
+3c434c3c434c3c434c3c434c3c434c3c434c3c434c3c434c3c434c3c434c3c434c3c434c3c434c3c434c3c434c3c434c
+3c434c3c434c3c434c3c434c3c434c3c434c3c434c3c434c3c434c3c434c3c434c3c434c3c434c3c434c3c434c3c434c
+3c434c3c434c3c434c3c434c3c434c3c434c3c434c3c434c3c434c3c434c3c434c3c434c3c434c3c434c3c434c3c434c
+3c434c3c434c3c434c3c434c3c434c3c434c3c434c3c434c3c434c3c434c3c434c3c434c3c434c3c434c3c434c3c434c
+3c434c3c434c3c434c3c434c3c434c3c434c3c434c3c434c3c434c3c434c3c434c3c434c3c434c3c434c3c434c3c434c
+3c434c3c434c3c434c3c434c3c434c3c434c3c434c3c434c3c434c3c434c3c434c3c434c3c434c3c434c3c434c3c434c
+3c434c3c434c3c434c3c434c3c434c3c434c3c434c3c434c3c434c3c434c3c434c3c434c3c434c3c434c3c434c3c434c
+3c434c3c434c3c434c3c434c3c434c3c434c3c434c3c434c3c434c3c434c3c434c3c434c3c434c3c434c3c434c3c434c
+3e454e3d444e3d444e3d444e3d444e3d444e3d444e3e454e3e454e3d444e3d444e3d444e3e454e3d444e3d444e3d444e
+3d444e3d444e3d444e3e454e3d444e3d444e3e454e3d444e3d444e3d444e3e454e3d444e3d444e3e454e3d444e3d444e
+3e454e3e454e3d444e3e454e3d444e3d444e3d444e3e454e3d444e3d444e3d444e3d444e3e454e3d444e3e454e3d444e
+3d444e3e454e3d444e3d444e3d444e3e454e3d444e3e454e3d444e3d444e3d444e3d444e3e454e3d444e3e454e3d444e
+3e454e3d444e3e454e3e454e3d444e3d444e3e454e3e454e3d444e3d444e3d444e3e454e3d444e3d444e3e454e3d444e
+3e454e3d444e3e454e3d444e3e454e3d444e3d444e3e454e3d444e3d444e3d444e3e454e3d444e3e454e3d444e3d444e
+3d444e3d444e3e454e3d444e3d444e3e454e3e454e3d444e3e454e3e454e3d444e3e454e3d444e3d444e3d444e3d444e
+3d444e3e454e3e454e3d444e3e454e3d444e3d444e3d444e3e454e3d444e3d444e3d444e3d444e3e454e3e454e3d444e
+3f46503f46503f46503f46503f46503f46503f46503f46503f46503f46503f46503f46503f46503f46503f46503f4650
+3f46503f46503f46503f46503f46503f46503f46503f46503f46503f46503f46503f46503f46503f46503f46503f4650
+3f46503f46503f46503f46503f46503f46503f46503f46503f46503f46503f46503f46503f46503f46503f46503f4650
+3f46503f46503f46503f46503f46503f46503f46503f46503f46503f46503f46503f46503f46503f46503f46503f4650
+3f46503f46503f46503f46503f46503f46503f46503f46503f46503f46503f46503f46503f46503f46503f46503f4650
+3f46503f46503f46503f46503f46503f46503f46503f46503f46503f46503f46503f46503f46503f46503f46503f4650
+3f46503f46503f46503f46503f46503f46503f46503f46503f46503f46503f46503f46503f46503f46503f46503f4650
+3f46503f46503f46503f46503f46503f46503f46503f46503f46503f46503f46503f46503f46503f46503f46503f4650
+414852414852414852414852414852414852414852414852414852414852414852414852414852414852414852414852
+414852414852414852414852414852414852414852414852414852414852414852414852414852414852414852414852
+414852414852414852414852414852414852414852414852414852414852414852414852414852414852414852414852
+414852414852414852414852414852414852414852414852414852414852414852414852414852414852414852414852
+414852414852414852414852414852414852414852414852414852414852414852414852414852414852414852414852
+414852414852414852414852414852414852414852414852414852414852414852414852414852414852414852414852
+414852414852414852414852414852414852414852414852414852414852414852414852414852414852414852414852
+414852414852414852414852414852414852414852414852414852414852414852414852414852414852414852414852
+434a54434a54434a54434a54434a54434a54434a54434a54434a54434a54434a54434a54434a54434a54434a54434a54
+434a54434a54434a54434a54434a54434a54434a54434a54434a54434a54434a54434a54434a54434a54434a54434a54
+434a54434a54434a54434a54434a54434a54434a54434a54434a54434a54434a54434a54434a54434a54434a54434a54
+434a54434a54434a54434a54434a54434a54434a54434a54434a54434a54434a54434a54434a54434a54434a54434a54
+434a54434a54434a54434a54434a54434a54434a54434a54434a54434a54434a54434a54434a54434a54434a54434a54
+434a54434a54434a54434a54434a54434a54434a54434a54434a54434a54434a54434a54434a54434a54434a54434a54
+434a54434a54434a54434a54434a54434a54434a54434a54434a54434a54434a54434a54434a54434a54434a54434a54
+434a54434a54434a54434a54434a54434a54434a54434a54434a54434a54434a54434a54434a54434a54434a54434a54
+444c57444c57444c57444c57444c57444c57444c57444c57444c57444c57444c57444c57444c57444c57444c57444c57
+444c57444c57444c57444c57444c57444c57444c57444c57444c57444c57444c57444c57444c57444c57444c57444c57
+444c57444c57444c57444c57444c57444c57444c57444c57444c57444c57444c57444c57444c57444c57444c57444c57
+444c57444c57444c57444c57444c57444c57444c57444c57444c57444c57444c57444c57444c57444c57444c57444c57
+444c57444c57444c57444c57444c57444c57444c57444c57444c57444c57444c57444c57444c57444c57444c57444c57
+444c57444c57444c57444c57444c57444c57444c57444c57444c57444c57444c57444c57444c57444c57444c57444c57
+444c57444c57444c57444c57444c57444c57444c57444c57444c57444c57444c57444c57444c57444c57444c57444c57
+444c57444c57444c57444c57444c57444c57444c57444c57444c57444c57444c57444c57444c57444c57444c57444c57
+464e59464e59464e59464e59464e59464e59464e59464e59464e59464e59464e59464e59464e59464e59464e59464e59
+464e59464e59464e59464e59464e59464e59464e59464e59464e59464e59464e59464e59464e59464e59464e59464e59
+464e59464e59464e59464e59464e59464e59464e59464e59464e59464e59464e59464e59464e59464e59464e59464e59
+464e59464e59464e59464e59464e59464e59464e59464e59464e59464e59464e59464e59464e59464e59464e59464e59
+464e59464e59464e59464e59464e59464e59464e59464e59464e59464e59464e59464e59464e59464e59464e59464e59
+464e59464e59464e59464e59464e59464e59464e59464e59464e59464e59464e59464e59464e59464e59464e59464e59
+464e59464e59464e59464e59464e59464e59464e59464e59464e59464e59464e59464e59464e59464e59464e59464e59
+464e59464e59464e59464e59464e59464e59464e59464e59464e59464e59464e59464e59464e59464e59464e59464e59
+48505b48505b48505b48505b48505b48505b48505b48505b48505b48505b48505b48505b48505b48505b48505b48505b
+48505b48505b48505b48505b48505b48505b48505b48505b48505b48505b48505b48505b48505b48505b48505b48505b
+48505b48505b48505b48505b48505b48505b48505b48505b48505b48505b48505b48505b48505b48505b48505b48505b
+48505b48505b48505b48505b48505b48505b48505b48505b48505b48505b48505b48505b48505b48505b48505b48505b
+48505b48505b48505b48505b48505b48505b48505b48505b48505b48505b48505b48505b48505b48505b48505b48505b
+48505b48505b48505b48505b48505b48505b48505b48505b48505b48505b48505b48505b48505b48505b48505b48505b
+48505b48505b48505b48505b48505b48505b48505b48505b48505b48505b48505b48505b48505b48505b48505b48505b
+48505b48505b48505b48505b48505b48505b48505b48505b48505b48505b48505b48505b48505b48505b48505b48505b
+4a525d4a525d4a525d4a525d4a525d4a525d4a525d4a525d4a525d4a525d4a525d4a525d4a525d4a525d4a525d4a525d
+4a525d4a525d4a525d4a525d4a525d4a525d4a525d4a525d4a525d4a525d4a525d4a525d4a525d4a525d4a525d4a525d
+4a525d4a525d4a525d4a525d4a525d4a525d4a525d4a525d4a525d4a525d4a525d4a525d4a525d4a525d4a525d4a525d
+4a525d4a525d4a525d4a525d4a525d4a525d4a525d4a525d4a525d4a525d4a525d4a525d4a525d4a525d4a525d4a525d
+4a525d4a525d4a525d4a525d4a525d4a525d4a525d4a525d4a525d4a525d4a525d4a525d4a525d4a525d4a525d4a525d
+4a525d4a525d4a525d4a525d4a525d4a525d4a525d4a525d4a525d4a525d4a525d4a525d4a525d4a525d4a525d4a525d
+4a525d4a525d4a525d4a525d4a525d4a525d4a525d4a525d4a525d4a525d4a525d4a525d4a525d4a525d4a525d4a525d
+4a525d4a525d4a525d4a525d4a525d4a525d4a525d4a525d4a525d4a525d4a525d4a525d4a525d4a525d4a525d4a525d
+4c55604c55604c55604c55604c55604c55604c55604c55604c55604c55604c55604c55604c55604c55604c55604c5560
+4c55604c55604c55604c55604c55604c55604c55604c55604c55604c55604c55604c55604c55604c55604c55604c5560
+4c55604c55604c55604c55604c55604c55604c55604c55604c55604c55604c55604c55604c55604c55604c55604c5560
+4c55604c55604c55604c55604c55604c55604c55604c55604c55604c55604c55604c55604c55604c55604c55604c5560
+4c55604c55604c55604c55604c55604c55604c55604c55604c55604c55604c55604c55604c55604c55604c55604c5560
+4c55604c55604c55604c55604c55604c55604c55604c55604c55604c55604c55604c55604c55604c55604c55604c5560
+4c55604c55604c55604c55604c55604c55604c55604c55604c55604c55604c55604c55604c55604c55604c55604c5560
+4c55604c55604c55604c55604c55604c55604c55604c55604c55604c55604c55604c55604c55604c55604c55604c5560
+4e57624e57624e57624e57624e57624e57624e57624e57624e57624e57624e57624e57624e57624e57624e57624e5762
+4e57624e57624e57624e57624e57624e57624e57624e57624e57624e57624e57624e57624e57624e57624e57624e5762
+4e57624e57624e57624e57624e57624e57624e57624e57624e57624e57624e57624e57624e57624e57624e57624e5762
+4e57624e57624e57624e57624e57624e57624e57624e57624e57624e57624e57624e57624e57624e57624e57624e5762
+4e57624e57624e57624e57624e57624e57624e57624e57624e57624e57624e57624e57624e57624e57624e57624e5762
+4e57624e57624e57624e57624e57624e57624e57624e57624e57624e57624e57624e57624e57624e57624e57624e5762
+4e57624e57624e57624e57624e57624e57624e57624e57624e57624e57624e57624e57624e57624e57624e57624e5762
+4e57624e57624e57624e57624e57624e57624e57624e57624e57624e57624e57624e57624e57624e57624e57624e5762
+4f58644f58644f58644f58644f58644f58644f58645059644f58644f58644f58644f58644f58644f58644f58644f5864
+4f58644f58644f58645059644f58644f58644f58644f58644f58644f58645059644f58645059644f58645059644f5864
+4f58644f58644f58644f58645059644f58644f58644f58644f58644f58644f58644f58645059644f58644f58644f5864
+4f58644f58644f58644f58644f58644f58644f58644f58644f58644f58644f58644f58644f58644f58644f58644f5864
+4f58644f58644f58644f58644f58644f58644f58644f58644f58644f58644f58644f58644f58644f58644f5864505964
+4f58644f58644f58644f58644f58644f58644f58644f58644f58644f58644f58644f58644f58644f58644f58644f5864
+4f58644f58644f58644f58644f58644f58644f58644f58644f58644f58644f58644f58644f58644f58644f5864505964
+4f58644f58644f58644f58644f58644f58644f58644f58644f58644f58644f58644f58644f58644f58644f58644f5864
+515a66515a66515a66515a66515a66515a66515a66515a66515a66515a66515a66515a66515a66515a66515a66515a66
+515a66515a66515a66515a66515a66515a66515a66515a66515a66515a66515a66515a66515a66515a66515a66515a66
+515a66515a66515a66515a66515a66515a66515a66515a66515a66515a66515a66515a66515a66515a66515a66515a66
+515a66515a66515a66515a66515a66515a66515a66515a66515a66515a66515a66515a66515a66515a66515a66515a66
+515a66515a66515a66515a66515a66515a66515a66515a66515a66515a66515a66515a66515a66515a66515a66515a66
+515a66515a66515a66515a66515a66515a66515a66515a66515a66515a66515a66515a66515a66515a66515a66515a66
+515a66515a66515a66515a66515a66515a66515a66515a66515a66515a66515a66515a66515a66515a66515a66515a66
+515a66515a66515a66515a66515a66515a66515a66515a66515a66515a66515a66515a66515a66515a66515a66515a66
+535c68535c68535c68535c68535c68535c68535c68525c68535c68535c68525c68535c68535c68535c68525c68535c68
+525c68535c68535c68525c68535c68535c68535c68535c68535c68535c68535c68525c68535c68535c68535c68525c68
+535c68535c68535c68535c68535c68535c68535c68535c68535c68535c68535c68535c68525c68535c68535c68535c68
+535c68535c68525c68535c68525c68535c68535c68535c68535c68535c68535c68535c68525c68535c68535c68535c68
+525c68535c68535c68535c68535c68535c68525c685c65708d939a5c6571535c68525c68535c68535c68535c68535c68
+535c68535c68535c68525c68535c68535c68535c68535c68535c68525c68535c68525c68535c68535c68535c68525c68
+535c68535c68535c68535c68535c68525c68535c68525c68535c68535c68525c68535c68525c68535c68535c68535c68
+535c68535c68525c68535c68535c68535c68535c68525c68535c68535c68535c68535c68535c68535c68535c68525c68
+545e6b545e6b545e6b545e6b545e6b545e6b545e6b545e6b545e6b545e6b545e6b545e6b545e6b545e6b545e6b545e6b
+545e6b545e6b545e6b545e6b545e6b545e6b545e6b545e6b545e6b545e6b545e6b545e6b545e6b545e6b545e6b545e6b
+545e6b545e6b545e6b545e6b545e6b545e6b545e6b545e6b545e6b545e6b545e6b545e6b545e6a545e6b545e6b545e6b
+545e6b545e6b545e6b545e6b545e6b545e6b545e6a545e6b545e6b545e6b545e6b545e6b545e6a545e6b545e6b545e6b
+545e6b555e6a7c434cb81b1fd10b0dca1012b8484cddd7d7e2e2e292989f545e6b545e6b545e6b545e6b545e6b545e6b
+545e6b545e6b545e6b545e6b545e6b545e6b545e6b545e6b545e6b545e6b545e6b545e6b545e6b545e6b545e6b545e6b
+545e6b545e6b545e6b545e6b545e6b545e6b545e6b545e6b545e6b545e6b545e6b545e6b545e6b545e6b545e6b545e6b
+545e6b545e6b545e6b545e6b545e6b545e6b545e6b545e6b545e6b545e6b545e6b545e6b545e6b545e6b545e6b545e6b
+56606d56606d56606d56606d56606d56606d56606d56606d56606d56606d56606d56606d56606d56606d56606d56606d
+56606d56606d56606d56606d56606d56606d56606d56606d56606d56606d56606d56606d56606d56606d56606d56606d
+56606d56606d56606d56606d56606d56606d56606d56606d56606d56606d56606d56606d56606d56606d56606d5f6874
+7c838d57606d56606d56606d56606d56606d56606d56606d56606d56606d56606d56606d575f6c853f48c91113bf1619
+836870c31518e20000e20000e20000e20000e20000e23d3de2e1e1c9cbcd56606d56606d56606d56606d56606d56606d
+56606d56606d56606d56606d56606d56606d56606d56606d56606d56606d56606d56606d56606d56606d56606d56606d
+56606d56606d56606d56606d56606d56606d56606d56606d56606d56606d56606d56606d56606d56606d56606d56606d
+56606d56606d56606d56606d56606d56606d56606d56606d56606d56606d56606d56606d56606d56606d56606d56606d
+58626f58626f58626f58626f58626f58626f58626f58626f58626f58626f58626f58626f58626f58626f58626f58626f
+58626f58626f58626f58626f58626f58626f58626f58626f58626f58626f58626f58626f58626f58626f58626f58626f
+58626f58626f58626f58626f58626f58626f58626f58626f58626f58626f58626f58626f58626f58626f58626f656e78
+878c92545d6858626f58626f58626f58626f58626f58626f58626f58626f5b606d8d3c44ce0e0fe20000e20000cc0202
+c8c0c0e22323e20000a81e1e793f3f862121df0000e20000e2a8a8e2e2e2777f8958626f58626f58626f58626f58626f
+58626f58626f58626f58626f58626f58626f58626f58626f58626f58626f58626f58626f58626f58626f58626f58626f
+58626f58626f58626f58626f58626f58626f58626f58626f58626f58626f58626f58626f58626f58626f58626f58626f
+58626f58626f58626f58626f58626f58626f58626f58626f58626f58626f58626f58626f58626f58626f58626f58626f
+5a64715a64715a64715a64715a64715a64715a64715a64715a64715a64715a64715a64715a64715a64715a64715a6471
+5a64715a64715a64715a64715a64715a64715a64715a64715a64715a64715a64715a64715a64715a64715a64715a6471
+5a64715a64715a64715a64715a64715a64715a64715a64715a64715a64715a64715a64715a64715a64715a647158626f
+5c6168565d665a64715a64715a64715a64715a64715a64715c626f8e3d45d00d0fe20000e20000e20000e20000dd0000
+ae9d9dde3c3cd002025a2d2d6f46465a3535c50606e20000e24e4ee2e2e2acb0b65a64715a64715a64715a64715a6471
+5a64715a64715a64715a64715a64715a64715a64715a64715a64715a64715a64715a64715a64715a64715a64715a6471
+5a64715a64715a64715a64715a64715a64715a64715a64715a64715a64715a64715a64715a64715a64715a64715a6471
+5a64715a64715a64715a64715a64715a64715a64715a64715a64715a64715a64715a64715a64715a64715a64715a6471
+5c66745c66745c66745c66745c66745c66745c66745c66745c66745c66745c66745c66745c66745c66745c66745c6674
+5c66745c66745c66745c66745c66745c66745c66745c66745c66745c66745c66745c66745c66745c66745c66745c6674
+5c66745c66745c66745c66745c66745c66745c66745c66745c66745c66745c66745c66745c66745c66745c66745c6674
+5960695b61695c66735c66745c66745c66745e6471903e47d00d0fe20000e20000c602029c31319d1e1edb0101e20000
+df6464e05454df00007c3333cac1c1db9d9de10101e20000e20707e2d1d1dcdcdd626c795c66745c66745c66745c6674
+5c66745c66745c66745c66745c66745c66745c66745c66745c66745c66745c66745c66745c66745c66745c66745c6674
+5c66745c66745c66745c66745c66745c66745c66745c66745c66745c66745c66745c66745c66745c66745c66745c6674
+5c66745c66745c66745c66745c66745c66745c66745c66745c66745c66745c66745c66745c66745c66745c66745c6674
+5d68765d68765d68765d68765d68765d68765d68765d68765d68765d68765d68765d68765d68765d68765d68765d6876
+5d68765d68765d68765d68765d68765d68765d68765d68765d68765d68765d68765d68765d68765d68765d68765d6876
+5d68765d68765d68765d68765d68765d68765d68765d68765d68765d68765d68765d68765d68765d68765d68765d6876
+58606c61666d59626f5d6876606673913f48d10d0fe20000e20000c707078b00006d00006f4444614545721515e20000
+e20101e24141e20404e20202e10f0fe20000e20000e20000e20000e28181e2e2e29198a05d68765d68765d68765d6876
+5d68765d68765d68765d68765d68765d68765d68765d68765d68765d68765d68765d68765d68765d68765d68765d6876
+5d68765d68765d68765d68765d68765d68765d68765d68765d68765d68765d68765d68765d68765d68765d68765d6876
+5d68765d68765d68765d68765d68765d68765d68765d68765d68765d68765d68765d68765d68765d68765d68765d6876
+5f6a785f6a785f6a785f6a785f6a785f6a785f6a785f6a785f6a785f6a785f6a785f6a785f6a785f6a785f6a785f6a78
+5f6a785f6a785f6a785f6a785f6a785f6a785f6a785f6a785f6a785f6a785f6a785f6a785f69785f6a785f6a785f6a78
+5f6a785f6a785f6a785f6a785f6a785f6a785f6a785f6a785f6a785f6a785f6a78868c4e60686c5f6a785e69785f6a78
+5c66745f656c5d5d67933f48d10e0fe20000e20000e20000ba10106a3d3d6d00006d00006e2a2a694e4e3e2424871515
+e10000e20000e20000e20000e20000e23333e20000e20000e20000e22828e2e2e2c5c8cb5f6a785f6a785f6a785f6a78
+5f6a785f6a785f6a785f6a785f6a785f6a785f6a785f6a785f6a785f6a785f6a785f6a785f6a785f6a785f6a785f6a78
+5f6a785f6a785f6a785f6a785f6a785f6a785f6a785f6a785f6a785f6a785f6a785f69785f6a785f6a785f69785f6a78
+5f6a785f6a785f6a785f6a785f6a785f6a785f6a785f6a785f6a785f6a785f6a785f6a785f6a785f6a785f6a785f6a78
+606b7a606b7a606b7a606b7a606c7a606b7a606b7a606b7a606b7a606b7a606b7a606b7a606b7a606b7a606b7a606b7a
+606c7a606b7a606b7a616c7a606b7a606b7a606b7a606b7a606b7a606b7a606b7a606b7a616c7a606b7a606b7a606b7a
+606b7a606b7a606b7a606b7a606c7a606b7a606b7a616c7a606b7a606b7a606b7a5a6066595c61606b7a606b7a606b7a
+626a787d484d9f2b2be20000e20000e20000e20000e200008813136248486d0a0a6d0000721919947f7f755e5e2a2626
+682d2db51b1bdb0404e20000e20000e28a8ae24848e20000e20000e20000e2b1b1e2e2e277818d606c7a606b7a606b7a
+606b7a606b7a606b7a606b7a606b7a606b7a616c7a606b7a606b7a606b7a606b7a606b7a606b7a606b7a606b7a606b7a
+606b7a616c7a606b7a606b7a606b7a606b7a606b7a606b7a606b7a606b7a606b7a606b7a606c7a606b7a616c7a606b7a
+606b7a606b7a606b7a606b7a606b7a616c7a606b7a606b7a606b7a606b7a606b7a606b7a606c7a606b7a606b7a606b7a
+626e7c626e7c626e7c626e7c626e7c626e7c626e7c626e7c626e7c626e7c626e7c626e7c626e7c626e7c626e7c626e7c
+626e7c626e7c626e7c626e7c626e7c626e7c626e7c626e7c626e7c626e7c626e7c626e7c626e7c626e7c626e7c626e7c
+626e7c626e7c626e7c626e7c626e7c626e7c626e7c626e7c626e7c626e7c626e7c5f6976525354626d7b626e7c69727f
+bc2226c20f0fa33232d50404e20000e20000e20000e20000b70808563a3a722e2ea36969d8d0d0e2e2e2e2e2e2828181
+3c3333514d4d5e3e3ea81111e20000e22e2ee2a7a7e20000e20000e20000e25959e2e2e2abb0b6626e7c626e7c626e7c
+626e7c626e7c626e7c626e7c626e7c626e7c626e7c626e7c626e7c626e7c626e7c626e7c626e7c626e7c626e7c626e7c
+626e7c626e7c626e7c626e7c626e7c626e7c626e7c626e7c626e7c626e7c626e7c626e7c626e7c626e7c626e7c626e7c
+626e7c626e7c626e7c626e7c626e7c626e7c626e7c626e7c626e7c626e7c626e7c626e7c626e7c626e7c626e7c626e7c
+64707e64707e64707e64707e64707e64707e64707e64707e64707e64707e64707e64707e64707e64707e64707e64707e
+64707e64707e64707e64707e64707e64707e64707e64707e64707e64707e64707e64707e64707e64707e64707e64707e
+64707e64707e64707e64707e64707e64707e64707e64707e64707e64707e64707e64707e5356597b8087b4b8bedc8889
+e20000d105057a4747703939b10c0ce20101e20000e20000e10000713f3fd5d1d1e2e2e2e2e2e2e2e2e2e2e2e2dfdfdf
+6b65654b47475a4e4e512020df0000e20101e2b8b8e21f1fe20000e20000e20a0ae2d7d7d9d9db68748264707e64707e
+64707e64707e64707e64707e64707e64707e64707e64707e64707e64707e64707e64707e64707e64707e64707e64707e
+64707e64707e64707e64707e64707e64707e64707e64707e64707e64707e64707e64707e64707e64707e64707e64707e
+64707e64707e64707e64707e64707e64707e64707e64707e64707e64707e64707e64707e64707e64707e64707e64707e
+667281667281667281667281667281667281667281667281667281667281667281667281667281667281667281667281
+667281667281667281667281667281667281667281667281667281667281667281667281667281667281667281667281
+667281667281667281667281667281667281667281667281667281667281667281667281686f77dadadae2e2e2e25151
+e200009a12126543436b5a5a6a2b2be20000e20000e20000e20000da5e5ee2e2e2e2e2e2e2e2e2e2e2e2e2e2e2e2e2e2
+e0e0e09c99996460604e2f2fa90404e20000e26161e27676e20000e20000e20000e28a8ae2e2e2929aa3667281667281
+667281667281667281667281667281667281667281667281667281667281667281667281667281667281667281667281
+667281667281667281667281667281667281667281667281667281667281667281667281667281667281667281667281
+667281667281667281667281667281667281667281667281667281667281667281667281667281667281667281667281
+687483687483687483687483687483687483687483687483687483687483687483687483687483687483687483687483
+687483687483687483687483687483687483687483687483687483687483687483687483687483687483687483687483
+6874836874836874836874836874836874836874836874836874836874836874836874836b7683dadadae2e2e2e25a5a
+e20000b80909615757706d6dac2929e20000e20000e20000e20000e21515e2dddde2e2e2e2e2e2e2e2e2e2e2e2e2e2e2
+e2e2e2e2e2e2e0e0e0c3bcbc883939e20000e21010e2c3c3e20404e20000e20000e23131e2e2e2c3c6c9687483687483
+687483687483687483687483687483687483687483687483687483687483687483687483687483687483687483687483
+687483687483687483687483687483687483687483687483687483687483687483687483687483687483687483687483
+687483687483687483687483687483687483687483687483687483687483687483687483687483687483687483687483
+6a76856a76856a76856a76856a76856a76856a76856a76856a76856a76856a76856a76856a76856a76856a76856a7685
+6a76856a76856a76856a76856a76856a76856a76856a76856a76856a76856a76856a76856a76856a76856a76856a7685
+6a76856a76856a76856a76856a76856a76856a76856a76856a76856a76856a76856a76856a7685afb3b8e2e2e2cd9999
+df0101e20000d90606d90909e20000e20000e20000e20000e20000e20000e29a9ae2e2e2e2e2e2e2e2e2e2e2e2e2e2e2
+e2e2e2e2e2e2e2e2e2e2e2e2c1babacf0000e20000e29292e24646e20000e20000e20101e2babae1e1e17a85926a7685
+6a76856a76856a76856a76856a76856a76856a76856a76856a76856a76856a76856a76856a76856a76856a76856a7685
+6a76856a76856a76856a76856a76856a76856a76856a76856a76856a76856a76856a76856a76856a76856a76856a7685
+6a76856a76856a76856a76856a76856a76856a76856a76856a76856a76856a76856a76856a76856a76856a76856a7685
+6b78876b78876b78876b78876b78876b78876b78876b78876b78876b78876b78876b78876b78876b78876b78876b7887
+6b78876b78876b78876b78876b78876b78876b78876b78876b78876b78876b78876b78876b78876b78876b78876b7887
+6b78876b78876b78876b78876b78876b78876b78876b78876b78876b78876b78876b78876b78877f8893e2e2e2d8d8d8
+6c2222d00a0ae20000e20000d40c0cc40d0ddd0101e20000e20000e20000e24040e2e2e2e2e2e2e2e2e2e2e2e2e2e2e2
+e2e2e2e2e2e2e2e2e2e2e2e2e2e2e2b03434e20000e23a3ae29c9ce20000e20000e20000e26464e2e2e2aab0b76b7887
+6b78876b78876b78876b78876b78876b78876b78876b78876b78876b78876b78876b78876b78876b78876b78876b7887
+6b78876b78876b78886b78876b78876b78876b78876b78876b78876b78876b78876b78876b78876b78876b78876b7887
+6b78876b78876b78876b78876b78876b78886b78876b78876b78876b78876b78876b78876b78876b78886b78876b7887
+6d7a8a6d7a8a6d7a8a6d7a8a6d7a8a6d7a8a6d7a8a6d7a8a6d7a8a6d7a8a6d7a8a6d7a8a6d7a8a6d7a8a6d7a8a6d7a8a
+6d7a8a6d7a8a6d7a8a6d7a8a6d7a8a6d7a8a6d7a8a6d7a8a6d7a8a6d7a8a6d7a8a6d7a8a6d7a8a6d7a8a6d7a8a6d7a8a
+6d7a8a6d7a8a6d7a8a6d7a8a6d7a8a6d7a8a6d7a8a6d7a8a6d7a8a6d7a8a6d7a8a6d7a8a6d7a8a6c7888cacccee2e2e2
+6461614f4242724d4d7a5555706060693434602323c20101e20000e20000e20202e2c8c8e2e2e2e2e2e2e2e2e2e2e2e2
+e2e2e2e2e2e2e2e2e2e2e2e2e2e2e2b08b8be10000e20101e2c0c0e21717e20000e20000e21010e2dbdbd6d7d96f7b8b
+6d7a8a6d7a8a6d7a8a6d7a8a6d7a8a6d7a8a6d7a8a6d7a8a6d7a8a6d7a8a6d7a8a6d7a8a6d7a8a6d7a8a6d7a8a6d7a8a
+6d7a8a6d7a8a6d7a8a6d7a8a6d7a8a6d7a8a6d7a8a6d7a8a6d7a8a6d7a8a6d7a8a6d7a8a6d7a8a6d7a8a6d7a8a6d7a8a
+6d7a8a6d7a8a6d7a8a6d7a8a6d7a8a6d7a8a6d7a8a6d7a8a6d7a8a6d7a8a6d7a8a6d7a8a6d7a8a6d7a8a6d7a8a6d7a8a
+6f7c8c6f7c8c6f7c8c6f7c8c6f7c8c6f7c8c6f7c8c6f7c8c6f7c8c6f7c8c6f7c8c6f7c8c6f7c8c6f7c8c6f7c8c6f7c8c
+6f7c8c6f7c8c6f7c8c6f7c8c6f7c8c6f7c8c6f7c8c6f7c8c6f7c8c6f7c8c6f7c8c6f7c8c6f7c8c6f7c8c6f7c8c6f7c8c
+6f7c8c6f7c8c6f7c8c6f7c8c6f7c8c6f7c8c6f7c8c6f7c8c6f7c8c6f7c8c6f7c8c6f7c8c6f7c8c6f7c8c9aa1a8e2e2e2
+a3a3a34444445e5c5c6b6262706d6d6d68685a51513d1212bb0000e20000e20000e27171e2e2e2e2e2e2e2e2e2e2e2e2
+e2e2e2e2e2e2e2e2e2e2e2e2e2e2e2d8d8d8ba0d0de20000e26969e26c6ce20000e20000e20000e29494e2e2e2939ca7
+6f7c8c6f7c8c6f7c8c6f7c8c6f7c8c6f7c8c6f7c8c6f7c8c6f7c8c6f7c8c6f7c8c6f7c8c6f7c8c6f7c8c6f7c8c6f7c8c
+6f7c8c6f7c8c6f7c8c6f7c8c6f7c8c6f7c8c6f7c8c6f7c8c6f7c8c6f7c8c6f7c8c6f7c8c6f7c8c6f7c8c6f7c8c6f7c8c
+6f7c8c6f7c8c6f7c8c6f7c8c6f7c8c6f7c8c6f7c8c6f7c8c6f7c8c6f7c8c6f7c8c6f7c8c6f7c8c6f7c8c6f7c8c6f7c8c
+717e8e717e8e717e8e717e8e717e8e717e8e717e8e717e8e717e8e717e8e717e8e717e8e717e8e717e8e717e8e717e8e
+717e8e717e8e717e8e717e8e717e8e717e8e717e8e717e8e717e8e717e8e717e8e707d8e717e8e717e8e717e8e717e8e
+717e8e717e8e717e8e717e8e717e8e717e8e717e8e707d8e717e8e717e8e717e8e717e8e717e8e717e8e76818fdddddd
+e2e2e28a8a8a5858586868686f6f6f6f6f6f6363633e3c3c370c0cbb0000e20000e20b0be2adade2e2e2e2e2e2e2e2e2
+e2e2e2e2e2e2e2e2e2e2e2e2e2e2e2e2e2e2ae5959e20000e21616e2c1c1e20101e20000e20000e23b3be2e2e2bfc3c8
+717e8e717e8e707d8e717e8e717e8e717e8e717e8e717e8e717e8e707d8e717e8e717e8e717e8e717e8e717e8e717e8e
+717e8e717e8e717e8e717e8e717e8e717e8e717e8e717e8e717e8e717e8e717e8e717e8e707d8e717e8e717e8e717e8e
+717e8e717e8e717e8e717e8e717e8e717e8e717e8e717e8e717e8e717e8e717e8e717e8e717e8e717e8e717e8e717e8e
+727f91727f91727f91727f91727f91727f91727f91727f91727f91727f91727f91727f91727f91727f91727f91727f91
+727f91727f91727f91727f91727f91727f91727f91727f91727f91727f91727f91727f91727f91727f91727f91727f91
+727f91727f91727f91727f91727f91727f91727f91727f91727f91727f91727f91727f91727f91727f91727f91b1b499
+e2e2a3e2e2c8cfcfbcb3b394b7b7a0d2d2d2dfdfdfb1b1b13a3838370c0cba0000e20000e20b0be2adade2e2e2e2e2e2
+e2e2e2e2e2e2e2e2e2e2e2e2e2e2e2e2e2e2cdaeaee20000e20000e29b9be23b3be20000e20000e20101e2c3c3e1e1e1
+7e8a99727f91727f91727f91727f91727f91727f91727f91727f91727f91727f91727f91727f91727f91727f91727f91
+727f91727f91727f91727f91727f91727f91727f91727f91727f91727f91727f91727f91727f91727f91727f91727f91
+727f91727f91727f91727f91727f91727f91727f91727f91727f91727f91727f91727f91727f91727f91727f91727f91
+748193748193748193748193748193748193748193748193748193748193748193748193748193748193748193748193
+748193748193748193748193748193748193748193748193748193748193748193748193748193748193748193748193
+748193748193748193748193748193748193748193748193748193748193748193748193748193748193748193838c8b
+dbdb03e2e200e2e200e2e200e2e21ae1e1c2e1e1e1e2e2e2c0c0c03a3737350707af0000e20202e20b0be2acace2e2e2
+e2e2e2e2e2e2e2e2e2e2e2e2e2e2e2e2e2e2e26c6ce20000e20000e24343e29595e20000e20000e20000e26b6be2e2e2
+a9b0b9748193748193748193748193748193748193748193748193748193748193748193748193748193748193748193
+748193748193748193748193748193748193748193748193748193748193748193748193748193748193748193748193
+748193748193748193748193748193748193748193748193748193748193748193748193748193748193748193748193
+768395768395768395768395768395768395768395768395768395768395768395768395768395768395768395768395
+768395768395768395768395768395768395768395768395768395768395768395768395768395768395768395768395
+768395768395768395768395768395768395768395768395768395768395768395768395768395768395768395758293
+adae24e2e200e2e200e2e200e2e200e2e21ae2e2bbe0e0e0e2e2e2c2c2c2412f2f320000af0000e20000e20b0be29292
+e2cecee29f9fe26868e24e4ee24e4ee22f2fe20000e20000e20000e20303ddc3c3e21212e20000e20000e21717e2dede
+d4d5d8778496768395768395768395768395768395768395768395768395768395768395768395768395768395768395
+768395768395768395768395768395768395768395768395768395768395768395768395768395768395768395768395
+768395768395768395768395768395768395768395768395768395768395768395768395768395768395768395768395
+788597788597788597788597788597788597788597788597788597788597788597788597788597788597788597788597
+788597788597788597788597788597788597788597788597788597788597788597788597788597788597788597788597
+788597788597788597788597788597788597788597788597788597788597788597788597788597788597788597788597
+767c4fe2e200e2e200e2e200e2e200e2e200e2e211e2e2b8e2e2e2e2e2e2c9c6c6411a1a320000af0000e20000e20000
+e20000e20000e20000e20000e20000e20000e20000e20000e20202be0b0b9f9292e25d5de20000e20000e20000e29e9e
+e2e2e2949eab788597788597788597788597788597788597788597788597788597788597788597788597788597788597
+788597788597788597788597788597788597788597788597788597788597788597788597788597788597788597788597
+788597788597788597788597788597788597788597788597788597788597788597788597788597788597788597788597
+79879a79879a79879a79879a79879a79879a79879a79879a79879a79879a79879a79879a79879a79879a79879a79879a
+79879a79879a79879a79879a79879a79879a79879a79879a79879a79879a79879a79879a79879a79879a79879a79879a
+79879a79879a79879a79879a79879a79879a79879a79879a79879a79879a79879a79879a79879a79879a79879a79879a
+687482bcbc01e2e200e2e200e2e200e2e200e2e200e2e211e2e2b8e2e2e2e2e2e2c9c3c3411a1a320000a60000e20000
+e20000e20000e20000e20000e20000e20000e20000e20000c703036d2828afababdd5e5ee20000e20000e20000e24343
+e2e2e2bec2c979879a79879a79879a79879a79879a79879a79879a79879a79879a79879a79879a79879a79879a79879a
+79879a79879a79879a79879a79879a79879a79879a79879a79879a79879a79879a79879a79879a79879a79879a79879a
+79879a79879a79879a79879a79879a79879a79879a79879a79879a79879a79879a79879a79879a79879a79879a79879a
+7b899c7b899c7b899c7b899c7b899c7b899c7b899c7b899c7b899c7b899c7b899c7b899c7b899c7b899c7b899c7b899c
+7b899c7b899c7b899c7b899c7b899c7b899c7b899c7b899c7b899c7b899c7b899c7b899c7b899c7b899c7b899c7b899c
+7b899c7b899c7b899c7b899c7b899c7b899c7b899c7b899c7b899c7b899c7b899c7b899c7b899c7b899c7b899c7b899c
+7b899c848724e2e200e2e200e2e200e2e200e2e200e2e200e2e211e2e2abe2e2e2e2e2e2c9c3c3451e1e2f0000a20000
+e20000e20000e20000e20000e20000e20000e20000e20000801111ab9d9dd19292e10606e20000e20000e20000e20404
+e2cbcbdfe0e08390a27b899c7b899c7b899c7b899c7b899c7b899c7b899c7b899c7b899c7b899c7b899c7b899c7b899c
+7b899c7b899c7b899c7b899c7b899c7b899c7b899c7b899c7b899c7b899c7b899c7b899c7b899c7b899c7b899c7b899c
+7b899c7b899c7b899c7b899c7b899c7b899c7b899c7b899c7b899c7b899c7b899c7b899c7b899c7b899c7b899c7b899c
+7d8c9e7d8c9e7d8c9e7d8c9e7d8c9e7d8c9e7d8c9e7d8c9e7d8c9e7d8c9e7d8c9e7d8c9e7d8c9e7d8c9e7d8c9e7d8c9e
+7d8c9e7d8c9e7d8c9e7d8c9e7d8c9e7d8c9e7d8c9e7d8c9e7d8c9e7d8c9e7d8c9e7d8c9e7d8c9e7d8c9e7d8c9e7d8c9e
+7d8c9e7d8c9e7d8c9e7d8c9e7d8c9e7d8c9e7d8c9e7d8c9e7d8c9e7d8c9e7d8c9e7d8c9e7d8c9e7d8c9e7d8c9e7d8c9e
+7d8c9e636c64dbdb00e2e200e2e200e2e200e2e200e2e200e2e200e2e20be2e2abe2e2e2e2e2e2d1cdcd4925252e0000
+b40303e20000e20000e20000e20000e20000e20000e200007f4a4acdb1b1e00707ca0d0d8e3030892424d60202e20000
+e07676e2e2e2a9b1bb7d8c9e7d8c9e7d8c9e7d8c9e7d8c9e7d8c9e7d8c9e7d8c9e7d8c9e7d8c9e7d8c9e7d8c9e7d8c9e
+7d8c9e7d8c9e7d8c9e7d8c9e7d8c9e7d8c9e7d8c9e7d8c9e7d8c9e7d8c9e7d8c9e7d8c9e7d8c9e7d8c9e7d8c9e7d8c9e
+7d8c9e7d8c9e7d8c9e7d8c9e7d8c9e7d8c9e7d8c9e7d8c9e7d8c9e7d8c9e7d8c9e7d8c9e7d8c9e7d8c9e7d8c9e7d8c9e
+7f8ea07f8ea07f8ea07f8ea07f8ea07f8ea07f8ea07f8ea07f8ea07f8ea07f8ea07f8ea07f8ea07f8ea07f8ea07f8ea0
+7f8ea07f8ea07f8ea07f8ea07f8ea07f8ea07f8ea07f8ea07f8ea07f8ea07f8ea07f8ea07f8ea07f8ea07f8ea07f8ea0
+7f8ea07f8ea07f8ea07f8ea07f8ea07f8ea07f8ea07f8ea07f8ea07f8ea07f8ea07f8ea07f8ea07f8ea07f8ea07f8ea0
+7f8ea07a889a9fa00ae2e200e2e200e2e200e2e200e2e200e2e200e2e200e2e20addddb2e2e2e2e2e2e2d1cdcd4a2525
+8d0202e20000e20000e20000e20202e20000e20000e20000b87979d06e6ee200007025256e4242623f3f991010e20000
+c43434e2e2e2d1d3d77f8ea07f8ea07f8ea07f8ea07f8ea07f8ea07f8ea07f8ea07f8ea07f8ea07f8ea07f8ea07f8ea0
+7f8ea07f8ea07f8ea07f8ea07f8ea07f8ea07f8ea07f8ea07f8ea07f8ea07f8ea07f8ea07f8ea07f8ea07f8ea07f8ea0
+7f8ea07f8ea07f8ea07f8ea07f8ea07f8ea07f8ea07f8ea07f8ea07f8ea07f8ea07f8ea07f8ea07f8ea07f8ea07f8ea0
+8190a38190a38190a38190a38190a38190a38190a38190a38190a38190a38190a38190a38190a38190a38190a38190a3
+8190a38190a38190a38190a38190a38190a38190a38190a38190a38190a38190a38190a38190a38190a38190a38190a3
+8190a38190a38190a38190a38190a38190a38190a38190a38190a38190a38190a38190a38190a38190a38190a38190a3
+8190a38190a3757b44e2e200e2e200e2e200e2e200e2e200e2e200e2e200e2e200959562e2e2e2e2e2e2e2e2e2d1c9c9
+d10303e20000b713138337378b2020df0000e20000e20000de3e3edb8282e200007e1717a89494d0c1c1d41717e20000
+811515cac9c9e2e2e296a2b18190a38190a38190a38190a38190a38190a38190a38190a38190a38190a38190a38190a3
+8190a38190a38190a38190a38190a38190a38190a38190a38190a38190a38190a38190a38190a38190a38190a38190a3
+8190a38190a38190a38190a38190a38190a38190a38190a38190a38190a38190a38190a38190a38190a38190a38190a3
+8291a48392a58291a58392a58392a58392a58291a58392a58291a48392a58392a58291a58392a58392a58392a58392a5
+8291a48392a58392a58392a58291a48392a58392a58392a58291a58291a48392a58392a58392a58392a58392a58392a5
+8392a58392a58291a48392a58392a58392a58291a48392a58392a58392a58291a48392a58392a58392a58291a48392a5
+8291a58291a46c7884c5c500e2e200e2e200e2e200e2e200e2e200e2e200e2e200515135dbdbdbe2e2e2e2e2e2e2b5b5
+e20000db01015b2f2f6e54545b4848b80a0ae20000e20000e20000e24848e22121e10101e22e2ee21111e20000d30a0a
+4f3737b6b3b3e2e2e2bdc3ca8392a58291a48392a58291a48392a58392a58392a58392a58291a48392a58392a58291a5
+8392a58392a58392a58392a58291a58392a58392a58291a48392a58291a58392a58392a58392a58291a58392a58392a5
+8392a58291a48392a58392a58392a58291a48392a58392a58291a58291a58392a58291a58392a58291a58291a48392a5
+8493a78493a78493a78493a78493a78493a78493a78493a78493a78493a78493a78493a78493a78493a78493a78493a7
+8493a78493a78493a78493a78493a78493a78493a78493a78493a78493a78493a78493a78493a78493a78493a78493a7
+8493a78493a78493a78493a78493a78493a78493a78493a78493a78493a78493a78493a78493a78493a78493a78493a7
+8493a78493a78493a78a8d21e2e200e2e200e2e200e2e200e2e200e2e200e2e200464623acacace2e2e2e2e2e2e2bebe
+e20000e100006d31316c6c6c7a5858da0404e20000e20000e20202e10101c29696e22d2de20000e20000c51818753f3f
+534444d4d4d4e2e2e2dededf8998aa8493a78493a78493a78493a78493a78493a78493a78493a78493a78493a78493a7
+8493a78493a78493a78493a78493a78493a78493a78493a78493a78493a78493a78493a78493a78493a78493a78493a7
+8493a78493a78493a78493a78493a78493a78493a78493a78493a78493a78493a78493a78493a78493a78493a78493a7
+8695a98695a98695a98695a98695a98695a98695a98695a98695a98695a98695a98695a98695a98695a98695a98695a9
+8695a98695a98695a98695a98695a98695a98695a98695a98695a98695a98695a98695a98695a98695a98695a98695a9
+8695a98695a98695a98695a98695a98695a98695a98695a98695a98695a98695a98695a98695a98695a98695a98695a9
+8695a98695a98695a96a7364dfdf00e2e200e2e200e2e200e2e200e2e200e2e200606015888888e2e2e2e2e2e2e2e2e2
+cc1e1ee20000df0202cf1111df0303e20000e20000d70000ad0000801616958686c96e6eac00008000006e4b4b685050
+9c9292e2e2e2e2e2e2dededa9ba4a28695a98695a98695a98695a98695a98695a98695a98695a98695a98695a98695a9
+8695a98695a98695a98695a98695a98695a98695a98695a98695a98695a98695a98695a98695a98695a98695a98695a9
+8695a98695a98695a98695a98695a98695a98695a98695a98695a98695a98695a98695a98695a98695a98695a98695a9
+8797ab8797ab8797ab8797ab8797ab8797ab8897ab8797ab8797ab8897ab8797ab8797ab8797ab8797ab8797ab8797ab
+8797ab8797ab8797ab8797ab8897ab8797ab8797ab8797ab8797ab8797ab8797ab8797ab8797ab8797ab8797ab8797ab
+8797ab8797ab8797ab8797ab8797ab8797ab8797ab8897ab8797ab8797ab8797ab8797ab8797ab8897ab8797ab8797ab
+8797ab8797ab8797ab7f8ea0a5a506e2e200e2e200e2e200e2e200e2e200e2e200a4a40aa4a4a4e2e2e2e2e2e2e2e2e2
+8a7272b21313e20000e20000df0202bc00009000006e00006d00006d01016f0a0a6d00006d00006d0000783939ada5a5
+e1e1e1c8c8af9f9f5d7a7b197e87618797ab8797ab8797ab8797ab8797ab8797ab8797ab8797ab8797ab8797ab8797ab
+8797ab8797ab8897ab8797ab8797ab8797ab8797ab8797ab8797ab8797ab8797ab8797ab8797ab8897ab8797ab8797ab
+8797ab8797ab8797ab8797ab8797ab8797ab8797ab8797ab8797ab8797ab8797ab8897ab8797ab8797ab8897ab8797ab
+8999ae8999ad8999ad8999ad8999ad8999ae8999ad8999ad8999ad8999ae8999ad8999ad8999ad8999ad8999ad8999ae
+8999ad8999ad8999ad8999ad8999ad8999ad8999ad8999ae8999ad8999ad8999ad8999ae8999ad8999ad8999ad8999ae
+8999ad8999ae8999ad8999ae8999ad8999ad8999ad8999ad8999ad8999ad8999ad8999ad8999ad8999ae8999ad8999ad
+8999ad8999ae8999ad8999ad7c8241e2e200e2e200e2e200e2e200e2e200e2e200e1e100cbcb96e2e2e2e2e2e2e2e2e2
+b3b3b33f3838664e4e7f4343755c5c6d09096d17176e3d3d6d50506d0d0d6d00006f0404914545bc9999d3d0c4adad77
+838426787c2f818b718898a78999ae8999ad8999ad8999ad8999ae8999ad8999ae8999ad8999ad8999ae8999ad8999ad
+8999ae8999ad8999ad8999ad8999ae8999ad8999ad8999ae8999ad8999ad8999ad8999ad8999ae8999ad8999ad8999ad
+8999ad8999ad8999ae8999ad8999ae8999ad8999ad8999ad8999ad8999ad8999ad8999ad8999ae8999ad8999ae8999ad
+8b9bb08b9bb08b9bb08b9bb08b9bb08b9bb08b9bb08b9bb08b9bb08b9bb08b9bb08b9bb08b9bb08b9bb08b9bb08b9bb0
+8b9bb08b9bb08b9bb08b9bb08b9bb08b9bb08b9bb08b9bb08b9bb08b9bb08b9bb08b9bb08b9bb08b9bb08b9bb08b9bb0
+8b9bb08b9bb08b9bb08b9bb08b9bb08b9bb08b9bb08b9bb08b9bb08b9bb08b9bb08b9bb08b9bb08b9bb08b9bb08b9bb0
+8b9bb08b9bb08b9bb08b9bb06f7b86cdcd00e2e200e2e200e2e200e2e200e2e200e2e200e2e219e2e2c6e2e2e2e2e2e2
+e0e0e04c4c4c545252665b5b6f68686e65656d6d6d6d6d6d6d6d6d825353ae7e7ed4cac6bcbc9791913f76791d7f875b
+88969b8b9bb08b9bb08b9bb08b9bb08b9bb08b9bb08b9bb08b9bb08b9bb08b9bb08b9bb08b9bb08b9bb08b9bb08b9bb0
+8b9bb08b9bb08b9bb08b9bb08b9bb08b9bb08b9bb08b9bb08b9bb08b9bb08b9bb08b9bb08b9bb08b9bb08b9bb08b9bb0
+8b9bb08b9bb08b9bb08b9bb08b9bb08b9bb08b9bb08b9bb08b9bb08b9bb08b9bb08b9bb08b9bb08b9bb08b9bb08b9bb0
+8d9db28d9db28d9db28d9db28d9db28d9db28d9db28d9db28d9db28d9db28d9db28d9db28d9db28d9db28d9db28d9db2
+8d9db28d9db28d9db28d9db28d9db28d9db28d9db28d9db28d9db28d9db28d9db28d9db28d9db28d9db28d9db28d9db2
+8d9db28d9db28d9db28d9db28d9db28d9db28d9db28d9db28d9db28d9db28d9db28d9db28d9db28d9db28d9db28d9db2
+8d9db28d9db28d9db28d9db28c9cb18f921de2e200e2e200e2e200e2e200e2e200e2e200e2e200e2e216dbdba9e1e1e1
+e2e2e2bfbfbf5d5d5d6262626d6d6d6f6f6f7676769e9e9ecbcbcbc9c9b0a0a05e7a7b1a7c82458793898d9db18d9db2
+8d9db28d9db28d9db28d9db28d9db28d9db28d9db28d9db28d9db28d9db28d9db28d9db28d9db28d9db28d9db28d9db2
+8d9db28d9db28d9db28d9db28d9db28d9db28d9db28d9db28d9db28d9db28d9db28d9db28d9db28d9db28d9db28d9db2
+8d9db28d9db28d9db28d9db28d9db28d9db28d9db28d9db28d9db28d9db28d9db28d9db28d9db28d9db28d9db28d9db2
+8f9fb48f9fb48f9fb48f9fb48f9fb48f9fb48f9fb48f9fb48f9fb48f9fb48f9fb48f9fb48f9fb48f9fb48f9fb48f9fb4
+8f9fb48f9fb48f9fb48f9fb48f9fb48f9fb48f9fb48f9fb48f9fb48f9fb48f9fb48f9fb48f9fb48f9fb48f9fb48f9fb4
+8f9fb48f9fb48f9fb48f9fb48f9fb48f9fb48f9fb48f9fb48f9fb48f9fb48f9fb48f9fb48f9fb48f9fb48f9fb48f9fb4
+8f9fb48f9fb48f9fb48f9fb48f9fb4717a62e1e100e2e200e2e200e2e200e2e200dada00b4b400898900848426e2e2e2
+e1e1e1e1e1e1dbdbdbb6b6b6adadadc1c1c1d4d4c9adad78848427797d2f848f748e9dad8f9fb48f9fb48f9fb48f9fb4
+8f9fb48f9fb48f9fb48f9fb48f9fb48f9fb48f9fb48f9fb48f9fb48f9fb48f9fb48f9fb48f9fb48f9fb48f9fb48f9fb4
+8f9fb48f9fb48f9fb48f9fb48f9fb48f9fb48f9fb48f9fb48f9fb48f9fb48f9fb48f9fb48f9fb48f9fb48f9fb48f9fb4
+8f9fb48f9fb48f9fb48f9fb48f9fb48f9fb48f9fb48f9fb48f9fb48f9fb48f9fb48f9fb48f9fb48f9fb48f9fb48f9fb4
+91a1b791a1b791a1b791a1b791a1b791a1b791a1b791a1b791a1b791a1b791a1b791a1b791a1b791a1b791a1b791a1b7
+91a1b791a1b791a1b791a1b791a1b791a1b791a1b791a1b791a1b791a1b791a1b791a1b791a1b791a1b791a1b791a1b7
+91a1b791a1b791a1b791a1b791a1b791a1b791a1b791a1b791a1b791a1b791a1b791a1b791a1b791a1b791a1b791a1b7
+91a1b791a1b791a1b791a1b791a1b78594a7adad05e2e200e0e000c2c200989800757500717100717100717100d0d0be
+e2e2e2e2e2e2e2e2e2dfdfdcbcbc97929243777a1d818a5d8d9ba091a1b791a1b791a1b791a1b791a1b791a1b791a1b7
+91a1b791a1b791a1b791a1b791a1b791a1b791a1b791a1b791a1b791a1b791a1b791a1b791a1b791a1b791a1b791a1b7
+91a1b791a1b791a1b791a1b791a1b791a1b791a1b791a1b791a1b791a1b791a1b791a1b791a1b791a1b791a1b791a1b7
+91a1b791a1b791a1b791a1b791a1b791a1b791a1b791a1b791a1b791a1b791a1b791a1b791a1b791a1b791a1b791a1b7
+93a3b993a3b993a3b993a3b993a3b993a3b993a3b993a3b993a3b993a3b993a3b993a3b993a3b993a3b993a3b993a3b9
+93a3b993a3b993a3b993a3b993a3b993a3b993a3b993a3b993a3b993a3b993a3b993a3b993a3b993a3b993a3b993a3b9
+93a3b993a3b993a3b993a3b993a3b993a3b993a3b993a3b993a3b993a3b993a3b993a3b993a3b993a3b993a3b993a3b9
+93a3b993a3b993a3b993a3b993a3b993a3b97c813ca6a6007e7e00717100717100717100717100717100717100adad77
+e2e2e1cbcbb4a0a05e7b7c1b7e84478b978d92a2b893a3b993a3b993a3b993a3b993a3b993a3b993a3b993a3b993a3b9
+93a3b993a3b993a3b993a3b993a3b993a3b993a3b993a3b993a3b993a3b993a3b993a3b993a3b993a3b993a3b993a3b9
+93a3b993a3b993a3b993a3b993a3b993a3b993a3b993a3b993a3b993a3b993a3b993a3b993a3b993a3b993a3b993a3b9
+93a3b993a3b993a3b993a3b993a3b993a3b993a3b993a3b993a3b993a3b993a3b993a3b993a3b993a3b993a3b993a3b9
+94a5bb94a5bb94a5bb94a5bb94a5bb94a5bb94a5bb94a5bb94a5bb94a5bb94a5bb94a5bb94a5bb94a5bb94a5bb94a5bb
+94a5bb94a5bb94a5bb94a5bb94a5bb94a5bb94a5bb94a5bb94a5bb94a5bb94a5bb94a5bb94a5bb94a5bb94a5bb94a5bb
+94a5bb94a5bb94a5bb94a5bb94a5bb94a5bb94a5bb94a5bb94a5bb94a5bb94a5bb94a5bb94a5bb94a5bb94a5bb94a5bb
+94a5bb94a5bb94a5bb94a5bb94a5bb94a5bb727d866d6d007171007171007171007171007171007171007171007f7f1c
+86862a7a7e2f87927693a2b294a5bb94a5bb94a5bb94a5bb94a5bb94a5bb94a5bb94a5bb94a5bb94a5bb94a5bb94a5bb
+94a5bb94a5bb94a5bb94a5bb94a5bb94a5bb94a5bb94a5bb94a5bb94a5bb94a5bb94a5bb94a5bb94a5bb94a5bb94a5bb
+94a5bb94a5bb94a5bb94a5bb94a5bb94a5bb94a5bb94a5bb94a5bb94a5bb94a5bb94a5bb94a5bb94a5bb94a5bb94a5bb
+94a5bb94a5bb94a5bb94a5bb94a5bb94a5bb94a5bb94a5bb94a5bb94a5bb94a5bb94a5bb94a5bb94a5bb94a5bb94a5bb
+96a7bd96a7bd96a7bd96a7bd96a7bd96a7bd96a7bd96a7bd96a7bd96a7bd96a7bd96a7bd96a7bd96a7bd96a7bd96a7bd
+96a7bd96a7bd96a7bd96a7bd96a7bd96a7bd96a7bd96a7bd96a7bd96a7bd96a7bd96a7bd96a7bd96a7bd96a7bd96a7bd
+96a7bd96a7bd96a7bd96a7bd96a7bd96a7bd96a7bd96a7bd96a7bd96a7bd96a7bd96a7bd96a7bd96a7bd96a7bd96a7bd
+96a7bd96a7bd96a7bd96a7bd96a7bd96a7bd94a5bb62641771710071710071710071710071710071710076781a848d60
+91a0a596a7bd96a7bd96a7bd96a7bd96a7bd96a7bd96a7bd96a7bd96a7bd96a7bd96a7bd96a7bd96a7bd96a7bd96a7bd
+96a7bd96a7bd96a7bd96a7bd96a7bd96a7bd96a7bd96a7bd96a7bd96a7bd96a7bd96a7bd96a7bd96a7bd96a7bd96a7bd
+96a7bd96a7bd96a7bd96a7bd96a7bd96a7bd96a7bd96a7bd96a7bd96a7bd96a7bd96a7bd96a7bd96a7bd96a7bd96a7bd
+96a7bd96a7bd96a7bd96a7bd96a7bd96a7bd96a7bd96a7bd96a7bd96a7bd96a7bd96a7bd96a7bd96a7bd96a7bd96a7bd
+97a9bf97a9bf97a9bf97a9bf97a9bf97a9bf97a9bf97a9bf97a9bf97a9bf97a9bf97a9bf97a9bf97a9bf97a9bf97a9bf
+97a9bf97a9bf97a9bf97a9bf97a9bf97a9bf97a9bf97a9bf97a9bf97a9bf97a9bf97a9bf97a9bf97a9bf97a9bf97a9bf
+97a9bf97a9bf97a9bf97a9bf97a9bf97a9bf97a9bf97a9bf97a9bf97a9bf97a9bf97a9bf97a9bf97a9bf97a9bf97a9bf
+97a9bf97a9bf97a9bf97a9bf97a9bf97a9bf97a9bf7780617171007171007171007374097f86478e9c9197a9be97a9bf
+97a9bf97a9bf97a9bf97a9bf97a9bf97a9bf97a9bf97a9bf97a9bf97a9bf97a9bf97a9bf97a9bf97a9bf97a9bf97a9bf
+97a9bf97a9bf97a9bf97a9bf97a9bf97a9bf97a9bf97a9bf97a9bf97a9bf97a9bf97a9bf97a9bf97a9bf97a9bf97a9bf
+97a9bf97a9bf97a9bf97a9bf97a9bf97a9bf97a9bf97a9bf97a9bf97a9bf97a9bf97a9bf97a9bf97a9bf97a9bf97a9bf
+97a9bf97a9bf97a9bf97a9bf97a9bf97a9bf97a9bf97a9bf97a9bf97a9bf97a9bf97a9bf97a9bf97a9bf97a9bf97a9bf
+99abc199abc199abc199abc199abc199abc199abc199abc199abc199abc199abc199abc199abc199abc199abc199abc1
+99abc199abc199abc199abc199abc199abc199abc199abc199abc199abc199abc199abc199abc199abc199abc199abc1
+99abc199abc199abc199abc199abc199abc199abc199abc199abc199abc199abc199abc199abc199abc199abc199abc1
+99abc199abc199abc199abc199abc199abc199abc190a0ab7171037b80308a957897a8b899abc199abc199abc199abc1
+99abc199abc199abc199abc199abc199abc199abc199abc199abc199abc199abc199abc199abc199abc199abc199abc1
+99abc199abc199abc199abc199abc199abc199abc199abc199abc199abc199abc199abc199abc199abc199abc199abc1
+99abc199abc199abc199abc199abc199abc199abc199abc199abc199abc199abc199abc199abc199abc199abc199abc1
+99abc199abc199abc199abc199abc199abc199abc199abc199abc199abc199abc199abc199abc199abc199abc199abc1
+9badc49badc49badc49badc49badc49badc49badc49badc49badc49badc49badc49badc49badc49badc49badc49badc4
+9badc49badc49badc49badc49badc49badc49badc49badc49badc49badc49badc49badc49badc49badc49badc49badc4
+9badc49badc49badc49badc49badc49badc49badc49badc49badc49badc49badc49badc49badc49badc49badc49badc4
+9badc49badc49badc49badc49badc49badc49badc49badc497a8b39badc49badc49badc49badc49badc49badc49badc4
+9badc49badc49badc49badc49badc49badc49badc49badc49badc49badc49badc49badc49badc49badc49badc49badc4
+9badc49badc49badc49badc49badc49badc49badc49badc49badc49badc49badc49badc49badc49badc49badc49badc4
+9badc49badc49badc49badc49badc49badc49badc49badc49badc49badc49badc49badc49badc49badc49badc49badc4
+9badc49badc49badc49badc49badc49badc49badc49badc49badc49badc49badc49badc49badc49badc49badc49badc4
+9dafc69dafc69dafc69dafc69dafc69dafc69dafc69dafc69dafc69dafc69dafc69dafc69dafc69dafc69dafc69dafc6
+9dafc69dafc69dafc69dafc69dafc69dafc69dafc69dafc69dafc69dafc69dafc69dafc69dafc69dafc69dafc69dafc6
+9dafc69dafc69dafc69dafc69dafc69dafc69dafc69dafc69dafc69dafc69dafc69dafc69dafc69dafc69dafc69dafc6
+9dafc69dafc69dafc69dafc69dafc69dafc69dafc69dafc69dafc69dafc69dafc69dafc69dafc69dafc69dafc69dafc6
+9dafc69dafc69dafc69dafc69dafc69dafc69dafc69dafc69dafc69dafc69dafc69dafc69dafc69dafc69dafc69dafc6
+9dafc69dafc69dafc69dafc69dafc69dafc69dafc69dafc69dafc69dafc69dafc69dafc69dafc69dafc69dafc69dafc6
+9dafc69dafc69dafc69dafc69dafc69dafc69dafc69dafc69dafc69dafc69dafc69dafc69dafc69dafc69dafc69dafc6
+9dafc69dafc69dafc69dafc69dafc69dafc69dafc69dafc69dafc69dafc69dafc69dafc69dafc69dafc69dafc69dafc6
+9fb1c89fb1c89fb1c89fb1c89fb1c89fb1c89fb1c89fb1c89fb1c89fb1c89fb1c89fb1c89fb1c89fb1c89fb1c89fb1c8
+9fb1c89fb1c89fb1c89fb1c89fb1c89fb1c89fb1c89fb1c89fb1c89fb1c89fb1c89fb1c89fb1c89fb1c89fb1c89fb1c8
+9fb1c89fb1c89fb1c89fb1c89fb1c89fb1c89fb1c89fb1c89fb1c89fb1c89fb1c89fb1c89fb1c89fb1c89fb1c89fb1c8
+9fb1c89fb1c89fb1c89fb1c89fb1c89fb1c89fb1c89fb1c89fb1c89fb1c89fb1c89fb1c89fb1c89fb1c89fb1c89fb1c8
+9fb1c89fb1c89fb1c89fb1c89fb1c89fb1c89fb1c89fb1c89fb1c89fb1c89fb1c89fb1c89fb1c89fb1c89fb1c89fb1c8
+9fb1c89fb1c89fb1c89fb1c89fb1c89fb1c89fb1c89fb1c89fb1c89fb1c89fb1c89fb1c89fb1c89fb1c89fb1c89fb1c8
+9fb1c89fb1c89fb1c89fb1c89fb1c89fb1c89fb1c89fb1c89fb1c89fb1c89fb1c89fb1c89fb1c89fb1c89fb1c89fb1c8
+9fb1c89fb1c89fb1c89fb1c89fb1c89fb1c89fb1c89fb1c89fb1c89fb1c89fb1c89fb1c89fb1c89fb1c89fb1c89fb1c8
+a1b3caa1b3caa1b3caa1b3caa1b3caa1b3caa1b3caa1b3caa1b3caa1b3caa1b3caa1b3caa1b3caa1b3caa1b3caa1b3ca
+a1b3caa1b3caa1b3caa1b3caa1b3caa1b3caa1b3caa1b3caa1b3caa1b3caa1b3caa1b3caa1b3caa1b3caa1b3caa1b3ca
+a1b3caa1b3caa1b3caa1b3caa1b3caa1b3caa1b3caa1b3caa1b3caa1b3caa1b3caa1b3caa1b3caa1b3caa1b3caa1b3ca
+a1b3caa1b3caa1b3caa1b3caa1b3caa1b3caa1b3caa1b3caa1b3caa1b3caa1b3caa1b3caa1b3caa1b3caa1b3caa1b3ca
+a1b3caa1b3caa1b3caa1b3caa1b3caa1b3caa1b3caa1b3caa1b3caa1b3caa1b3caa1b3caa1b3caa1b3caa1b3caa1b3ca
+a1b3caa1b3caa1b3caa1b3caa1b3caa1b3caa1b3caa1b3caa1b3caa1b3caa1b3caa1b3caa1b3caa1b3caa1b3caa1b3ca
+a1b3caa1b3caa1b3caa1b3caa1b3caa1b3caa1b3caa1b3caa1b3caa1b3caa1b3caa1b3caa1b3caa1b3caa1b3caa1b3ca
+a1b3caa1b3caa1b3caa1b3caa1b3caa1b3caa1b3caa1b3caa1b3caa1b3caa1b3caa1b3caa1b3caa1b3caa1b3caa1b3ca
+a2b5cda2b5cda2b5cda2b5cda2b5cda2b5cda2b5cda2b5cda2b5cda2b5cda2b5cda2b5cda2b5cda2b5cda2b5cda2b5cd
+a2b5cda2b5cda2b5cda2b5cda2b5cda2b5cda2b5cda2b5cda2b5cda2b5cda2b5cda2b5cda2b5cda2b5cda2b5cda2b5cd
+a2b5cda2b5cda2b5cda2b5cda2b5cda2b5cda2b5cda2b5cda2b5cda2b5cda2b5cda2b5cda2b5cda2b5cda2b5cda2b5cd
+a2b5cda2b5cda2b5cda2b5cda2b5cda2b5cda2b5cda2b5cda2b5cda2b5cda2b5cda2b5cda2b5cda2b5cda2b5cda2b5cd
+a2b5cda2b5cda2b5cda2b5cda2b5cda2b5cda2b5cda2b5cda2b5cda2b5cda2b5cda2b5cda2b5cda2b5cda2b5cda2b5cd
+a2b5cda2b5cda2b5cda2b5cda2b5cda2b5cda2b5cda2b5cda2b5cda2b5cda2b5cda2b5cda2b5cda2b5cda2b5cda2b5cd
+a2b5cda2b5cda2b5cda2b5cda2b5cda2b5cda2b5cda2b5cda2b5cda2b5cda2b5cda2b5cda2b5cda2b5cda2b5cda2b5cd
+a2b5cda2b5cda2b5cda2b5cda2b5cda2b5cda2b5cda2b5cda2b5cda2b5cda2b5cda2b5cda2b5cda2b5cda2b5cda2b5cd
+a4b7cfa4b7cfa4b7cfa4b7cfa4b7cfa4b7cfa4b7cfa4b7cfa4b7cfa4b7cfa4b7cfa4b7cfa4b7cfa4b7cfa4b7cfa4b7cf
+a4b7cfa4b7cfa4b7cfa4b7cfa4b7cfa4b7cfa4b7cfa4b7cfa4b7cfa4b7cfa4b7cfa4b7cfa4b7cfa4b7cfa4b7cfa4b7cf
+a4b7cfa4b7cfa4b7cfa4b7cfa4b7cfa4b7cfa4b7cfa4b7cfa4b7cfa4b7cfa4b7cfa4b7cfa4b7cfa4b7cfa4b7cfa4b7cf
+a4b7cfa4b7cfa4b7cfa4b7cfa4b7cfa4b7cfa4b7cfa4b7cfa4b7cfa4b7cfa4b7cfa4b7cfa4b7cfa4b7cfa4b7cfa4b7cf
+a4b7cfa4b7cfa4b7cfa4b7cfa4b7cfa4b7cfa4b7cfa4b7cfa4b7cfa4b7cfa4b7cfa4b7cfa4b7cfa4b7cfa4b7cfa4b7cf
+a4b7cfa4b7cfa4b7cfa4b7cfa4b7cfa4b7cfa4b7cfa4b7cfa4b7cfa4b7cfa4b7cfa4b7cfa4b7cfa4b7cfa4b7cfa4b7cf
+a4b7cfa4b7cfa4b7cfa4b7cfa4b7cfa4b7cfa4b7cfa4b7cfa4b7cfa4b7cfa4b7cfa4b7cfa4b7cfa4b7cfa4b7cfa4b7cf
+a4b7cfa4b7cfa4b7cfa4b7cfa4b7cfa4b7cfa4b7cfa4b7cfa4b7cfa4b7cfa4b7cfa4b7cfa4b7cfa4b7cfa4b7cfa4b7cf
+a5b8d1a5b8d1a5b8d1a5b8d1a5b8d1a5b8d1a5b8d1a5b8d1a6b9d1a5b8d1a5b8d1a6b9d1a5b8d1a5b8d1a5b8d1a5b8d1
+a5b8d1a5b8d1a5b8d1a6b9d1a5b8d1a5b8d1a5b8d1a5b8d1a5b8d1a6b9d1a5b8d1a5b8d1a5b8d1a6b9d1a5b8d1a5b8d1
+a5b8d1a5b8d1a6b9d1a5b8d1a5b8d1a6b9d1a5b8d1a6b9d1a5b8d1a5b8d1a5b8d1a5b8d1a6b9d1a5b8d1a5b8d1a5b8d1
+a5b8d1a5b8d1a5b8d1a5b8d1a6b9d1a5b8d1a6b9d1a5b8d1a5b8d1a6b9d1a5b8d1a5b8d1a6b9d1a5b8d1a5b8d1a5b8d1
+a5b8d1a5b8d1a5b8d1a5b8d1a5b8d1a5b8d1a5b8d1a5b8d1a5b8d1a5b8d1a5b8d1a6b9d1a5b8d1a5b8d1a5b8d1a5b8d1
+a5b8d1a5b8d1a5b8d1a5b8d1a5b8d1a5b8d1a5b8d1a5b8d1a6b9d1a5b8d1a6b9d1a5b8d1a5b8d1a5b8d1a5b8d1a5b8d1
+a6b9d1a5b8d1a5b8d1a5b8d1a5b8d1a5b8d1a5b8d1a5b8d1a5b8d1a5b8d1a5b8d1a5b8d1a5b8d1a5b8d1a5b8d1a5b8d1
+a5b8d1a5b8d1a5b8d1a5b8d1a5b8d1a5b8d1a5b8d1a5b8d1a5b8d1a6b9d1a5b8d1a5b8d1a5b8d1a5b8d1a5b8d1a5b8d1
+a7bad3a7bad3a7bad3a7bad3a7bad3a7bad3a7bad3a7bad3a7bad3a7bad3a7bad3a7bad3a7bad3a7bad3a7bad3a7bad3
+a7bad3a7bad3a7bad3a7bad3a7bad3a7bad3a7bad3a7bad3a7bad3a7bad3a7bad3a7bad3a7bad3a7bad3a7bad3a7bad3
+a7bad3a7bad3a7bad3a7bad3a7bad3a7bad3a7bad3a7bad3a7bad3a7bad3a7bad3a7bad3a7bad3a7bad3a7bad3a7bad3
+a7bad3a7bad3a7bad3a7bad3a7bad3a7bad3a7bad3a7bad3a7bad3a7bad3a7bad3a7bad3a7bad3a7bad3a7bad3a7bad3
+a7bad3a7bad3a7bad3a7bad3a7bad3a7bad3a7bad3a7bad3a7bad3a7bad3a7bad3a7bad3a7bad3a7bad3a7bad3a7bad3
+a7bad3a7bad3a7bad3a7bad3a7bad3a7bad3a7bad3a7bad3a7bad3a7bad3a7bad3a7bad3a7bad3a7bad3a7bad3a7bad3
+a7bad3a7bad3a7bad3a7bad3a7bad3a7bad3a7bad3a7bad3a7bad3a7bad3a7bad3a7bad3a7bad3a7bad3a7bad3a7bad3
+a7bad3a7bad3a7bad3a7bad3a7bad3a7bad3a7bad3a7bad3a7bad3a7bad3a7bad3a7bad3a7bad3a7bad3a7bad3a7bad3
+a9bcd5a9bcd5a9bcd5a9bcd5a9bcd5a9bcd5a9bcd5a9bcd5a9bcd5a9bcd5a9bcd5a9bcd5a9bcd5a9bcd5a9bcd5a9bcd5
+a9bcd5a9bcd5a9bcd5a9bcd5a9bcd5a9bcd5a9bcd5a9bcd5a9bcd5a9bcd5a9bcd5a9bcd5a9bcd5a9bcd5a9bcd5a9bcd5
+a9bcd5a9bcd5a9bcd5a9bcd5a9bcd5a9bcd5a9bcd5a9bcd5a9bcd5a9bcd5a9bcd5a9bcd5a9bcd5a9bcd5a9bcd5a9bcd5
+a9bcd5a9bcd5a9bcd5a9bcd5a9bcd5a9bcd5a9bcd5a9bcd5a9bcd5a9bcd5a9bcd5a9bcd5a9bcd5a9bcd5a9bcd5a9bcd5
+a9bcd5a9bcd5a9bcd5a9bcd5a9bcd5a9bcd5a9bcd5a9bcd5a9bcd5a9bcd5a9bcd5a9bcd5a9bcd5a9bcd5a9bcd5a9bcd5
+a9bcd5a9bcd5a9bcd5a9bcd5a9bcd5a9bcd5a9bcd5a9bcd5a9bcd5a9bcd5a9bcd5a9bcd5a9bcd5a9bcd5a9bcd5a9bcd5
+a9bcd5a9bcd5a9bcd5a9bcd5a9bcd5a9bcd5a9bcd5a9bcd5a9bcd5a9bcd5a9bcd5a9bcd5a9bcd5a9bcd5a9bcd5a9bcd5
+a9bcd5a9bcd5a9bcd5a9bcd5a9bcd5a9bcd5a9bcd5a9bcd5a9bcd5a9bcd5a9bcd5a9bcd5a9bcd5a9bcd5a9bcd5a9bcd5
+abbed8abbed8abbed8abbed8abbed8abbed8abbed8abbed8abbed8abbed8abbed8abbed8abbed8abbed8abbed8abbed8
+abbed8abbed8abbed8abbed8abbed8abbed8abbed8abbed8abbed8abbed8abbed8abbed8abbed8abbed8abbed8abbed8
+abbed8abbed8abbed8abbed8abbed8abbed8abbed8abbed8abbed8abbed8abbed8abbed8abbed8abbed8abbed8abbed8
+abbed8abbed8abbed8abbed8abbed8abbed8abbed8abbed8abbed8abbed8abbed8abbed8abbed8abbed8abbed8abbed8
+abbed8abbed8abbed8abbed8abbed8abbed8abbed8abbed8abbed8abbed8abbed8abbed8abbed8abbed8abbed8abbed8
+abbed8abbed8abbed8abbed8abbed8abbed8abbed8abbed8abbed8abbed8abbed8abbed8abbed8abbed8abbed8abbed8
+abbed8abbed8abbed8abbed8abbed8abbed8abbed8abbed8abbed8abbed8abbed8abbed8abbed8abbed8abbed8abbed8
+abbed8abbed8abbed8abbed8abbed8abbed8abbed8abbed8abbed8abbed8abbed8abbed8abbed8abbed8abbed8abbed8
+adc0daadc0daadc0daadc0daadc0daadc0daadc0daadc0daadc0daadc0daadc0daadc0daadc0daadc0daadc0daadc0da
+adc0daadc0daadc0daadc0daadc0daadc0daadc0daadc0daadc0daadc0daadc0daadc0daadc0daadc0daadc0daadc0da
+adc0daadc0daadc0daadc0daadc0daadc0daadc0daadc0daadc0daadc0daadc0daadc0daadc0daadc0daadc0daadc0da
+adc0daadc0daadc0daadc0daadc0daadc0daadc0daadc0daadc0daadc0daadc0daadc0daadc0daadc0daadc0daadc0da
+adc0daadc0daadc0daadc0daadc0daadc0daadc0daadc0daadc0daadc0daadc0daadc0daadc0daadc0daadc0daadc0da
+adc0daadc0daadc0daadc0daadc0daadc0daadc0daadc0daadc0daadc0daadc0daadc0daadc0daadc0daadc0daadc0da
+adc0daadc0daadc0daadc0daadc0daadc0daadc0daadc0daadc0daadc0daadc0daadc0daadc0daadc0daadc0daadc0da
+adc0daadc0daadc0daadc0daadc0daadc0daadc0daadc0daadc0daadc0daadc0daadc0daadc0daadc0daadc0daadc0da
+afc3ddafc3ddafc3ddafc3ddafc3ddafc3ddafc3ddafc3ddafc3ddafc3ddafc3ddafc3ddafc3ddafc3ddafc3ddafc3dd
+afc3ddafc3ddafc3ddafc3ddafc3ddafc3ddafc3ddafc3ddafc3ddafc3ddafc3ddafc3ddafc3ddafc3ddafc3ddafc3dd
+afc3ddafc3ddafc3ddafc3ddafc3ddafc3ddafc3ddafc3ddafc3ddafc3ddafc3ddafc3ddafc3ddafc3ddafc3ddafc3dd
+afc3ddafc3ddafc3ddafc3ddafc3ddafc3ddafc3ddafc3ddafc3ddafc3ddafc3ddafc3ddafc3ddafc3ddafc3ddafc3dd
+afc3ddafc3ddafc3ddafc3ddafc3ddafc3ddafc3ddafc3ddafc3ddafc3ddafc3ddafc3ddafc3ddafc3ddafc3ddafc3dd
+afc3ddafc3ddafc3ddafc3ddafc3ddafc3ddafc3ddafc3ddafc3ddafc3ddafc3ddafc3ddafc3ddafc3ddafc3ddafc3dd
+afc3ddafc3ddafc3ddafc3ddafc3ddafc3ddafc3ddafc3ddafc3ddafc3ddafc3ddafc3ddafc3ddafc3ddafc3ddafc3dd
+afc3ddafc3ddafc3ddafc3ddafc3ddafc3ddafc3ddafc3ddafc3ddafc3ddafc3ddafc3ddafc3ddafc3ddafc3ddafc3dd
+  </Thumbnail>
+</VcProject>

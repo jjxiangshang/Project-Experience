@@ -1,0 +1,206 @@
+﻿ 
+ ASSEMBLY NAME = FRONT_WHEEL_ASSEMBLE 
+
+    LEVEL 1 FRONT_WHEEL_ASSEMBLE ASSEM 
+      LEVEL 2 FRONT_WHEEL PART 
+      LEVEL 2 FRONT_WHEEL_BRACKET PART 
+      LEVEL 2 FRONT_AXLE PART 
+      LEVEL 2 FRONT_PILLAR PART 
+      LEVEL 2 H20 PART 
+      LEVEL 2 H20 PART 
+      LEVEL 2 H20 PART 
+      LEVEL 2 H20 PART 
+      LEVEL 2 FRONT_SPR_PLATE PART 
+      LEVEL 2 FRONT_SPRING PART 
+
+ COMPONENTS:
+
+
+ FEATURE NUMBER       1
+ INTERNAL FEATURE ID  1
+
+
+ DATUM PLANE
+
+  NO.     ELEMENT NAME    INFO                                                  
+  ---     -------------   -------------                                         
+   1      Feature Name    Defined                                               
+   2      Constraints     Defined                                               
+   2.1    Constraint #1   Defined                                               
+   2.1.1  Constr Type     X Axis                                                
+   3      Flip Datum Dir  Defined                                               
+   4      Fit             Defined                                               
+   4.1    Fit Type        Default                                               
+
+ NAME = ASM_RIGHT
+
+    FEATURE IS IN LAYER(S) :
+      01__ASM_ALL_DTM_PLN - OPERATION = SHOWN
+      01__ASM_DEF_DTM_PLN - OPERATION = SHOWN
+
+
+ ********************
+
+
+ FEATURE NUMBER       2
+ INTERNAL FEATURE ID  3
+
+
+ DATUM PLANE
+
+  NO.     ELEMENT NAME    INFO                                                  
+  ---     -------------   -------------                                         
+   1      Feature Name    Defined                                               
+   2      Constraints     Defined                                               
+   2.1    Constraint #1   Defined                                               
+   2.1.1  Constr Type     Y Axis                                                
+   3      Flip Datum Dir  Defined                                               
+   4      Fit             Defined                                               
+   4.1    Fit Type        Default                                               
+
+ NAME = ASM_TOP
+
+    FEATURE IS IN LAYER(S) :
+      01__ASM_ALL_DTM_PLN - OPERATION = SHOWN
+      01__ASM_DEF_DTM_PLN - OPERATION = SHOWN
+
+
+ ********************
+
+
+ FEATURE NUMBER       3
+ INTERNAL FEATURE ID  5
+
+
+ DATUM PLANE
+
+  NO.     ELEMENT NAME    INFO                                                  
+  ---     -------------   -------------                                         
+   1      Feature Name    Defined                                               
+   2      Constraints     Defined                                               
+   2.1    Constraint #1   Defined                                               
+   2.1.1  Constr Type     Z Axis                                                
+   3      Flip Datum Dir  Defined                                               
+   4      Fit             Defined                                               
+   4.1    Fit Type        Default                                               
+
+ NAME = ASM_FRONT
+
+    FEATURE IS IN LAYER(S) :
+      01__ASM_ALL_DTM_PLN - OPERATION = SHOWN
+      01__ASM_DEF_DTM_PLN - OPERATION = SHOWN
+
+
+ ********************
+
+
+ FEATURE NUMBER       4
+ INTERNAL FEATURE ID  7
+ TYPE = COORDINATE SYSTEM
+ NAME = ASM_DEF_CSYS
+
+
+    FEATURE IS IN LAYER(S) :
+      05__ASM_ALL_DTM_CSYS - OPERATION = SHOWN
+      05__ASM_DEF_DTM_CSYS - OPERATION = SHOWN
+
+
+ ********************
+
+
+ COMPONENT NUMBER 5
+ INTERNAL COMPONENT ID  40
+ CHILDREN = 41(#6) 44(#7) 47(#8) 50(#9) 53(#10) 54(#11) 55(#12) 56(#13) 
+           59(#14) 
+
+
+
+ ********************
+
+
+ COMPONENT NUMBER 6
+ INTERNAL COMPONENT ID  41
+ PARENTS = 40(#5) 
+ CHILDREN = 44(#7) 47(#8) 50(#9) 53(#10) 54(#11) 55(#12) 56(#13) 59(#14) 
+
+
+
+ ********************
+
+
+ COMPONENT NUMBER 7
+ INTERNAL COMPONENT ID  44
+ PARENTS = 40(#5) 41(#6) 
+
+
+ FEATURE'S DIMENSIONS:
+ d2 = (Displayed:) 10
+      (   Stored:) 10.0 ( 0.01, -0.01 ) 
+
+ ********************
+
+
+ COMPONENT NUMBER 8
+ INTERNAL COMPONENT ID  47
+ PARENTS = 41(#6) 
+ CHILDREN = 50(#9) 53(#10) 54(#11) 55(#12) 56(#13) 59(#14) 
+
+
+
+ ********************
+
+
+ COMPONENT NUMBER 9
+ INTERNAL COMPONENT ID  50
+ PARENTS = 47(#8) 
+
+
+
+ ********************
+
+
+ COMPONENT NUMBER 10
+ INTERNAL COMPONENT ID  53
+ PARENTS = 47(#8) 
+
+
+
+ ********************
+
+
+ COMPONENT NUMBER 11
+ INTERNAL COMPONENT ID  54
+ PARENTS = 47(#8) 
+
+
+
+ ********************
+
+
+ COMPONENT NUMBER 12
+ INTERNAL COMPONENT ID  55
+ PARENTS = 47(#8) 
+
+
+
+ ********************
+
+
+ COMPONENT NUMBER 13
+ INTERNAL COMPONENT ID  56
+ PARENTS = 47(#8) 
+ CHILDREN = 59(#14) 
+
+
+
+ ********************
+
+
+ COMPONENT NUMBER 14
+ INTERNAL COMPONENT ID  59
+ PARENTS = 47(#8) 56(#13) 
+
+
+
+ ********************
+

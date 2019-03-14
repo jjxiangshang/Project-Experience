@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CGTechToolLibrary Version="6.0">
+  <Tools>
+    <Tool ID="1" Units="Millimeter">
+      <Description>4MMFEM</Description>
+      <Teeth>2</Teeth>
+      <OptipathReference>4MMFEM</OptipathReference>
+      <SpinAxis>SpindleAxis</SpinAxis>
+      <Type>Milling</Type>
+      <Cutter>
+        <Apt ID="Cutter1" Type="APT 7">
+          <D>10.000000</D>
+          <R>0.000000</R>
+          <E>5.000000</E>
+          <F>0.000000</F>
+          <A>0.000000</A>
+          <B>0.000000</B>
+          <H>100.000000</H>
+          <R2>0</R2>
+          <E2>0</E2>
+          <F2>0</F2>
+          <SpindleDirection>CW</SpindleDirection>
+        </Apt>
+      </Cutter>
+      <GagePoint>
+        <X>0.0</X>
+        <Y>0.0</Y>
+        <Z>0.000000</Z>
+      </GagePoint>
+    </Tool>
+    <Tool ID="2" Units="Millimeter">
+      <Description>4MMBEM</Description>
+      <Teeth>2</Teeth>
+      <OptipathReference>4MMBEM</OptipathReference>
+      <SpinAxis>SpindleAxis</SpinAxis>
+      <Type>Milling</Type>
+      <Cutter>
+        <Apt ID="Cutter1" Type="APT 7">
+          <D>4.000000</D>
+          <R>2.000000</R>
+          <E>0.000000</E>
+          <F>2.000000</F>
+          <A>0.000000</A>
+          <B>0.000000</B>
+          <H>60.000000</H>
+          <R2>0</R2>
+          <E2>0</E2>
+          <F2>0</F2>
+          <SpindleDirection>CW</SpindleDirection>
+        </Apt>
+      </Cutter>
+      <GagePoint>
+        <X>0.0</X>
+        <Y>0.0</Y>
+        <Z>0.000000</Z>
+      </GagePoint>
+    </Tool>
+    <Tool ID="3" Units="Millimeter">
+      <Description>11MMDRILLING</Description>
+      <Teeth>2</Teeth>
+      <OptipathReference>11MMDRILLING</OptipathReference>
+      <SpinAxis>SpindleAxis</SpinAxis>
+      <Type>Milling</Type>
+      <Cutter>
+        <SOR ID="Cutter1">
+          <Pt>
+            <X>0</X>
+            <Z>0</Z>
+          </Pt>
+          <Pt>
+            <X>5.500000</X>
+            <Z>3.304733</Z>
+          </Pt>
+          <Pt>
+            <X>5.500000</X>
+            <Z>60.000000</Z>
+          </Pt>
+          <Pt>
+            <X>0</X>
+            <Z>60.000000</Z>
+          </Pt>
+          <SpindleDirection>CW</SpindleDirection>
+        </SOR>
+      </Cutter>
+      <GagePoint>
+        <X>0.000000</X>
+        <Y>0.0</Y>
+        <Z>0.000000</Z>
+      </GagePoint>
+    </Tool>
+  </Tools>
+</CGTechToolLibrary>

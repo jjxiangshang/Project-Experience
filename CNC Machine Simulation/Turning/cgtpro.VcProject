@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VcProject Version="6.0" Unit="inch">
+  <Simulation Choice="E62E3556EDCDBDFF9AC3C2AE"/>
+  <Setup Name="1" Active="on">
+    <Views>
+      <View Name="VIEW 1" Type="workpiece" Back="shaded" Draw="shaded" Trans="off">
+        <Light I="0" J="0" K="1"/>
+        <Attach>Stock 1</Attach>
+        <Rotation I="-61.642" J="-34.928" K="-107.172"/>
+        <Port XMin="0" XMax="0" YMin="0" YMax="0" ZMin="0" ZMax="0"/>
+      </View>
+    </Views>
+    <Build Loose="keep">
+      <Component Name="Stock 1" Type="stock" Visible="workpiece" Draw="shaded" Hue="5">
+        <Attach>Fixture</Attach>
+        <Position X="0" Y="0" Z="0"/>
+        <Rotation I="0" J="0" K="0"/>
+        <Poly Unit="inch">
+          <File>TURN_WP_1.stk</File>
+          <Position X="0" Y="0" Z="0"/>
+          <Rotation I="0" J="0" K="0"/>
+        </Poly>
+      </Component>
+      <Component Name="TUNRING_MODEL_1" Type="design" Visible="workpiece" Draw="shaded" Hue="7">
+        <Attach>Stock</Attach>
+        <Position X="0" Y="0" Z="0"/>
+        <Rotation I="0" J="0" K="0"/>
+        <Poly Unit="inch">
+          <File>TUNRING_MODEL_1.dsn</File>
+          <Position X="0" Y="0" Z="0"/>
+          <Rotation I="0" J="0" K="0"/>
+        </Poly>
+      </Component>
+      <Component Name="TURN_CHUCK_1" Type="fixture" Visible="all" Draw="shaded" Hue="6">
+        <Attach>Attach</Attach>
+        <Position X="0" Y="0" Z="0"/>
+        <Rotation I="0" J="0" K="0"/>
+        <Poly Unit="inch">
+          <File>TURN_CHUCK_1.fxt</File>
+          <Position X="0" Y="0" Z="0"/>
+          <Rotation I="0" J="0" K="0"/>
+        </Poly>
+      </Component>
+    </Build>
+    <NCPrograms Selected="off" Type="Pro/Manufacturing_APT">
+      <NCProgram Use="off" Filter="off">
+        <File>E:\NJIT\2017Spring\ME635\Creo Manufacture\op010.ncl.2</File>
+        <Orient>none</Orient>
+      </NCProgram>
+    </NCPrograms>
+    <APT Machine="turn">
+      <Tool Reset="on"/>
+      <Turn>#xval, #yval, #zval</Turn>
+    </APT>
+    <ToolMan>
+      <Library>cgtpro.tls</Library>
+    </ToolMan>
+    <Optipath Over="100">
+      <Output></Output>
+      <Material>TURN_WP</Material>
+      <Machine>LATHE01</Machine>
+    </Optipath>
+  </Setup>
+</VcProject>

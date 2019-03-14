@@ -1,0 +1,2785 @@
+VERICUT-log
+*---------------------------------------------------------*
+*                                                         *
+*                 Mon May 01 14:18:42 2017
+                *
+*                                                         *
+*---------------------------------------------------------*
+
+
+
+*** Processing NC program file E:\QYL_Final_Project\Final Project\creo manufacturing\cgtpro.tp
+Mon May 01 14:18:45 2017
+
+
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 20, Filename: cgtpro.tp
+GOTO / 2.7400000000, 0.0600000000, -0.2000000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (20) GOTO / 2.7400000000, 0.0600000000, -0.2000000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 22, Filename: cgtpro.tp
+GOTO / 0.0600000000, 0.2583333278, -0.2000000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (22) GOTO / 0.0600000000, 0.2583333278, -0.2000000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 24, Filename: cgtpro.tp
+GOTO / 2.7400000000, 0.4566666689, -0.2000000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (24) GOTO / 2.7400000000, 0.4566666689, -0.2000000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 25, Filename: cgtpro.tp
+GOTO / 2.7400000000, 0.6549999967, -0.2000000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (25) GOTO / 2.7400000000, 0.6549999967, -0.2000000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 26, Filename: cgtpro.tp
+GOTO / 0.0600000000, 0.6549999967, -0.2000000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (26) GOTO / 0.0600000000, 0.6549999967, -0.2000000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 27, Filename: cgtpro.tp
+GOTO / 0.0600000000, 0.8533333378, -0.2000000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (27) GOTO / 0.0600000000, 0.8533333378, -0.2000000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 28, Filename: cgtpro.tp
+GOTO / 2.7400000000, 0.8533333378, -0.2000000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (28) GOTO / 2.7400000000, 0.8533333378, -0.2000000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 29, Filename: cgtpro.tp
+GOTO / 2.7400000000, 1.0516666656, -0.2000000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (29) GOTO / 2.7400000000, 1.0516666656, -0.2000000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 30, Filename: cgtpro.tp
+GOTO / 0.0600000000, 1.0516666656, -0.2000000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (30) GOTO / 0.0600000000, 1.0516666656, -0.2000000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 31, Filename: cgtpro.tp
+GOTO / 0.0600000000, 1.2500000067, -0.2000000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (31) GOTO / 0.0600000000, 1.2500000067, -0.2000000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 32, Filename: cgtpro.tp
+GOTO / 2.7400000000, 1.2500000067, -0.2000000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (32) GOTO / 2.7400000000, 1.2500000067, -0.2000000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 33, Filename: cgtpro.tp
+GOTO / 2.7400000000, 1.4483333344, -0.2000000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (33) GOTO / 2.7400000000, 1.4483333344, -0.2000000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 34, Filename: cgtpro.tp
+GOTO / 0.0600000000, 1.4483333344, -0.2000000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (34) GOTO / 0.0600000000, 1.4483333344, -0.2000000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 35, Filename: cgtpro.tp
+GOTO / 0.0600000000, 1.6466666622, -0.2000000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (35) GOTO / 0.0600000000, 1.6466666622, -0.2000000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 36, Filename: cgtpro.tp
+GOTO / 2.7400000000, 1.6466666622, -0.2000000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (36) GOTO / 2.7400000000, 1.6466666622, -0.2000000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 37, Filename: cgtpro.tp
+GOTO / 2.7400000000, 1.8450000033, -0.2000000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (37) GOTO / 2.7400000000, 1.8450000033, -0.2000000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 38, Filename: cgtpro.tp
+GOTO / 0.0600000000, 1.8450000033, -0.2000000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (38) GOTO / 0.0600000000, 1.8450000033, -0.2000000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 39, Filename: cgtpro.tp
+GOTO / 0.0600000000, 2.0433333311, -0.2000000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (39) GOTO / 0.0600000000, 2.0433333311, -0.2000000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 40, Filename: cgtpro.tp
+GOTO / 2.7400000000, 2.0433333311, -0.2000000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (40) GOTO / 2.7400000000, 2.0433333311, -0.2000000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 42, Filename: cgtpro.tp
+GOTO / 0.0600000000, 2.2416666722, -0.2000000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (42) GOTO / 0.0600000000, 2.2416666722, -0.2000000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 44, Filename: cgtpro.tp
+GOTO / 2.7400000000, 2.4400000000, -0.2000000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (44) GOTO / 2.7400000000, 2.4400000000, -0.2000000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 45, Filename: cgtpro.tp
+GOTO / 0.0600000000, 2.4400000000, -0.2000000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (45) GOTO / 0.0600000000, 2.4400000000, -0.2000000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 46, Filename: cgtpro.tp
+GOTO / 0.0600000000, 0.0600000000, -0.2000000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (46) GOTO / 0.0600000000, 0.0600000000, -0.2000000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 47, Filename: cgtpro.tp
+GOTO / 2.7400000000, 0.0600000000, -0.2000000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (47) GOTO / 2.7400000000, 0.0600000000, -0.2000000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 48, Filename: cgtpro.tp
+GOTO / 2.7400000000, 2.4400000000, -0.2000000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (48) GOTO / 2.7400000000, 2.4400000000, -0.2000000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 50, Filename: cgtpro.tp
+GOTO / 0.0600000000, 2.4400000000, -0.3400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (50) GOTO / 0.0600000000, 2.4400000000, -0.3400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 52, Filename: cgtpro.tp
+GOTO / 2.7400000000, 2.2416666722, -0.3400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (52) GOTO / 2.7400000000, 2.2416666722, -0.3400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 54, Filename: cgtpro.tp
+GOTO / 0.0600000000, 2.0433333311, -0.3400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (54) GOTO / 0.0600000000, 2.0433333311, -0.3400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 55, Filename: cgtpro.tp
+GOTO / 0.0600000000, 1.8450000033, -0.3400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (55) GOTO / 0.0600000000, 1.8450000033, -0.3400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 56, Filename: cgtpro.tp
+GOTO / 2.7400000000, 1.8450000033, -0.3400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (56) GOTO / 2.7400000000, 1.8450000033, -0.3400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 57, Filename: cgtpro.tp
+GOTO / 2.7400000000, 1.6466666622, -0.3400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (57) GOTO / 2.7400000000, 1.6466666622, -0.3400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 58, Filename: cgtpro.tp
+GOTO / 0.0600000000, 1.6466666622, -0.3400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (58) GOTO / 0.0600000000, 1.6466666622, -0.3400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 59, Filename: cgtpro.tp
+GOTO / 0.0600000000, 1.4483333344, -0.3400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (59) GOTO / 0.0600000000, 1.4483333344, -0.3400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 60, Filename: cgtpro.tp
+GOTO / 2.7400000000, 1.4483333344, -0.3400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (60) GOTO / 2.7400000000, 1.4483333344, -0.3400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 61, Filename: cgtpro.tp
+GOTO / 2.7400000000, 1.2500000067, -0.3400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (61) GOTO / 2.7400000000, 1.2500000067, -0.3400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 62, Filename: cgtpro.tp
+GOTO / 0.0600000000, 1.2500000067, -0.3400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (62) GOTO / 0.0600000000, 1.2500000067, -0.3400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 63, Filename: cgtpro.tp
+GOTO / 0.0600000000, 1.0516666656, -0.3400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (63) GOTO / 0.0600000000, 1.0516666656, -0.3400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 64, Filename: cgtpro.tp
+GOTO / 2.7400000000, 1.0516666656, -0.3400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (64) GOTO / 2.7400000000, 1.0516666656, -0.3400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 65, Filename: cgtpro.tp
+GOTO / 2.7400000000, 0.8533333378, -0.3400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (65) GOTO / 2.7400000000, 0.8533333378, -0.3400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 66, Filename: cgtpro.tp
+GOTO / 0.0600000000, 0.8533333378, -0.3400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (66) GOTO / 0.0600000000, 0.8533333378, -0.3400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 67, Filename: cgtpro.tp
+GOTO / 0.0600000000, 0.6549999967, -0.3400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (67) GOTO / 0.0600000000, 0.6549999967, -0.3400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 68, Filename: cgtpro.tp
+GOTO / 2.7400000000, 0.6549999967, -0.3400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (68) GOTO / 2.7400000000, 0.6549999967, -0.3400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 69, Filename: cgtpro.tp
+GOTO / 2.7400000000, 0.4566666689, -0.3400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (69) GOTO / 2.7400000000, 0.4566666689, -0.3400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 70, Filename: cgtpro.tp
+GOTO / 0.0600000000, 0.4566666689, -0.3400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (70) GOTO / 0.0600000000, 0.4566666689, -0.3400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 72, Filename: cgtpro.tp
+GOTO / 2.7400000000, 0.2583333278, -0.3400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (72) GOTO / 2.7400000000, 0.2583333278, -0.3400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 74, Filename: cgtpro.tp
+GOTO / 0.0600000000, 0.0600000000, -0.3400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (74) GOTO / 0.0600000000, 0.0600000000, -0.3400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 75, Filename: cgtpro.tp
+GOTO / 2.7400000000, 0.0600000000, -0.3400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (75) GOTO / 2.7400000000, 0.0600000000, -0.3400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 76, Filename: cgtpro.tp
+GOTO / 2.7400000000, 2.4400000000, -0.3400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (76) GOTO / 2.7400000000, 2.4400000000, -0.3400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 77, Filename: cgtpro.tp
+GOTO / 0.0600000000, 2.4400000000, -0.3400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (77) GOTO / 0.0600000000, 2.4400000000, -0.3400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 78, Filename: cgtpro.tp
+GOTO / 0.0600000000, 0.0600000000, -0.3400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (78) GOTO / 0.0600000000, 0.0600000000, -0.3400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 80, Filename: cgtpro.tp
+GOTO / 2.7400000000, 0.0600000000, -0.5400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (80) GOTO / 2.7400000000, 0.0600000000, -0.5400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 81, Filename: cgtpro.tp
+GOTO / 0.0600000000, 0.0600000000, -0.5400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (81) GOTO / 0.0600000000, 0.0600000000, -0.5400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 83, Filename: cgtpro.tp
+GOTO / 0.5440230120, 0.2583333333, -0.5400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (83) GOTO / 0.5440230120, 0.2583333333, -0.5400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 84, Filename: cgtpro.tp
+GOTO / 0.5327608174, 0.2681669184, -0.5400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (84) GOTO / 0.5327608174, 0.2681669184, -0.5400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 88, Filename: cgtpro.tp
+GOTO / 0.0600000000, 0.4566666667, -0.5400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (88) GOTO / 0.0600000000, 0.4566666667, -0.5400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 88, Filename: cgtpro.tp
+GOTO / 0.0600000000, 0.4566666667, -0.5400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (88) GOTO / 0.0600000000, 0.4566666667, -0.5400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 89, Filename: cgtpro.tp
+GOTO / 0.0600000000, 0.6550000000, -0.5400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (89) GOTO / 0.0600000000, 0.6550000000, -0.5400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 90, Filename: cgtpro.tp
+GOTO / 0.2329270055, 0.6550000000, -0.5400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (90) GOTO / 0.2329270055, 0.6550000000, -0.5400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 91, Filename: cgtpro.tp
+GOTO / 0.2329231993, 0.6549980590, -0.5400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (91) GOTO / 0.2329231993, 0.6549980590, -0.5400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 95, Filename: cgtpro.tp
+GOTO / 0.0600000000, 0.8533333333, -0.5400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (95) GOTO / 0.0600000000, 0.8533333333, -0.5400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 95, Filename: cgtpro.tp
+GOTO / 0.0600000000, 0.8533333333, -0.5400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (95) GOTO / 0.0600000000, 0.8533333333, -0.5400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 96, Filename: cgtpro.tp
+GOTO / 0.0600000000, 1.0516666667, -0.5400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (96) GOTO / 0.0600000000, 1.0516666667, -0.5400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 97, Filename: cgtpro.tp
+GOTO / 0.1051010726, 1.0516666667, -0.5400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (97) GOTO / 0.1051010726, 1.0516666667, -0.5400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 98, Filename: cgtpro.tp
+GOTO / 0.1051008245, 1.0516666311, -0.5400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (98) GOTO / 0.1051008245, 1.0516666311, -0.5400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 102, Filename: cgtpro.tp
+GOTO / 0.0900238797, 1.2500000000, -0.5400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (102) GOTO / 0.0900238797, 1.2500000000, -0.5400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 102, Filename: cgtpro.tp
+GOTO / 0.0900238797, 1.2500000000, -0.5400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (102) GOTO / 0.0900238797, 1.2500000000, -0.5400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 103, Filename: cgtpro.tp
+GOTO / 0.0600000000, 1.2500000000, -0.5400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (103) GOTO / 0.0600000000, 1.2500000000, -0.5400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 104, Filename: cgtpro.tp
+GOTO / 0.0600000000, 1.4483333333, -0.5400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (104) GOTO / 0.0600000000, 1.4483333333, -0.5400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 105, Filename: cgtpro.tp
+GOTO / 0.1051063591, 1.4483333333, -0.5400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (105) GOTO / 0.1051063591, 1.4483333333, -0.5400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 106, Filename: cgtpro.tp
+GOTO / 0.1051052525, 1.4483335056, -0.5400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (106) GOTO / 0.1051052525, 1.4483335056, -0.5400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 110, Filename: cgtpro.tp
+GOTO / 0.0600000000, 1.6466666667, -0.5400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (110) GOTO / 0.0600000000, 1.6466666667, -0.5400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 110, Filename: cgtpro.tp
+GOTO / 0.0600000000, 1.6466666667, -0.5400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (110) GOTO / 0.0600000000, 1.6466666667, -0.5400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 111, Filename: cgtpro.tp
+GOTO / 0.0600000000, 1.8450000000, -0.5400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (111) GOTO / 0.0600000000, 1.8450000000, -0.5400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 112, Filename: cgtpro.tp
+GOTO / 0.2329271733, 1.8450000000, -0.5400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (112) GOTO / 0.2329271733, 1.8450000000, -0.5400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 113, Filename: cgtpro.tp
+GOTO / 0.2329337731, 1.8449966386, -0.5400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (113) GOTO / 0.2329337731, 1.8449966386, -0.5400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 117, Filename: cgtpro.tp
+GOTO / 0.0600000001, 2.0433333333, -0.5400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (117) GOTO / 0.0600000001, 2.0433333333, -0.5400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 117, Filename: cgtpro.tp
+GOTO / 0.0600000001, 2.0433333333, -0.5400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (117) GOTO / 0.0600000001, 2.0433333333, -0.5400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 119, Filename: cgtpro.tp
+GOTO / 0.5440499271, 2.2416666667, -0.5400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (119) GOTO / 0.5440499271, 2.2416666667, -0.5400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 120, Filename: cgtpro.tp
+GOTO / 0.0600000001, 2.2416666667, -0.5400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (120) GOTO / 0.0600000001, 2.2416666667, -0.5400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 122, Filename: cgtpro.tp
+GOTO / 2.7399999997, 2.4400000000, -0.5400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (122) GOTO / 2.7399999997, 2.4400000000, -0.5400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 124, Filename: cgtpro.tp
+GOTO / 2.2559516270, 2.2416666667, -0.5400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (124) GOTO / 2.2559516270, 2.2416666667, -0.5400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 125, Filename: cgtpro.tp
+GOTO / 2.2559574105, 2.2416733673, -0.5400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (125) GOTO / 2.2559574105, 2.2416733673, -0.5400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 129, Filename: cgtpro.tp
+GOTO / 2.7400000000, 2.0433333333, -0.5400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (129) GOTO / 2.7400000000, 2.0433333333, -0.5400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 129, Filename: cgtpro.tp
+GOTO / 2.7400000000, 2.0433333333, -0.5400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (129) GOTO / 2.7400000000, 2.0433333333, -0.5400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 130, Filename: cgtpro.tp
+GOTO / 2.7400000000, 1.8450000000, -0.5400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (130) GOTO / 2.7400000000, 1.8450000000, -0.5400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 131, Filename: cgtpro.tp
+GOTO / 2.5670788377, 1.8450000000, -0.5400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (131) GOTO / 2.5670788377, 1.8450000000, -0.5400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 132, Filename: cgtpro.tp
+GOTO / 2.5670795037, 1.8450003367, -0.5400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (132) GOTO / 2.5670795037, 1.8450003367, -0.5400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 136, Filename: cgtpro.tp
+GOTO / 2.7400000000, 1.6466666667, -0.5400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (136) GOTO / 2.7400000000, 1.6466666667, -0.5400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 136, Filename: cgtpro.tp
+GOTO / 2.7400000000, 1.6466666667, -0.5400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (136) GOTO / 2.7400000000, 1.6466666667, -0.5400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 137, Filename: cgtpro.tp
+GOTO / 2.7400000000, 1.4483333333, -0.5400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (137) GOTO / 2.7400000000, 1.4483333333, -0.5400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 138, Filename: cgtpro.tp
+GOTO / 2.6948991180, 1.4483333333, -0.5400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (138) GOTO / 2.6948991180, 1.4483333333, -0.5400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 139, Filename: cgtpro.tp
+GOTO / 2.6948991798, 1.4483333411, -0.5400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (139) GOTO / 2.6948991798, 1.4483333411, -0.5400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 143, Filename: cgtpro.tp
+GOTO / 2.7400000000, 1.2500000000, -0.5400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (143) GOTO / 2.7400000000, 1.2500000000, -0.5400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 143, Filename: cgtpro.tp
+GOTO / 2.7400000000, 1.2500000000, -0.5400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (143) GOTO / 2.7400000000, 1.2500000000, -0.5400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 144, Filename: cgtpro.tp
+GOTO / 2.7400000000, 1.0516666667, -0.5400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (144) GOTO / 2.7400000000, 1.0516666667, -0.5400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 145, Filename: cgtpro.tp
+GOTO / 2.6948991180, 1.0516666667, -0.5400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (145) GOTO / 2.6948991180, 1.0516666667, -0.5400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 146, Filename: cgtpro.tp
+GOTO / 2.6948991678, 1.0516666593, -0.5400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (146) GOTO / 2.6948991678, 1.0516666593, -0.5400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 150, Filename: cgtpro.tp
+GOTO / 2.7400000000, 0.8533333333, -0.5400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (150) GOTO / 2.7400000000, 0.8533333333, -0.5400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 150, Filename: cgtpro.tp
+GOTO / 2.7400000000, 0.8533333333, -0.5400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (150) GOTO / 2.7400000000, 0.8533333333, -0.5400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 151, Filename: cgtpro.tp
+GOTO / 2.7400000000, 0.6550000000, -0.5400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (151) GOTO / 2.7400000000, 0.6550000000, -0.5400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 152, Filename: cgtpro.tp
+GOTO / 2.5670788377, 0.6550000000, -0.5400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (152) GOTO / 2.5670788377, 0.6550000000, -0.5400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 153, Filename: cgtpro.tp
+GOTO / 2.5670724249, 0.6550032682, -0.5400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (153) GOTO / 2.5670724249, 0.6550032682, -0.5400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 157, Filename: cgtpro.tp
+GOTO / 2.7400000000, 0.4566666667, -0.5400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (157) GOTO / 2.7400000000, 0.4566666667, -0.5400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 157, Filename: cgtpro.tp
+GOTO / 2.7400000000, 0.4566666667, -0.5400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (157) GOTO / 2.7400000000, 0.4566666667, -0.5400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 159, Filename: cgtpro.tp
+GOTO / 2.2559516270, 0.2583333333, -0.5400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (159) GOTO / 2.2559516270, 0.2583333333, -0.5400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 163, Filename: cgtpro.tp
+GOTO / 2.0171516393, 2.4055188679, -0.5400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (163) GOTO / 2.0171516393, 2.4055188679, -0.5400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 163, Filename: cgtpro.tp
+GOTO / 2.0171516393, 2.4055188679, -0.5400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (163) GOTO / 2.0171516393, 2.4055188679, -0.5400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 167, Filename: cgtpro.tp
+GOTO / 1.5553175301, 2.4350000000, -0.5400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (167) GOTO / 1.5553175301, 2.4350000000, -0.5400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 167, Filename: cgtpro.tp
+GOTO / 1.5553175301, 2.4350000000, -0.5400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (167) GOTO / 1.5553175301, 2.4350000000, -0.5400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 171, Filename: cgtpro.tp
+CIRCLE / 1.2446824699, 2.1850000000, -0.5400000000,  $
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (171) CIRCLE / 1.2446824699, 2.1850000000, -0.5400000000,  $
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 174, Filename: cgtpro.tp
+GOTO / 0.9006253911, 2.4350000000, -0.5400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (174) GOTO / 0.9006253911, 2.4350000000, -0.5400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 174, Filename: cgtpro.tp
+GOTO / 0.9006253911, 2.4350000000, -0.5400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (174) GOTO / 0.9006253911, 2.4350000000, -0.5400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 178, Filename: cgtpro.tp
+CIRCLE / 0.9006253911, 2.1850000000, -0.5400000000,  $
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (178) CIRCLE / 0.9006253911, 2.1850000000, -0.5400000000,  $
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 181, Filename: cgtpro.tp
+GOTO / 1.2446824699, 2.4350000000, -0.5400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (181) GOTO / 1.2446824699, 2.4350000000, -0.5400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 181, Filename: cgtpro.tp
+GOTO / 1.2446824699, 2.4350000000, -0.5400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (181) GOTO / 1.2446824699, 2.4350000000, -0.5400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 185, Filename: cgtpro.tp
+CIRCLE / 1.5553175301, 2.1850000000, -0.5400000000,  $
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (185) CIRCLE / 1.5553175301, 2.1850000000, -0.5400000000,  $
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 188, Filename: cgtpro.tp
+GOTO / 1.8993746089, 2.4350000000, -0.5400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (188) GOTO / 1.8993746089, 2.4350000000, -0.5400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 188, Filename: cgtpro.tp
+GOTO / 1.8993746089, 2.4350000000, -0.5400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (188) GOTO / 1.8993746089, 2.4350000000, -0.5400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 192, Filename: cgtpro.tp
+CIRCLE / 1.4000000000, 1.2500000000, -0.5400000000,  $
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (192) CIRCLE / 1.4000000000, 1.2500000000, -0.5400000000,  $
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 195, Filename: cgtpro.tp
+CIRCLE / 1.8993746089, 0.3150000000, -0.5400000000,  $
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (195) CIRCLE / 1.8993746089, 0.3150000000, -0.5400000000,  $
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 198, Filename: cgtpro.tp
+GOTO / 1.5553175301, 0.0650000000, -0.5400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (198) GOTO / 1.5553175301, 0.0650000000, -0.5400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 198, Filename: cgtpro.tp
+GOTO / 1.5553175301, 0.0650000000, -0.5400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (198) GOTO / 1.5553175301, 0.0650000000, -0.5400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 202, Filename: cgtpro.tp
+CIRCLE / 1.2446824699, 0.3150000000, -0.5400000000,  $
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (202) CIRCLE / 1.2446824699, 0.3150000000, -0.5400000000,  $
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 205, Filename: cgtpro.tp
+GOTO / 0.9006253911, 0.0650000000, -0.5400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (205) GOTO / 0.9006253911, 0.0650000000, -0.5400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 205, Filename: cgtpro.tp
+GOTO / 0.9006253911, 0.0650000000, -0.5400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (205) GOTO / 0.9006253911, 0.0650000000, -0.5400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 209, Filename: cgtpro.tp
+CIRCLE / 0.8818990428, 0.2658372802, -0.5400000000,  $
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (209) CIRCLE / 0.8818990428, 0.2658372802, -0.5400000000,  $
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 212, Filename: cgtpro.tp
+GOTO / 0.6873223838, 0.1508227553, -0.5400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (212) GOTO / 0.6873223838, 0.1508227553, -0.5400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 212, Filename: cgtpro.tp
+GOTO / 0.6873223838, 0.1508227553, -0.5400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (212) GOTO / 0.6873223838, 0.1508227553, -0.5400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 216, Filename: cgtpro.tp
+GOTO / 0.7828483607, 2.4055188679, 0.5000000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (216) GOTO / 0.7828483607, 2.4055188679, 0.5000000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 216, Filename: cgtpro.tp
+GOTO / 0.7828483607, 2.4055188679, 0.5000000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (216) GOTO / 0.7828483607, 2.4055188679, 0.5000000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 223, Filename: cgtpro.tp
+GOTO / 0.0600000000, 2.4400000000, -0.5400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (223) GOTO / 0.0600000000, 2.4400000000, -0.5400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 224, Filename: cgtpro.tp
+GOTO / 0.0600000000, 0.0600000000, -0.5400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (224) GOTO / 0.0600000000, 0.0600000000, -0.5400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 225, Filename: cgtpro.tp
+GOTO / 2.7400000000, 0.0600000000, -0.5400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (225) GOTO / 2.7400000000, 0.0600000000, -0.5400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 226, Filename: cgtpro.tp
+GOTO / 2.7400000000, 2.4400000000, -0.5400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (226) GOTO / 2.7400000000, 2.4400000000, -0.5400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 227, Filename: cgtpro.tp
+GOTO / 2.5950346851, 1.7866231619, -0.5400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (227) GOTO / 2.5950346851, 1.7866231619, -0.5400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 228, Filename: cgtpro.tp
+GOTO / 2.5950289918, 1.7866206054, -0.5400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (228) GOTO / 2.5950289918, 1.7866206054, -0.5400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 232, Filename: cgtpro.tp
+GOTO / 2.2559516270, 0.2583333333, -0.7400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (232) GOTO / 2.2559516270, 0.2583333333, -0.7400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 232, Filename: cgtpro.tp
+GOTO / 2.2559516270, 0.2583333333, -0.7400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (232) GOTO / 2.2559516270, 0.2583333333, -0.7400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 233, Filename: cgtpro.tp
+GOTO / 2.7400000000, 0.2583333333, -0.7400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (233) GOTO / 2.7400000000, 0.2583333333, -0.7400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 235, Filename: cgtpro.tp
+GOTO / 2.4424497005, 0.4566666667, -0.7400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (235) GOTO / 2.4424497005, 0.4566666667, -0.7400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 239, Filename: cgtpro.tp
+GOTO / 2.5670788377, 0.6550000000, -0.7400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (239) GOTO / 2.5670788377, 0.6550000000, -0.7400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 239, Filename: cgtpro.tp
+GOTO / 2.5670788377, 0.6550000000, -0.7400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (239) GOTO / 2.5670788377, 0.6550000000, -0.7400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 240, Filename: cgtpro.tp
+GOTO / 2.7400000000, 0.6550000000, -0.7400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (240) GOTO / 2.7400000000, 0.6550000000, -0.7400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 241, Filename: cgtpro.tp
+GOTO / 2.7400000000, 0.8533333333, -0.7400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (241) GOTO / 2.7400000000, 0.8533333333, -0.7400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 242, Filename: cgtpro.tp
+GOTO / 2.6485013113, 0.8533333333, -0.7400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (242) GOTO / 2.6485013113, 0.8533333333, -0.7400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 246, Filename: cgtpro.tp
+GOTO / 2.6948991180, 1.0516666667, -0.7400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (246) GOTO / 2.6948991180, 1.0516666667, -0.7400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 246, Filename: cgtpro.tp
+GOTO / 2.6948991180, 1.0516666667, -0.7400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (246) GOTO / 2.6948991180, 1.0516666667, -0.7400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 247, Filename: cgtpro.tp
+GOTO / 2.7400000000, 1.0516666667, -0.7400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (247) GOTO / 2.7400000000, 1.0516666667, -0.7400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 248, Filename: cgtpro.tp
+GOTO / 2.7400000000, 1.2500000000, -0.7400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (248) GOTO / 2.7400000000, 1.2500000000, -0.7400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 249, Filename: cgtpro.tp
+GOTO / 2.7100000000, 1.2500000000, -0.7400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (249) GOTO / 2.7100000000, 1.2500000000, -0.7400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 253, Filename: cgtpro.tp
+GOTO / 2.6948991180, 1.4483333333, -0.7400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (253) GOTO / 2.6948991180, 1.4483333333, -0.7400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 253, Filename: cgtpro.tp
+GOTO / 2.6948991180, 1.4483333333, -0.7400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (253) GOTO / 2.6948991180, 1.4483333333, -0.7400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 254, Filename: cgtpro.tp
+GOTO / 2.7400000000, 1.4483333333, -0.7400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (254) GOTO / 2.7400000000, 1.4483333333, -0.7400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 255, Filename: cgtpro.tp
+GOTO / 2.7400000000, 1.6466666667, -0.7400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (255) GOTO / 2.7400000000, 1.6466666667, -0.7400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 256, Filename: cgtpro.tp
+GOTO / 2.6485013113, 1.6466666667, -0.7400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (256) GOTO / 2.6485013113, 1.6466666667, -0.7400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 260, Filename: cgtpro.tp
+GOTO / 2.5670788377, 1.8450000000, -0.7400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (260) GOTO / 2.5670788377, 1.8450000000, -0.7400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 260, Filename: cgtpro.tp
+GOTO / 2.5670788377, 1.8450000000, -0.7400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (260) GOTO / 2.5670788377, 1.8450000000, -0.7400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 261, Filename: cgtpro.tp
+GOTO / 2.7400000000, 1.8450000000, -0.7400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (261) GOTO / 2.7400000000, 1.8450000000, -0.7400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 262, Filename: cgtpro.tp
+GOTO / 2.7400000000, 2.0433333333, -0.7400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (262) GOTO / 2.7400000000, 2.0433333333, -0.7400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 263, Filename: cgtpro.tp
+GOTO / 2.4424497005, 2.0433333333, -0.7400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (263) GOTO / 2.4424497005, 2.0433333333, -0.7400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 267, Filename: cgtpro.tp
+GOTO / 2.2559516270, 2.2416666667, -0.7400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (267) GOTO / 2.2559516270, 2.2416666667, -0.7400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 267, Filename: cgtpro.tp
+GOTO / 2.2559516270, 2.2416666667, -0.7400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (267) GOTO / 2.2559516270, 2.2416666667, -0.7400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 268, Filename: cgtpro.tp
+GOTO / 2.7399999997, 2.2416666667, -0.7400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (268) GOTO / 2.7399999997, 2.2416666667, -0.7400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 270, Filename: cgtpro.tp
+GOTO / 0.0600000001, 2.4400000000, -0.7400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (270) GOTO / 0.0600000001, 2.4400000000, -0.7400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 272, Filename: cgtpro.tp
+GOTO / 0.5440499271, 2.2416666667, -0.7400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (272) GOTO / 0.5440499271, 2.2416666667, -0.7400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 273, Filename: cgtpro.tp
+GOTO / 0.0600000001, 2.2416666667, -0.7400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (273) GOTO / 0.0600000001, 2.2416666667, -0.7400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 275, Filename: cgtpro.tp
+GOTO / 0.3575572917, 2.0433333333, -0.7400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (275) GOTO / 0.3575572917, 2.0433333333, -0.7400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 279, Filename: cgtpro.tp
+GOTO / 0.2329271733, 1.8450000000, -0.7400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (279) GOTO / 0.2329271733, 1.8450000000, -0.7400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 279, Filename: cgtpro.tp
+GOTO / 0.2329271733, 1.8450000000, -0.7400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (279) GOTO / 0.2329271733, 1.8450000000, -0.7400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 280, Filename: cgtpro.tp
+GOTO / 0.0600000000, 1.8450000000, -0.7400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (280) GOTO / 0.0600000000, 1.8450000000, -0.7400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 281, Filename: cgtpro.tp
+GOTO / 0.0600000000, 1.6466666667, -0.7400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (281) GOTO / 0.0600000000, 1.6466666667, -0.7400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 282, Filename: cgtpro.tp
+GOTO / 0.1515032470, 1.6466666667, -0.7400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (282) GOTO / 0.1515032470, 1.6466666667, -0.7400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 286, Filename: cgtpro.tp
+GOTO / 0.1051063591, 1.4483333333, -0.7400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (286) GOTO / 0.1051063591, 1.4483333333, -0.7400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 286, Filename: cgtpro.tp
+GOTO / 0.1051063591, 1.4483333333, -0.7400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (286) GOTO / 0.1051063591, 1.4483333333, -0.7400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 287, Filename: cgtpro.tp
+GOTO / 0.0600000000, 1.4483333333, -0.7400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (287) GOTO / 0.0600000000, 1.4483333333, -0.7400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 288, Filename: cgtpro.tp
+GOTO / 0.0600000000, 1.2500000000, -0.7400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (288) GOTO / 0.0600000000, 1.2500000000, -0.7400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 289, Filename: cgtpro.tp
+GOTO / 0.0900238797, 1.2500000000, -0.7400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (289) GOTO / 0.0900238797, 1.2500000000, -0.7400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 290, Filename: cgtpro.tp
+GOTO / 0.0906620568, 1.2083568685, -0.7400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (290) GOTO / 0.0906620568, 1.2083568685, -0.7400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 294, Filename: cgtpro.tp
+GOTO / 0.1051010726, 1.0516666667, -0.7400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (294) GOTO / 0.1051010726, 1.0516666667, -0.7400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 294, Filename: cgtpro.tp
+GOTO / 0.1051010726, 1.0516666667, -0.7400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (294) GOTO / 0.1051010726, 1.0516666667, -0.7400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 295, Filename: cgtpro.tp
+GOTO / 0.0600000000, 1.0516666667, -0.7400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (295) GOTO / 0.0600000000, 1.0516666667, -0.7400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 296, Filename: cgtpro.tp
+GOTO / 0.0600000000, 0.8533333333, -0.7400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (296) GOTO / 0.0600000000, 0.8533333333, -0.7400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 297, Filename: cgtpro.tp
+GOTO / 0.1515004509, 0.8533333333, -0.7400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (297) GOTO / 0.1515004509, 0.8533333333, -0.7400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 301, Filename: cgtpro.tp
+GOTO / 0.2329270055, 0.6550000000, -0.7400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (301) GOTO / 0.2329270055, 0.6550000000, -0.7400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 301, Filename: cgtpro.tp
+GOTO / 0.2329270055, 0.6550000000, -0.7400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (301) GOTO / 0.2329270055, 0.6550000000, -0.7400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 302, Filename: cgtpro.tp
+GOTO / 0.0600000000, 0.6550000000, -0.7400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (302) GOTO / 0.0600000000, 0.6550000000, -0.7400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 303, Filename: cgtpro.tp
+GOTO / 0.0600000000, 0.4566666667, -0.7400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (303) GOTO / 0.0600000000, 0.4566666667, -0.7400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 304, Filename: cgtpro.tp
+GOTO / 0.3575403069, 0.4566666667, -0.7400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (304) GOTO / 0.3575403069, 0.4566666667, -0.7400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 308, Filename: cgtpro.tp
+GOTO / 0.5440230120, 0.2583333333, -0.7400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (308) GOTO / 0.5440230120, 0.2583333333, -0.7400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 308, Filename: cgtpro.tp
+GOTO / 0.5440230120, 0.2583333333, -0.7400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (308) GOTO / 0.5440230120, 0.2583333333, -0.7400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 309, Filename: cgtpro.tp
+GOTO / 0.0600000000, 0.2583333333, -0.7400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (309) GOTO / 0.0600000000, 0.2583333333, -0.7400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 311, Filename: cgtpro.tp
+GOTO / 2.7400000000, 0.0600000000, -0.7400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (311) GOTO / 2.7400000000, 0.0600000000, -0.7400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 312, Filename: cgtpro.tp
+GOTO / 0.0600000000, 0.0600000000, -0.7400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (312) GOTO / 0.0600000000, 0.0600000000, -0.7400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 313, Filename: cgtpro.tp
+GOTO / 0.2394684517, 0.6423443231, -0.7400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (313) GOTO / 0.2394684517, 0.6423443231, -0.7400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 314, Filename: cgtpro.tp
+GOTO / 0.2394613158, 0.6423405868, -0.7400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (314) GOTO / 0.2394613158, 0.6423405868, -0.7400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 318, Filename: cgtpro.tp
+CIRCLE / 0.9006253911, 2.1850000000, -0.7400000000,  $
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (318) CIRCLE / 0.9006253911, 2.1850000000, -0.7400000000,  $
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 321, Filename: cgtpro.tp
+GOTO / 1.2446824699, 2.4350000000, -0.7400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (321) GOTO / 1.2446824699, 2.4350000000, -0.7400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 321, Filename: cgtpro.tp
+GOTO / 1.2446824699, 2.4350000000, -0.7400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (321) GOTO / 1.2446824699, 2.4350000000, -0.7400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 325, Filename: cgtpro.tp
+CIRCLE / 1.5553175301, 2.1850000000, -0.7400000000,  $
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (325) CIRCLE / 1.5553175301, 2.1850000000, -0.7400000000,  $
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 328, Filename: cgtpro.tp
+GOTO / 1.8993746089, 2.4350000000, -0.7400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (328) GOTO / 1.8993746089, 2.4350000000, -0.7400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 328, Filename: cgtpro.tp
+GOTO / 1.8993746089, 2.4350000000, -0.7400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (328) GOTO / 1.8993746089, 2.4350000000, -0.7400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 332, Filename: cgtpro.tp
+CIRCLE / 1.4000000000, 1.2500000000, -0.7400000000,  $
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (332) CIRCLE / 1.4000000000, 1.2500000000, -0.7400000000,  $
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 335, Filename: cgtpro.tp
+CIRCLE / 1.8993746089, 0.3150000000, -0.7400000000,  $
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (335) CIRCLE / 1.8993746089, 0.3150000000, -0.7400000000,  $
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 338, Filename: cgtpro.tp
+GOTO / 1.5553175301, 0.0650000000, -0.7400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (338) GOTO / 1.5553175301, 0.0650000000, -0.7400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 338, Filename: cgtpro.tp
+GOTO / 1.5553175301, 0.0650000000, -0.7400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (338) GOTO / 1.5553175301, 0.0650000000, -0.7400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 342, Filename: cgtpro.tp
+CIRCLE / 1.2446824699, 0.3150000000, -0.7400000000,  $
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (342) CIRCLE / 1.2446824699, 0.3150000000, -0.7400000000,  $
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 345, Filename: cgtpro.tp
+GOTO / 0.9006253911, 0.0650000000, -0.7400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (345) GOTO / 0.9006253911, 0.0650000000, -0.7400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 345, Filename: cgtpro.tp
+GOTO / 0.9006253911, 0.0650000000, -0.7400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (345) GOTO / 0.9006253911, 0.0650000000, -0.7400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 349, Filename: cgtpro.tp
+CIRCLE / 0.8818990428, 0.2658372802, -0.7400000000,  $
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (349) CIRCLE / 0.8818990428, 0.2658372802, -0.7400000000,  $
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 352, Filename: cgtpro.tp
+GOTO / 0.6873223838, 0.1508227553, -0.7400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (352) GOTO / 0.6873223838, 0.1508227553, -0.7400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 352, Filename: cgtpro.tp
+GOTO / 0.6873223838, 0.1508227553, -0.7400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (352) GOTO / 0.6873223838, 0.1508227553, -0.7400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 356, Filename: cgtpro.tp
+GOTO / 0.7828483607, 2.4055188679, 0.5000000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (356) GOTO / 0.7828483607, 2.4055188679, 0.5000000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 356, Filename: cgtpro.tp
+GOTO / 0.7828483607, 2.4055188679, 0.5000000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (356) GOTO / 0.7828483607, 2.4055188679, 0.5000000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 363, Filename: cgtpro.tp
+GOTO / 0.0600000000, 2.4400000000, -0.7400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (363) GOTO / 0.0600000000, 2.4400000000, -0.7400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 364, Filename: cgtpro.tp
+GOTO / 0.0600000000, 0.0600000000, -0.7400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (364) GOTO / 0.0600000000, 0.0600000000, -0.7400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 365, Filename: cgtpro.tp
+GOTO / 2.7400000000, 0.0600000000, -0.7400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (365) GOTO / 2.7400000000, 0.0600000000, -0.7400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 366, Filename: cgtpro.tp
+GOTO / 2.7400000000, 2.4400000000, -0.7400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (366) GOTO / 2.7400000000, 2.4400000000, -0.7400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 367, Filename: cgtpro.tp
+GOTO / 2.5950346851, 1.7866231619, -0.7400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (367) GOTO / 2.5950346851, 1.7866231619, -0.7400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 368, Filename: cgtpro.tp
+GOTO / 2.5950289918, 1.7866206054, -0.7400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (368) GOTO / 2.5950289918, 1.7866206054, -0.7400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 372, Filename: cgtpro.tp
+GOTO / 2.2559516270, 0.2583333333, -0.8400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (372) GOTO / 2.2559516270, 0.2583333333, -0.8400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 372, Filename: cgtpro.tp
+GOTO / 2.2559516270, 0.2583333333, -0.8400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (372) GOTO / 2.2559516270, 0.2583333333, -0.8400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 373, Filename: cgtpro.tp
+GOTO / 2.7400000000, 0.2583333333, -0.8400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (373) GOTO / 2.7400000000, 0.2583333333, -0.8400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 375, Filename: cgtpro.tp
+GOTO / 2.4424497005, 0.4566666667, -0.8400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (375) GOTO / 2.4424497005, 0.4566666667, -0.8400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 379, Filename: cgtpro.tp
+GOTO / 2.5670788377, 0.6550000000, -0.8400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (379) GOTO / 2.5670788377, 0.6550000000, -0.8400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 379, Filename: cgtpro.tp
+GOTO / 2.5670788377, 0.6550000000, -0.8400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (379) GOTO / 2.5670788377, 0.6550000000, -0.8400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 380, Filename: cgtpro.tp
+GOTO / 2.7400000000, 0.6550000000, -0.8400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (380) GOTO / 2.7400000000, 0.6550000000, -0.8400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 381, Filename: cgtpro.tp
+GOTO / 2.7400000000, 0.8533333333, -0.8400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (381) GOTO / 2.7400000000, 0.8533333333, -0.8400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 382, Filename: cgtpro.tp
+GOTO / 2.6485013113, 0.8533333333, -0.8400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (382) GOTO / 2.6485013113, 0.8533333333, -0.8400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 386, Filename: cgtpro.tp
+GOTO / 2.6948991180, 1.0516666667, -0.8400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (386) GOTO / 2.6948991180, 1.0516666667, -0.8400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 386, Filename: cgtpro.tp
+GOTO / 2.6948991180, 1.0516666667, -0.8400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (386) GOTO / 2.6948991180, 1.0516666667, -0.8400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 387, Filename: cgtpro.tp
+GOTO / 2.7400000000, 1.0516666667, -0.8400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (387) GOTO / 2.7400000000, 1.0516666667, -0.8400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 388, Filename: cgtpro.tp
+GOTO / 2.7400000000, 1.2500000000, -0.8400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (388) GOTO / 2.7400000000, 1.2500000000, -0.8400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 389, Filename: cgtpro.tp
+GOTO / 2.7100000000, 1.2500000000, -0.8400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (389) GOTO / 2.7100000000, 1.2500000000, -0.8400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 393, Filename: cgtpro.tp
+GOTO / 2.6948991180, 1.4483333333, -0.8400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (393) GOTO / 2.6948991180, 1.4483333333, -0.8400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 393, Filename: cgtpro.tp
+GOTO / 2.6948991180, 1.4483333333, -0.8400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (393) GOTO / 2.6948991180, 1.4483333333, -0.8400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 394, Filename: cgtpro.tp
+GOTO / 2.7400000000, 1.4483333333, -0.8400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (394) GOTO / 2.7400000000, 1.4483333333, -0.8400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 395, Filename: cgtpro.tp
+GOTO / 2.7400000000, 1.6466666667, -0.8400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (395) GOTO / 2.7400000000, 1.6466666667, -0.8400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 396, Filename: cgtpro.tp
+GOTO / 2.6485013113, 1.6466666667, -0.8400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (396) GOTO / 2.6485013113, 1.6466666667, -0.8400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 400, Filename: cgtpro.tp
+GOTO / 2.5670788377, 1.8450000000, -0.8400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (400) GOTO / 2.5670788377, 1.8450000000, -0.8400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 400, Filename: cgtpro.tp
+GOTO / 2.5670788377, 1.8450000000, -0.8400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (400) GOTO / 2.5670788377, 1.8450000000, -0.8400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 401, Filename: cgtpro.tp
+GOTO / 2.7400000000, 1.8450000000, -0.8400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (401) GOTO / 2.7400000000, 1.8450000000, -0.8400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 402, Filename: cgtpro.tp
+GOTO / 2.7400000000, 2.0433333333, -0.8400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (402) GOTO / 2.7400000000, 2.0433333333, -0.8400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 403, Filename: cgtpro.tp
+GOTO / 2.4424497005, 2.0433333333, -0.8400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (403) GOTO / 2.4424497005, 2.0433333333, -0.8400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 407, Filename: cgtpro.tp
+GOTO / 2.2559516270, 2.2416666667, -0.8400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (407) GOTO / 2.2559516270, 2.2416666667, -0.8400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 407, Filename: cgtpro.tp
+GOTO / 2.2559516270, 2.2416666667, -0.8400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (407) GOTO / 2.2559516270, 2.2416666667, -0.8400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 408, Filename: cgtpro.tp
+GOTO / 2.7399999992, 2.2416666667, -0.8400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (408) GOTO / 2.7399999992, 2.2416666667, -0.8400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 410, Filename: cgtpro.tp
+GOTO / 0.0600000023, 2.4400000000, -0.8400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (410) GOTO / 0.0600000023, 2.4400000000, -0.8400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 412, Filename: cgtpro.tp
+GOTO / 0.5440483746, 2.2416666667, -0.8400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (412) GOTO / 0.5440483746, 2.2416666667, -0.8400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 413, Filename: cgtpro.tp
+GOTO / 0.0600000023, 2.2416666667, -0.8400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (413) GOTO / 0.0600000023, 2.2416666667, -0.8400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 415, Filename: cgtpro.tp
+GOTO / 0.3575502995, 2.0433333333, -0.8400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (415) GOTO / 0.3575502995, 2.0433333333, -0.8400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 419, Filename: cgtpro.tp
+GOTO / 0.2329211623, 1.8450000000, -0.8400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (419) GOTO / 0.2329211623, 1.8450000000, -0.8400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 419, Filename: cgtpro.tp
+GOTO / 0.2329211623, 1.8450000000, -0.8400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (419) GOTO / 0.2329211623, 1.8450000000, -0.8400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 420, Filename: cgtpro.tp
+GOTO / 0.0600000000, 1.8450000000, -0.8400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (420) GOTO / 0.0600000000, 1.8450000000, -0.8400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 421, Filename: cgtpro.tp
+GOTO / 0.0600000000, 1.6466666667, -0.8400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (421) GOTO / 0.0600000000, 1.6466666667, -0.8400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 422, Filename: cgtpro.tp
+GOTO / 0.1514986887, 1.6466666667, -0.8400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (422) GOTO / 0.1514986887, 1.6466666667, -0.8400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 426, Filename: cgtpro.tp
+GOTO / 0.0600000000, 1.4483333333, -0.8400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (426) GOTO / 0.0600000000, 1.4483333333, -0.8400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 426, Filename: cgtpro.tp
+GOTO / 0.0600000000, 1.4483333333, -0.8400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (426) GOTO / 0.0600000000, 1.4483333333, -0.8400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 427, Filename: cgtpro.tp
+GOTO / 0.0600000000, 1.2500000000, -0.8400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (427) GOTO / 0.0600000000, 1.2500000000, -0.8400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 428, Filename: cgtpro.tp
+GOTO / 0.0900000000, 1.2500000000, -0.8400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (428) GOTO / 0.0900000000, 1.2500000000, -0.8400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 432, Filename: cgtpro.tp
+GOTO / 0.1051040398, 1.0516666667, -0.8400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (432) GOTO / 0.1051040398, 1.0516666667, -0.8400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 432, Filename: cgtpro.tp
+GOTO / 0.1051040398, 1.0516666667, -0.8400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (432) GOTO / 0.1051040398, 1.0516666667, -0.8400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 433, Filename: cgtpro.tp
+GOTO / 0.0600000000, 1.0516666667, -0.8400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (433) GOTO / 0.0600000000, 1.0516666667, -0.8400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 434, Filename: cgtpro.tp
+GOTO / 0.0600000000, 0.8533333333, -0.8400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (434) GOTO / 0.0600000000, 0.8533333333, -0.8400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 435, Filename: cgtpro.tp
+GOTO / 0.1515066504, 0.8533333333, -0.8400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (435) GOTO / 0.1515066504, 0.8533333333, -0.8400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 439, Filename: cgtpro.tp
+GOTO / 0.2329322544, 0.6550000000, -0.8400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (439) GOTO / 0.2329322544, 0.6550000000, -0.8400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 439, Filename: cgtpro.tp
+GOTO / 0.2329322544, 0.6550000000, -0.8400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (439) GOTO / 0.2329322544, 0.6550000000, -0.8400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 440, Filename: cgtpro.tp
+GOTO / 0.0600000000, 0.6550000000, -0.8400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (440) GOTO / 0.0600000000, 0.6550000000, -0.8400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 441, Filename: cgtpro.tp
+GOTO / 0.0600000000, 0.4566666667, -0.8400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (441) GOTO / 0.0600000000, 0.4566666667, -0.8400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 442, Filename: cgtpro.tp
+GOTO / 0.3572310876, 0.4566666667, -0.8400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (442) GOTO / 0.3572310876, 0.4566666667, -0.8400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 446, Filename: cgtpro.tp
+GOTO / 0.5436413528, 0.2583333333, -0.8400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (446) GOTO / 0.5436413528, 0.2583333333, -0.8400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 446, Filename: cgtpro.tp
+GOTO / 0.5436413528, 0.2583333333, -0.8400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (446) GOTO / 0.5436413528, 0.2583333333, -0.8400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 447, Filename: cgtpro.tp
+GOTO / 0.0600000000, 0.2583333333, -0.8400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (447) GOTO / 0.0600000000, 0.2583333333, -0.8400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 449, Filename: cgtpro.tp
+GOTO / 2.7400000000, 0.0600000000, -0.8400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (449) GOTO / 2.7400000000, 0.0600000000, -0.8400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 450, Filename: cgtpro.tp
+GOTO / 0.0600000000, 0.0600000000, -0.8400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (450) GOTO / 0.0600000000, 0.0600000000, -0.8400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 451, Filename: cgtpro.tp
+GOTO / 0.3621872069, 0.4501840402, -0.8400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (451) GOTO / 0.3621872069, 0.4501840402, -0.8400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 452, Filename: cgtpro.tp
+GOTO / 0.3621869899, 0.4501838732, -0.8400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (452) GOTO / 0.3621869899, 0.4501838732, -0.8400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 456, Filename: cgtpro.tp
+CIRCLE / 1.4000000000, 1.2500000000, -0.8400000000,  $
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (456) CIRCLE / 1.4000000000, 1.2500000000, -0.8400000000,  $
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 459, Filename: cgtpro.tp
+GOTO / 0.8125809914, 2.4186577510, -0.8400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (459) GOTO / 0.8125809914, 2.4186577510, -0.8400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 459, Filename: cgtpro.tp
+GOTO / 0.8125809914, 2.4186577510, -0.8400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (459) GOTO / 0.8125809914, 2.4186577510, -0.8400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 460, Filename: cgtpro.tp
+GOTO / 0.8544321769, 2.4306953133, -0.8400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (460) GOTO / 0.8544321769, 2.4306953133, -0.8400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 461, Filename: cgtpro.tp
+GOTO / 0.8977975121, 2.4346793224, -0.8400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (461) GOTO / 0.8977975121, 2.4346793224, -0.8400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 462, Filename: cgtpro.tp
+GOTO / 0.9006253911, 2.4350000000, -0.8400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (462) GOTO / 0.9006253911, 2.4350000000, -0.8400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 463, Filename: cgtpro.tp
+GOTO / 1.2446824699, 2.4350000000, -0.8400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (463) GOTO / 1.2446824699, 2.4350000000, -0.8400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 467, Filename: cgtpro.tp
+GOTO / 1.3517274562, 2.4109233740, -0.8400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (467) GOTO / 1.3517274562, 2.4109233740, -0.8400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 467, Filename: cgtpro.tp
+GOTO / 1.3517274562, 2.4109233740, -0.8400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (467) GOTO / 1.3517274562, 2.4109233740, -0.8400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 468, Filename: cgtpro.tp
+GOTO / 1.3891524912, 2.3886570005, -0.8400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (468) GOTO / 1.3891524912, 2.3886570005, -0.8400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 469, Filename: cgtpro.tp
+GOTO / 1.4000000000, 2.3808991190, -0.8400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (469) GOTO / 1.4000000000, 2.3808991190, -0.8400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 473, Filename: cgtpro.tp
+GOTO / 1.5524896511, 2.4346793224, -0.8400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (473) GOTO / 1.5524896511, 2.4346793224, -0.8400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 473, Filename: cgtpro.tp
+GOTO / 1.5524896511, 2.4346793224, -0.8400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (473) GOTO / 1.5524896511, 2.4346793224, -0.8400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 474, Filename: cgtpro.tp
+GOTO / 1.5553175301, 2.4350000000, -0.8400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (474) GOTO / 1.5553175301, 2.4350000000, -0.8400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 475, Filename: cgtpro.tp
+GOTO / 1.8993746089, 2.4350000000, -0.8400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (475) GOTO / 1.8993746089, 2.4350000000, -0.8400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 479, Filename: cgtpro.tp
+GOTO / 1.9738402899, 2.4233330092, -0.8400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (479) GOTO / 1.9738402899, 2.4233330092, -0.8400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 479, Filename: cgtpro.tp
+GOTO / 1.9738402899, 2.4233330092, -0.8400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (479) GOTO / 1.9738402899, 2.4233330092, -0.8400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 483, Filename: cgtpro.tp
+CIRCLE / 1.4000000000, 1.2500000000, -0.8400000000,  $
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (483) CIRCLE / 1.4000000000, 1.2500000000, -0.8400000000,  $
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 486, Filename: cgtpro.tp
+GOTO / 1.9874190086, 0.0813422490, -0.8400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (486) GOTO / 1.9874190086, 0.0813422490, -0.8400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 486, Filename: cgtpro.tp
+GOTO / 1.9874190086, 0.0813422490, -0.8400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (486) GOTO / 1.9874190086, 0.0813422490, -0.8400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 487, Filename: cgtpro.tp
+GOTO / 1.9455678231, 0.0693046867, -0.8400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (487) GOTO / 1.9455678231, 0.0693046867, -0.8400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 488, Filename: cgtpro.tp
+GOTO / 1.9022024879, 0.0653206776, -0.8400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (488) GOTO / 1.9022024879, 0.0653206776, -0.8400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 489, Filename: cgtpro.tp
+GOTO / 1.8993746089, 0.0650000000, -0.8400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (489) GOTO / 1.8993746089, 0.0650000000, -0.8400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 490, Filename: cgtpro.tp
+GOTO / 1.5553175301, 0.0650000000, -0.8400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (490) GOTO / 1.5553175301, 0.0650000000, -0.8400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 494, Filename: cgtpro.tp
+GOTO / 1.4482725438, 0.0890766260, -0.8400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (494) GOTO / 1.4482725438, 0.0890766260, -0.8400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 494, Filename: cgtpro.tp
+GOTO / 1.4482725438, 0.0890766260, -0.8400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (494) GOTO / 1.4482725438, 0.0890766260, -0.8400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 495, Filename: cgtpro.tp
+GOTO / 1.4108475088, 0.1113429995, -0.8400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (495) GOTO / 1.4108475088, 0.1113429995, -0.8400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 496, Filename: cgtpro.tp
+GOTO / 1.4000000000, 0.1191008810, -0.8400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (496) GOTO / 1.4000000000, 0.1191008810, -0.8400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 500, Filename: cgtpro.tp
+GOTO / 1.2475103489, 0.0653206776, -0.8400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (500) GOTO / 1.2475103489, 0.0653206776, -0.8400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 500, Filename: cgtpro.tp
+GOTO / 1.2475103489, 0.0653206776, -0.8400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (500) GOTO / 1.2475103489, 0.0653206776, -0.8400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 501, Filename: cgtpro.tp
+GOTO / 1.2446824699, 0.0650000000, -0.8400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (501) GOTO / 1.2446824699, 0.0650000000, -0.8400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 502, Filename: cgtpro.tp
+GOTO / 0.9006253911, 0.0650000000, -0.8400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (502) GOTO / 0.9006253911, 0.0650000000, -0.8400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 506, Filename: cgtpro.tp
+GOTO / 0.8261597101, 0.0766669908, -0.8400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (506) GOTO / 0.8261597101, 0.0766669908, -0.8400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 506, Filename: cgtpro.tp
+GOTO / 0.8261597101, 0.0766669908, -0.8400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (506) GOTO / 0.8261597101, 0.0766669908, -0.8400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 510, Filename: cgtpro.tp
+CIRCLE / 1.3931694355, 1.2434754572, -0.8400000000,  $
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (510) CIRCLE / 1.3931694355, 1.2434754572, -0.8400000000,  $
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 513, Filename: cgtpro.tp
+CIRCLE / 1.4000000000, 1.2500000000, -0.8400000000,  $
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (513) CIRCLE / 1.4000000000, 1.2500000000, -0.8400000000,  $
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 516, Filename: cgtpro.tp
+GOTO / 0.8125809914, 2.4186577510, -0.8400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (516) GOTO / 0.8125809914, 2.4186577510, -0.8400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 516, Filename: cgtpro.tp
+GOTO / 0.8125809914, 2.4186577510, -0.8400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (516) GOTO / 0.8125809914, 2.4186577510, -0.8400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 517, Filename: cgtpro.tp
+GOTO / 0.8544321769, 2.4306953133, -0.8400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (517) GOTO / 0.8544321769, 2.4306953133, -0.8400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 518, Filename: cgtpro.tp
+GOTO / 0.8977975121, 2.4346793224, -0.8400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (518) GOTO / 0.8977975121, 2.4346793224, -0.8400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 519, Filename: cgtpro.tp
+GOTO / 0.9006253911, 2.4350000000, -0.8400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (519) GOTO / 0.9006253911, 2.4350000000, -0.8400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 520, Filename: cgtpro.tp
+GOTO / 1.2446824699, 2.4350000000, -0.8400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (520) GOTO / 1.2446824699, 2.4350000000, -0.8400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 524, Filename: cgtpro.tp
+GOTO / 1.3517274562, 2.4109233740, -0.8400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (524) GOTO / 1.3517274562, 2.4109233740, -0.8400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 524, Filename: cgtpro.tp
+GOTO / 1.3517274562, 2.4109233740, -0.8400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (524) GOTO / 1.3517274562, 2.4109233740, -0.8400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 525, Filename: cgtpro.tp
+GOTO / 1.3891524912, 2.3886570005, -0.8400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (525) GOTO / 1.3891524912, 2.3886570005, -0.8400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 526, Filename: cgtpro.tp
+GOTO / 1.4000000000, 2.3808991190, -0.8400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (526) GOTO / 1.4000000000, 2.3808991190, -0.8400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 530, Filename: cgtpro.tp
+GOTO / 1.5524896511, 2.4346793224, -0.8400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (530) GOTO / 1.5524896511, 2.4346793224, -0.8400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 530, Filename: cgtpro.tp
+GOTO / 1.5524896511, 2.4346793224, -0.8400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (530) GOTO / 1.5524896511, 2.4346793224, -0.8400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 531, Filename: cgtpro.tp
+GOTO / 1.5553175301, 2.4350000000, -0.8400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (531) GOTO / 1.5553175301, 2.4350000000, -0.8400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 532, Filename: cgtpro.tp
+GOTO / 1.8993746089, 2.4350000000, -0.8400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (532) GOTO / 1.8993746089, 2.4350000000, -0.8400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 533, Filename: cgtpro.tp
+GOTO / 1.8993746089, 2.4350000000, 0.5000000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (533) GOTO / 1.8993746089, 2.4350000000, 0.5000000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 540, Filename: cgtpro.tp
+GOTO / 2.7400000000, 0.0600000000, -0.8400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (540) GOTO / 2.7400000000, 0.0600000000, -0.8400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 541, Filename: cgtpro.tp
+GOTO / 2.7400000000, 2.4400000000, -0.8400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (541) GOTO / 2.7400000000, 2.4400000000, -0.8400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 542, Filename: cgtpro.tp
+GOTO / 0.0600000000, 2.4400000000, -0.8400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (542) GOTO / 0.0600000000, 2.4400000000, -0.8400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 543, Filename: cgtpro.tp
+GOTO / 0.0600000000, 0.0600000000, -0.8400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (543) GOTO / 0.0600000000, 0.0600000000, -0.8400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 546, Filename: cgtpro.tp
+GOTO / 1.3617437608, 0.5358991180, -0.5400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (546) GOTO / 1.3617437608, 0.5358991180, -0.5400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 547, Filename: cgtpro.tp
+GOTO / 1.4382562392, 0.5358991180, -0.5400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (547) GOTO / 1.4382562392, 0.5358991180, -0.5400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 548, Filename: cgtpro.tp
+GOTO / 1.4382560206, 0.5358995314, -0.5400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (548) GOTO / 1.4382560206, 0.5358995314, -0.5400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 552, Filename: cgtpro.tp
+GOTO / 1.5143501517, 0.5616205819, -0.5400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (552) GOTO / 1.5143501517, 0.5616205819, -0.5400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 552, Filename: cgtpro.tp
+GOTO / 1.5143501517, 0.5616205819, -0.5400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (552) GOTO / 1.5143501517, 0.5616205819, -0.5400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 556, Filename: cgtpro.tp
+GOTO / 0.9564419115, 0.7112993385, -0.5400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (556) GOTO / 0.9564419115, 0.7112993385, -0.5400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 556, Filename: cgtpro.tp
+GOTO / 0.9564419115, 0.7112993385, -0.5400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (556) GOTO / 0.9564419115, 0.7112993385, -0.5400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 560, Filename: cgtpro.tp
+GOTO / 0.8042219882, 0.8866995590, -0.5400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (560) GOTO / 0.8042219882, 0.8866995590, -0.5400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 560, Filename: cgtpro.tp
+GOTO / 0.8042219882, 0.8866995590, -0.5400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (560) GOTO / 0.8042219882, 0.8866995590, -0.5400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 561, Filename: cgtpro.tp
+GOTO / 1.9957780118, 0.8866995590, -0.5400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (561) GOTO / 1.9957780118, 0.8866995590, -0.5400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 562, Filename: cgtpro.tp
+GOTO / 1.9957672168, 0.8867061435, -0.5400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (562) GOTO / 1.9957672168, 0.8867061435, -0.5400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 566, Filename: cgtpro.tp
+GOTO / 0.7279772996, 1.0620997795, -0.5400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (566) GOTO / 0.7279772996, 1.0620997795, -0.5400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 566, Filename: cgtpro.tp
+GOTO / 0.7279772996, 1.0620997795, -0.5400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (566) GOTO / 0.7279772996, 1.0620997795, -0.5400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 570, Filename: cgtpro.tp
+GOTO / 0.7023123123, 1.2375000000, -0.5400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (570) GOTO / 0.7023123123, 1.2375000000, -0.5400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 570, Filename: cgtpro.tp
+GOTO / 0.7023123123, 1.2375000000, -0.5400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (570) GOTO / 0.7023123123, 1.2375000000, -0.5400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 571, Filename: cgtpro.tp
+GOTO / 2.0976876877, 1.2375000000, -0.5400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (571) GOTO / 2.0976876877, 1.2375000000, -0.5400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 572, Filename: cgtpro.tp
+GOTO / 2.0978125000, 1.2500000000, -0.5400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (572) GOTO / 2.0978125000, 1.2500000000, -0.5400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 573, Filename: cgtpro.tp
+GOTO / 2.0977999265, 1.2500000017, -0.5400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (573) GOTO / 2.0977999265, 1.2500000017, -0.5400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 577, Filename: cgtpro.tp
+GOTO / 0.7214808363, 1.4129002205, -0.5400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (577) GOTO / 0.7214808363, 1.4129002205, -0.5400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 577, Filename: cgtpro.tp
+GOTO / 0.7214808363, 1.4129002205, -0.5400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (577) GOTO / 0.7214808363, 1.4129002205, -0.5400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 581, Filename: cgtpro.tp
+GOTO / 0.7896794500, 1.5883004410, -0.5400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (581) GOTO / 0.7896794500, 1.5883004410, -0.5400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 581, Filename: cgtpro.tp
+GOTO / 0.7896794500, 1.5883004410, -0.5400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (581) GOTO / 0.7896794500, 1.5883004410, -0.5400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 582, Filename: cgtpro.tp
+GOTO / 2.0103205500, 1.5883004410, -0.5400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (582) GOTO / 2.0103205500, 1.5883004410, -0.5400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 583, Filename: cgtpro.tp
+GOTO / 2.0103136508, 1.5882966184, -0.5400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (583) GOTO / 2.0103136508, 1.5882966184, -0.5400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 587, Filename: cgtpro.tp
+GOTO / 0.9277299662, 1.7637006615, -0.5400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (587) GOTO / 0.9277299662, 1.7637006615, -0.5400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 587, Filename: cgtpro.tp
+GOTO / 0.9277299662, 1.7637006615, -0.5400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (587) GOTO / 0.9277299662, 1.7637006615, -0.5400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 591, Filename: cgtpro.tp
+GOTO / 1.2856498369, 1.9383794923, -0.5400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (591) GOTO / 1.2856498369, 1.9383794923, -0.5400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 591, Filename: cgtpro.tp
+GOTO / 1.2856498369, 1.9383794923, -0.5400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (591) GOTO / 1.2856498369, 1.9383794923, -0.5400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 592, Filename: cgtpro.tp
+GOTO / 1.2897570375, 1.9391008820, -0.5400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (592) GOTO / 1.2897570375, 1.9391008820, -0.5400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 593, Filename: cgtpro.tp
+GOTO / 1.5102429625, 1.9391008820, -0.5400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (593) GOTO / 1.5102429625, 1.9391008820, -0.5400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 594, Filename: cgtpro.tp
+GOTO / 1.5102422751, 1.9390971302, -0.5400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (594) GOTO / 1.5102422751, 1.9390971302, -0.5400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 598, Filename: cgtpro.tp
+CIRCLE / 1.2446824699, 2.1850000000, -0.5400000000,  $
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (598) CIRCLE / 1.2446824699, 2.1850000000, -0.5400000000,  $
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 601, Filename: cgtpro.tp
+CIRCLE / 1.4000000000, 1.2500000000, -0.5400000000,  $
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (601) CIRCLE / 1.4000000000, 1.2500000000, -0.5400000000,  $
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 604, Filename: cgtpro.tp
+CIRCLE / 1.2446824699, 0.3150000000, -0.5400000000,  $
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (604) CIRCLE / 1.2446824699, 0.3150000000, -0.5400000000,  $
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 607, Filename: cgtpro.tp
+CIRCLE / 1.5553175301, 0.3150000000, -0.5400000000,  $
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (607) CIRCLE / 1.5553175301, 0.3150000000, -0.5400000000,  $
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 610, Filename: cgtpro.tp
+CIRCLE / 1.4000000000, 1.2500000000, -0.5400000000,  $
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (610) CIRCLE / 1.4000000000, 1.2500000000, -0.5400000000,  $
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 613, Filename: cgtpro.tp
+GOTO / 1.5102422751, 1.9390971302, -0.5400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (613) GOTO / 1.5102422751, 1.9390971302, -0.5400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 613, Filename: cgtpro.tp
+GOTO / 1.5102422751, 1.9390971302, -0.5400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (613) GOTO / 1.5102422751, 1.9390971302, -0.5400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 614, Filename: cgtpro.tp
+GOTO / 1.5102429625, 1.9391008820, -0.7400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (614) GOTO / 1.5102429625, 1.9391008820, -0.7400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 615, Filename: cgtpro.tp
+GOTO / 1.2897570375, 1.9391008820, -0.7400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (615) GOTO / 1.2897570375, 1.9391008820, -0.7400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 616, Filename: cgtpro.tp
+GOTO / 1.2856498369, 1.9383794923, -0.7400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (616) GOTO / 1.2856498369, 1.9383794923, -0.7400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 617, Filename: cgtpro.tp
+GOTO / 1.2856515895, 1.9383689384, -0.7400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (617) GOTO / 1.2856515895, 1.9383689384, -0.7400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 621, Filename: cgtpro.tp
+GOTO / 1.8722700338, 1.7637006615, -0.7400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (621) GOTO / 1.8722700338, 1.7637006615, -0.7400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 621, Filename: cgtpro.tp
+GOTO / 1.8722700338, 1.7637006615, -0.7400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (621) GOTO / 1.8722700338, 1.7637006615, -0.7400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 625, Filename: cgtpro.tp
+GOTO / 2.0103205500, 1.5883004410, -0.7400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (625) GOTO / 2.0103205500, 1.5883004410, -0.7400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 625, Filename: cgtpro.tp
+GOTO / 2.0103205500, 1.5883004410, -0.7400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (625) GOTO / 2.0103205500, 1.5883004410, -0.7400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 626, Filename: cgtpro.tp
+GOTO / 0.7896794500, 1.5883004410, -0.7400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (626) GOTO / 0.7896794500, 1.5883004410, -0.7400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 627, Filename: cgtpro.tp
+GOTO / 0.7896879884, 1.5882957078, -0.7400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (627) GOTO / 0.7896879884, 1.5882957078, -0.7400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 631, Filename: cgtpro.tp
+GOTO / 2.0785191637, 1.4129002205, -0.7400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (631) GOTO / 2.0785191637, 1.4129002205, -0.7400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 631, Filename: cgtpro.tp
+GOTO / 2.0785191637, 1.4129002205, -0.7400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (631) GOTO / 2.0785191637, 1.4129002205, -0.7400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 635, Filename: cgtpro.tp
+GOTO / 2.0978125000, 1.2500000000, -0.7400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (635) GOTO / 2.0978125000, 1.2500000000, -0.7400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 635, Filename: cgtpro.tp
+GOTO / 2.0978125000, 1.2500000000, -0.7400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (635) GOTO / 2.0978125000, 1.2500000000, -0.7400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 636, Filename: cgtpro.tp
+GOTO / 2.0976876877, 1.2375000000, -0.7400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (636) GOTO / 2.0976876877, 1.2375000000, -0.7400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 637, Filename: cgtpro.tp
+GOTO / 0.7023123123, 1.2375000000, -0.7400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (637) GOTO / 0.7023123123, 1.2375000000, -0.7400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 638, Filename: cgtpro.tp
+GOTO / 0.7023147172, 1.2375000420, -0.7400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (638) GOTO / 0.7023147172, 1.2375000420, -0.7400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 642, Filename: cgtpro.tp
+GOTO / 2.0720227004, 1.0620997795, -0.7400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (642) GOTO / 2.0720227004, 1.0620997795, -0.7400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 642, Filename: cgtpro.tp
+GOTO / 2.0720227004, 1.0620997795, -0.7400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (642) GOTO / 2.0720227004, 1.0620997795, -0.7400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 646, Filename: cgtpro.tp
+GOTO / 1.9957780118, 0.8866995590, -0.7400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (646) GOTO / 1.9957780118, 0.8866995590, -0.7400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 646, Filename: cgtpro.tp
+GOTO / 1.9957780118, 0.8866995590, -0.7400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (646) GOTO / 1.9957780118, 0.8866995590, -0.7400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 647, Filename: cgtpro.tp
+GOTO / 0.8042219882, 0.8866995590, -0.7400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (647) GOTO / 0.8042219882, 0.8866995590, -0.7400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 648, Filename: cgtpro.tp
+GOTO / 0.8042198284, 0.8866982417, -0.7400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (648) GOTO / 0.8042198284, 0.8866982417, -0.7400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 652, Filename: cgtpro.tp
+GOTO / 1.8435580885, 0.7112993385, -0.7400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (652) GOTO / 1.8435580885, 0.7112993385, -0.7400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 652, Filename: cgtpro.tp
+GOTO / 1.8435580885, 0.7112993385, -0.7400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (652) GOTO / 1.8435580885, 0.7112993385, -0.7400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 656, Filename: cgtpro.tp
+GOTO / 1.5143501631, 0.5616205077, -0.7400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (656) GOTO / 1.5143501631, 0.5616205077, -0.7400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 656, Filename: cgtpro.tp
+GOTO / 1.5143501631, 0.5616205077, -0.7400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (656) GOTO / 1.5143501631, 0.5616205077, -0.7400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 660, Filename: cgtpro.tp
+GOTO / 1.4382562392, 0.5358991180, -0.7400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (660) GOTO / 1.4382562392, 0.5358991180, -0.7400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 660, Filename: cgtpro.tp
+GOTO / 1.4382562392, 0.5358991180, -0.7400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (660) GOTO / 1.4382562392, 0.5358991180, -0.7400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 661, Filename: cgtpro.tp
+GOTO / 1.3617437608, 0.5358991180, -0.7400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (661) GOTO / 1.3617437608, 0.5358991180, -0.7400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 662, Filename: cgtpro.tp
+GOTO / 1.3617439797, 0.5358995313, -0.7400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (662) GOTO / 1.3617439797, 0.5358995313, -0.7400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 666, Filename: cgtpro.tp
+CIRCLE / 1.5553175301, 0.3150000000, -0.7400000000,  $
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (666) CIRCLE / 1.5553175301, 0.3150000000, -0.7400000000,  $
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 669, Filename: cgtpro.tp
+CIRCLE / 1.4000000000, 1.2500000000, -0.7400000000,  $
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (669) CIRCLE / 1.4000000000, 1.2500000000, -0.7400000000,  $
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 672, Filename: cgtpro.tp
+CIRCLE / 1.5553175301, 2.1850000000, -0.7400000000,  $
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (672) CIRCLE / 1.5553175301, 2.1850000000, -0.7400000000,  $
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 675, Filename: cgtpro.tp
+CIRCLE / 1.2446824699, 2.1850000000, -0.7400000000,  $
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (675) CIRCLE / 1.2446824699, 2.1850000000, -0.7400000000,  $
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 678, Filename: cgtpro.tp
+CIRCLE / 1.4000000000, 1.2500000000, -0.7400000000,  $
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (678) CIRCLE / 1.4000000000, 1.2500000000, -0.7400000000,  $
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 681, Filename: cgtpro.tp
+CIRCLE / 1.2446824699, 0.3150000000, -0.7400000000,  $
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (681) CIRCLE / 1.2446824699, 0.3150000000, -0.7400000000,  $
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 684, Filename: cgtpro.tp
+GOTO / 1.3617439268, 0.5358990301, -0.7400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (684) GOTO / 1.3617439268, 0.5358990301, -0.7400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 684, Filename: cgtpro.tp
+GOTO / 1.3617439268, 0.5358990301, -0.7400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (684) GOTO / 1.3617439268, 0.5358990301, -0.7400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 685, Filename: cgtpro.tp
+GOTO / 1.5097921984, 1.9391008820, -0.7400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (685) GOTO / 1.5097921984, 1.9391008820, -0.7400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 686, Filename: cgtpro.tp
+GOTO / 1.5097921984, 1.9391008820, -0.8400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (686) GOTO / 1.5097921984, 1.9391008820, -0.8400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 687, Filename: cgtpro.tp
+GOTO / 1.2903890961, 1.9391008820, -0.8400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (687) GOTO / 1.2903890961, 1.9391008820, -0.8400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 688, Filename: cgtpro.tp
+GOTO / 1.2856498369, 1.9383794923, -0.8400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (688) GOTO / 1.2856498369, 1.9383794923, -0.8400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 689, Filename: cgtpro.tp
+GOTO / 1.2856515895, 1.9383689384, -0.8400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (689) GOTO / 1.2856515895, 1.9383689384, -0.8400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 693, Filename: cgtpro.tp
+GOTO / 1.8722700338, 1.7637006615, -0.8400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (693) GOTO / 1.8722700338, 1.7637006615, -0.8400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 693, Filename: cgtpro.tp
+GOTO / 1.8722700338, 1.7637006615, -0.8400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (693) GOTO / 1.8722700338, 1.7637006615, -0.8400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 697, Filename: cgtpro.tp
+GOTO / 2.0103205500, 1.5883004410, -0.8400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (697) GOTO / 2.0103205500, 1.5883004410, -0.8400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 697, Filename: cgtpro.tp
+GOTO / 2.0103205500, 1.5883004410, -0.8400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (697) GOTO / 2.0103205500, 1.5883004410, -0.8400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 698, Filename: cgtpro.tp
+GOTO / 0.7896794500, 1.5883004410, -0.8400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (698) GOTO / 0.7896794500, 1.5883004410, -0.8400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 699, Filename: cgtpro.tp
+GOTO / 0.7896879884, 1.5882957078, -0.8400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (699) GOTO / 0.7896879884, 1.5882957078, -0.8400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 703, Filename: cgtpro.tp
+GOTO / 2.0785191637, 1.4129002205, -0.8400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (703) GOTO / 2.0785191637, 1.4129002205, -0.8400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 703, Filename: cgtpro.tp
+GOTO / 2.0785191637, 1.4129002205, -0.8400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (703) GOTO / 2.0785191637, 1.4129002205, -0.8400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 707, Filename: cgtpro.tp
+GOTO / 2.0978125000, 1.2500000000, -0.8400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (707) GOTO / 2.0978125000, 1.2500000000, -0.8400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 707, Filename: cgtpro.tp
+GOTO / 2.0978125000, 1.2500000000, -0.8400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (707) GOTO / 2.0978125000, 1.2500000000, -0.8400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 708, Filename: cgtpro.tp
+GOTO / 2.0976876877, 1.2375000000, -0.8400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (708) GOTO / 2.0976876877, 1.2375000000, -0.8400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 709, Filename: cgtpro.tp
+GOTO / 0.7023123123, 1.2375000000, -0.8400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (709) GOTO / 0.7023123123, 1.2375000000, -0.8400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 710, Filename: cgtpro.tp
+GOTO / 0.7023147172, 1.2375000420, -0.8400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (710) GOTO / 0.7023147172, 1.2375000420, -0.8400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 714, Filename: cgtpro.tp
+GOTO / 2.0720227004, 1.0620997795, -0.8400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (714) GOTO / 2.0720227004, 1.0620997795, -0.8400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 714, Filename: cgtpro.tp
+GOTO / 2.0720227004, 1.0620997795, -0.8400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (714) GOTO / 2.0720227004, 1.0620997795, -0.8400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 718, Filename: cgtpro.tp
+GOTO / 1.9957780118, 0.8866995590, -0.8400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (718) GOTO / 1.9957780118, 0.8866995590, -0.8400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 718, Filename: cgtpro.tp
+GOTO / 1.9957780118, 0.8866995590, -0.8400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (718) GOTO / 1.9957780118, 0.8866995590, -0.8400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 719, Filename: cgtpro.tp
+GOTO / 0.8042219882, 0.8866995590, -0.8400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (719) GOTO / 0.8042219882, 0.8866995590, -0.8400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 720, Filename: cgtpro.tp
+GOTO / 0.8042198284, 0.8866982417, -0.8400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (720) GOTO / 0.8042198284, 0.8866982417, -0.8400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 724, Filename: cgtpro.tp
+GOTO / 1.8435580885, 0.7112993385, -0.8400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (724) GOTO / 1.8435580885, 0.7112993385, -0.8400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 724, Filename: cgtpro.tp
+GOTO / 1.8435580885, 0.7112993385, -0.8400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (724) GOTO / 1.8435580885, 0.7112993385, -0.8400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 728, Filename: cgtpro.tp
+GOTO / 1.5143501631, 0.5616205077, -0.8400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (728) GOTO / 1.5143501631, 0.5616205077, -0.8400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 728, Filename: cgtpro.tp
+GOTO / 1.5143501631, 0.5616205077, -0.8400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (728) GOTO / 1.5143501631, 0.5616205077, -0.8400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 732, Filename: cgtpro.tp
+GOTO / 1.4389607399, 0.5358991180, -0.8400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (732) GOTO / 1.4389607399, 0.5358991180, -0.8400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 732, Filename: cgtpro.tp
+GOTO / 1.4389607399, 0.5358991180, -0.8400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (732) GOTO / 1.4389607399, 0.5358991180, -0.8400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 733, Filename: cgtpro.tp
+GOTO / 1.3601721611, 0.5358991180, -0.8400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (733) GOTO / 1.3601721611, 0.5358991180, -0.8400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 734, Filename: cgtpro.tp
+GOTO / 1.3891524912, 0.5186570005, -0.8400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (734) GOTO / 1.3891524912, 0.5186570005, -0.8400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 735, Filename: cgtpro.tp
+GOTO / 1.4000000000, 0.5108991190, -0.8400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (735) GOTO / 1.4000000000, 0.5108991190, -0.8400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 736, Filename: cgtpro.tp
+GOTO / 1.4354611454, 0.5343956405, -0.8400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (736) GOTO / 1.4354611454, 0.5343956405, -0.8400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 737, Filename: cgtpro.tp
+GOTO / 1.4754729036, 0.5515852838, -0.8400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (737) GOTO / 1.4754729036, 0.5515852838, -0.8400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 741, Filename: cgtpro.tp
+CIRCLE / 1.4000000000, 1.2500000000, -0.8400000000,  $
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (741) CIRCLE / 1.4000000000, 1.2500000000, -0.8400000000,  $
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 744, Filename: cgtpro.tp
+GOTO / 1.4892063656, 1.9442157089, -0.8400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (744) GOTO / 1.4892063656, 1.9442157089, -0.8400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 744, Filename: cgtpro.tp
+GOTO / 1.4892063656, 1.9442157089, -0.8400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (744) GOTO / 1.4892063656, 1.9442157089, -0.8400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 745, Filename: cgtpro.tp
+GOTO / 1.4482725438, 1.9590766260, -0.8400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (745) GOTO / 1.4482725438, 1.9590766260, -0.8400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 746, Filename: cgtpro.tp
+GOTO / 1.4108475088, 1.9813429995, -0.8400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (746) GOTO / 1.4108475088, 1.9813429995, -0.8400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 747, Filename: cgtpro.tp
+GOTO / 1.4000000000, 1.9891008810, -0.8400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (747) GOTO / 1.4000000000, 1.9891008810, -0.8400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 748, Filename: cgtpro.tp
+GOTO / 1.3645388546, 1.9656043595, -0.8400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (748) GOTO / 1.3645388546, 1.9656043595, -0.8400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 749, Filename: cgtpro.tp
+GOTO / 1.3245270964, 1.9484147162, -0.8400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (749) GOTO / 1.3245270964, 1.9484147162, -0.8400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 753, Filename: cgtpro.tp
+CIRCLE / 1.4000000000, 1.2500000000, -0.8400000000,  $
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (753) CIRCLE / 1.4000000000, 1.2500000000, -0.8400000000,  $
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 756, Filename: cgtpro.tp
+GOTO / 1.3107936344, 0.5557842911, -0.8400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (756) GOTO / 1.3107936344, 0.5557842911, -0.8400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 756, Filename: cgtpro.tp
+GOTO / 1.3107936344, 0.5557842911, -0.8400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (756) GOTO / 1.3107936344, 0.5557842911, -0.8400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 757, Filename: cgtpro.tp
+GOTO / 1.3517274562, 0.5409233740, -0.8400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (757) GOTO / 1.3517274562, 0.5409233740, -0.8400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 758, Filename: cgtpro.tp
+GOTO / 1.3601721611, 0.5358991180, -0.8400000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (758) GOTO / 1.3601721611, 0.5358991180, -0.8400000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 759, Filename: cgtpro.tp
+GOTO / 1.3601721611, 0.5358991180, 0.5000000000
+Error: Maximum Allowable Gouge violation for tool "1" and Cut Stock of "Stock 1" at line: (759) GOTO / 1.3601721611, 0.5358991180, 0.5000000000
+762 lines processed.
+
+
+*** Finished processing NC program file E:\QYL_Final_Project\Final Project\creo manufacturing\cgtpro.tp
+Mon May 01 14:18:47 2017
+
+
+***************************************************************************************************************
+Toolpath File : E:\QYL_Final_Project\Final Project\creo manufacturing\cgtpro.tp
+
+                                  Tool Summary
+                                 ==============
+
+Seq.  Record                                    Tool Description Cutter Height   Cutter Stick Out Original Time Air Time  
+---------------------------------------------------------------------------------------------------------------
+   1     8: LOADTL / 1 $$-> 1/2'' FLAT END MILL 1: 0_500FEM      4               4                1373.446982 28.2233 % 
+===============================================================================================================
+      Original Total Time:                                                                        1373.446982 28.2233 % 
+
+Number of Errors: 457
+Number of Warnings: 0
+Total cycle time since last rewind: 1373.446982
+Total air time since last rewind: 387.632322
+***************************************************************************************************************
+
+Mon May 01 14:30:18 2017
+
+END-OF-FILE
+

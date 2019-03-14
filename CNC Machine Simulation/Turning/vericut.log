@@ -1,0 +1,101 @@
+VERICUT-log
+*---------------------------------------------------------*
+*                                                         *
+*                 Fri Mar 31 16:29:48 2017
+                *
+*                                                         *
+*---------------------------------------------------------*
+
+
+
+*** Processing NC program file E:\NJIT\2017Spring\ME635\Creo Manufacture\op010.ncl.2
+Fri Mar 31 16:29:49 2017
+
+
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 668, Filename: op010.ncl.2
+GOTO / 0.0000000000, 0.0000000000, 4.6000000000
+Error: Cutter of the tool "4" collided with Fixture at line: (668) GOTO / 0.0000000000, 0.0000000000, 4.6000000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 668, Filename: op010.ncl.2
+GOTO / 0.0000000000, 0.0000000000, 4.6000000000
+Error: Cutter of the tool "4" collided with Fixture at line: (668) GOTO / 0.0000000000, 0.0000000000, 4.6000000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 688, Filename: op010.ncl.2
+GOTO / 0.8700000000, 0.0000000000, -0.5000000000
+Error: Cutter of the tool "3" collided with Fixture at line: (688) GOTO / 0.8700000000, 0.0000000000, -0.5000000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 689, Filename: op010.ncl.2
+GOTO / 0.7820000000, 0.0000000000, -0.5000000000
+Error: Cutter of the tool "3" collided with Fixture at line: (689) GOTO / 0.7820000000, 0.0000000000, -0.5000000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 691, Filename: op010.ncl.2
+GOTO / 0.7820000000, 0.0000000000, 4.8925000000
+Error: Cutter of the tool "3" collided with Fixture at line: (691) GOTO / 0.7820000000, 0.0000000000, 4.8925000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 749, Filename: op010.ncl.2
+GOTO / 0.8700000000, 0.0000000000, -0.5000000000
+Error: Cutter of the tool "3" collided with Fixture at line: (749) GOTO / 0.8700000000, 0.0000000000, -0.5000000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 750, Filename: op010.ncl.2
+GOTO / 0.7820000000, 0.0000000000, -0.5000000000
+Error: Cutter of the tool "3" collided with Fixture at line: (750) GOTO / 0.7820000000, 0.0000000000, -0.5000000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 752, Filename: op010.ncl.2
+GOTO / 0.7820000000, 0.0000000000, 4.8925000000
+Error: Cutter of the tool "3" collided with Fixture at line: (752) GOTO / 0.7820000000, 0.0000000000, 4.8925000000
+
+
+******************** TOOLPATH ERROR REPORT ********************
+Error for line 818, Filename: op010.ncl.2
+GOTO / 2.0300000000, 0.0000000000, 4.5000000000
+Fast feed rate removed material with tool "2"  at line: (818) GOTO / 2.0300000000, 0.0000000000, 4.5000000000. Removed volume 0.1286
+Current Tool: Seq# 4, Line# 810, Record: TURRET / 2 $$-> -FINISH FACE AND TURN
+835 lines processed.
+
+
+*** Finished processing NC program file E:\NJIT\2017Spring\ME635\Creo Manufacture\op010.ncl.2
+Fri Mar 31 16:29:54 2017
+
+
+***************************************************************************************************************
+Toolpath File : E:\NJIT\2017Spring\ME635\Creo Manufacture\op010.ncl.2
+
+                                  Tool Summary
+                                 ==============
+
+Seq.  Record                                      Tool Description Cutter Height   Cutter Stick Out Original Time Air Time  
+---------------------------------------------------------------------------------------------------------------
+   1     8: TURRET / 1 $$-> -ROUGH FACE AND TURN  1: ROUGH1        N/A             N/A              120.311693 69.7438 % 
+   2   657: TURRET / 4 $$-> -IINSERT DRILL        4: 1_750DRL      8               8                3.021116   3.5828 %  
+   3   677: TURRET / 3 $$-> -BORE                 3: BORE1         N/A             N/A              23.636087  55.1896 % 
+   4   810: TURRET / 2 $$-> -FINISH FACE AND TURN 2: FINISH1       N/A             N/A              2.798237   1.6026 %  
+===============================================================================================================
+      Original Total Time:                                                                          149.767134 64.8391 % 
+
+Number of Errors: 9
+Number of Warnings: 0
+Total cycle time since last rewind: 149.767134
+Total air time since last rewind: 97.107688
+***************************************************************************************************************
+
+Fri Mar 31 16:33:52 2017
+
+END-OF-FILE
+

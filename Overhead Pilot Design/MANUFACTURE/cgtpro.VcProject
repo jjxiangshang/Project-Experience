@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VcProject Version="6.0" Unit="inch">
+  <Simulation Choice="4EA1108C6895404B8948"/>
+  <Setup Name="1" Active="on">
+    <Views>
+      <View Name="VIEW 1" Type="workpiece" Back="shaded" Draw="shaded" Trans="off">
+        <Light I="0" J="0" K="1"/>
+        <Attach>Stock 1</Attach>
+        <Rotation I="-50.820" J="-12.244" K="9.338"/>
+        <Port XMin="0" XMax="0" YMin="0" YMax="0" ZMin="0" ZMax="0"/>
+      </View>
+    </Views>
+    <Build Loose="keep">
+      <Component Name="Stock 1" Type="stock" Visible="workpiece" Draw="shaded" Hue="5">
+        <Attach>Fixture</Attach>
+        <Position X="0" Y="0" Z="0"/>
+        <Rotation I="0" J="0" K="0"/>
+        <Poly Unit="inch">
+          <File>MANUFACTURE_BUSHING_NUT_WRK_01_1.stk</File>
+          <Position X="0" Y="0" Z="0"/>
+          <Rotation I="0" J="0" K="0"/>
+        </Poly>
+      </Component>
+      <Component Name="BUSHING_NUT1_1" Type="design" Visible="workpiece" Draw="shaded" Hue="7">
+        <Attach>Stock</Attach>
+        <Position X="0" Y="0" Z="0"/>
+        <Rotation I="0" J="0" K="0"/>
+        <Poly Unit="inch">
+          <File>BUSHING_NUT1_1.dsn</File>
+          <Position X="0" Y="0" Z="0"/>
+          <Rotation I="0" J="0" K="0"/>
+        </Poly>
+      </Component>
+    </Build>
+    <NCPrograms Selected="off" Type="Pro/Manufacturing_APT">
+      <NCProgram Use="off" Filter="off">
+        <File>cgtpro.tp</File>
+        <Orient>none</Orient>
+      </NCProgram>
+    </NCPrograms>
+    <APT Machine="mill"/>
+    <ToolMan>
+      <Library>cgtpro.tls</Library>
+    </ToolMan>
+    <Optipath Over="100">
+      <Output></Output>
+      <Material>MANUFACTURE_BUSHING_NUT_WRK_01</Material>
+      <Machine>3-AXIS</Machine>
+    </Optipath>
+  </Setup>
+</VcProject>

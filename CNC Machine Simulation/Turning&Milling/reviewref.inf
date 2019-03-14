@@ -1,0 +1,27 @@
+﻿|***************************|
+    REFERENCE INFORMATION    
+|***************************|
+ Reference No.1 out of 1 
+
+Reference:
+   TYPE   : Coordinate System.
+
+Status   : not in geometry
+
+
+Reference owner:
+ Model   :
+   NAME   : BEVEL_GEAR_TUNRING 
+   TYPE   : Assembly
+ Feature :
+
+    FEATURE NUMBER       11
+    INTERNAL FEATURE ID  29
+    FEATURE WAS CREATED IN ASSEMBLY BEVEL_GEAR_TUNRING 
+    PARENTS = 16(#5) 
+    CHILDREN = 28(#13) 
+    TYPE = COORDINATE SYSTEM
+    NAME = NC_MACH_CSYS
+
+
+

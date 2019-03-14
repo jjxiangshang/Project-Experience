@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MfgSessionSetupDocument>
+    <DocType>PRO_NC_SESSION_SETUP</DocType>
+    <DocTitle>Manufacturing Session Configuration</DocTitle>
+    <DateTime>2017-04-04T00:08:54</DateTime>
+    <ApplicationInfo AppName="Creo" Language="usascii" FtVersion="310068" AppVersion="M070" MdlVersion="1836"/>
+    <ProcessManagerSetup>
+        <ViewCollection>
+            <ViewSetup Name="VIEW_1" LayoutType="Process">
+                <ColumnCollection LockedNum="2">
+                    <Column Num="1" Width="8">
+                        <Property Name="PRO_E_FEAT_NAME" Type="NC_SETUP_ITEM" Label="Name"/>
+                    </Column>
+                    <Column Num="2" Width="8">
+                        <Property Name="PRO_E_TOOL" Type="NC_SETUP_ITEM" Label="Tool"/>
+                    </Column>
+                    <Column Num="3" Width="8" NumDecimals="2">
+                        <Property Name="MACHINING_TIME" Type="MFG_INFO_PARAM" Label="Machining Time ( Min. )"/>
+                    </Column>
+                </ColumnCollection>
+                <SortRuleCollection/>
+                <Filter/>
+            </ViewSetup>
+        </ViewCollection>
+        <CustomLabelCollection/>
+    </ProcessManagerSetup>
+    <ToolManagerSetup>
+        <ToolDlgColSetup/>
+    </ToolManagerSetup>
+    <ParamManagerSetup>
+        <ColumnCollection/>
+    </ParamManagerSetup>
+</MfgSessionSetupDocument>

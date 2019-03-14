@@ -1,0 +1,246 @@
+ NC-GPOST Mill Version  6.6 P-14.0, Copyright(c) 2014
+ Date=04-06-2017 Time=23:02:52
+ Input  File=H:\ME635\Creo Manufacture2\cycle.ncl
+ Post   Name=C:\Program Files\PTC\Creo 3.0\M070\Parametric\bin\..\..\Common Files\x86e_win64\gpost\uncx01.p11
+ **ERROR** READING ASCII CLFILE
+  LAST    ISN:     63
+  CURRENT ISN:     63
+  CURRENT LIN: 
+  ﻿RAPID/
+ Option File=uncx01.p11
+ Filter File=uncx01.f11
+1 NC-GPOST FIL 6.6.WN00 
+         -1  INCLUD/UNCMIL.V00                                                               
+         -2  $$ GPOST MILL SYSTEM VOCABULARY TABLE                                           
+         -3  PPWORD/TLANGL,1                                                                 
+         -4  PPWORD/RETURN,7                                                                 
+         -5  PPWORD/RTRCTO,7                                                                 
+         -6  PPWORD/STEP,66                                                                  
+         -7  PPWORD/ABSOL,90                                                                 
+         -8  PPWORD/HOLDIA,157                                                               
+         -9  PPWORD/OSETNO,159                                                               
+        -10  PPWORD/BRKCHP,216                                                               
+        -11  PPWORD/HED,238                                                                  
+        -12  PPWORD/OFSETL,275                                                               
+        -13  PPWORD/DWELL,279                                                                
+        -14  PPWORD/FEDTO,281                                                                
+        -15  PPWORD/DEPTH,281                                                                
+        -16  PPWORD/CLEAR,280                                                                
+        -17  PPWORD/RAPTO,280                                                                
+        -18  PPWORD/INCH,303                                                                 
+        -19  PPWORD/CORNER,403                                                               
+        -20  PPWORD/DIAMET,157                                                               
+        -21  PPWORD/OFSTNO,1074                                                              
+        -22  PPWORD/CALSUB,3150                                                              
+        -23  PPWORD/DEFSUB,3151                                                              
+        -24  PPWORD/ENDSUB,3152                                                              
+        -25  PPWORD/VERIFY,3153                                                              
+        -26  PPWORD/3DCOMP,3155                                                              
+        -27  PPWORD/BACK,3156                                                                
+        -28  PPWORD/PNT,3157                                                                 
+        -29  PPWORD/CALIB,3158                                                               
+        -30  PPWORD/PROTCT,3159                                                              
+        -31  PPWORD/SCAN,3160                                                                
+        -32  PPWORD/PERMIN,3161                                                              
+        -33  PPWORD/RCTNGL,3162                                                              
+        -34  PPWORD/XDIM,3163                                                                
+        -35  PPWORD/YDIM,3164                                                                
+        -36  PPWORD/ROUND,3165                                                               
+        -37  PPWORD/XDIST,3166                                                               
+        -38  PPWORD/YDIST,3167                                                               
+        -39  PPWORD/DIST,3168                                                                
+        -40  PPWORD/CUTS,3169                                                                
+        -41  PPWORD/FINCUT,3170                                                              
+        -42  PPWORD/TLAXIS,3171                                                              
+        -43  PPWORD/PROBE,3172                                                               
+        -44  PPWORD/WIRE,3173                                                                
+        -45  PPWORD/UNLOAD,3174                                                              
+        -46  PPWORD/DIPM,3175                                                                
+        -47  PPWORD/TORCH,3176                                                               
+        -48  PPWORD/APPLY,3177                                                               
+        -49  PPWORD/PIERCE,3178                                                              
+        -50  PPWORD/YDIR,3179                                                                
+        -51  PPWORD/XDIR,3180                                                                
+        -52  PPWORD/FLAME,3181                                                               
+        -53  PPWORD/PUNCH,3182                                                               
+        -54  PPWORD/CLDIST,3183                                                              
+        -55  PPWORD/SYNCTR,3184                                                              
+        -56  PPWORD/UPPER,3185                                                               
+        -57  PPWORD/LOWER,3186                                                               
+        -58  PPWORD/FLUSH,3187                                                               
+        -59  PPWORD/GENRTR,3188                                                              
+        -60  PPWORD/CONST,3189                                                               
+        -61  PPWORD/WATTS,3190                                                               
+        -62  PPWORD/LASER,3191                                                               
+        -63  INCLUD/UNCMIL.S00                                                               
+        -64  $$  GPOST MILL SYSTEM STARTUP FILE                                              
+        -65                                                                                  
+        -66  REDEF/ON                                                                        
+        -67                                                                                  
+        -68                                                                                  
+        -69  A=1;B=2;C=3;D=4;E=5;F=6;G=7;H=8;I=9;J=10;K=11;L=12;M=13;N=14                    
+        -70  O=15;P=16;Q=17;R=18;S=19;T=20;U=21;V=22;W=23;X=24;Y=25;Z=26                     
+        -71                                                                                  
+        -72                                                                                  
+        -73                                                                                  
+        -74  $$ ****************************************************                         
+        -75  $$ *        M A C R O       S E C T I O N S           *                         
+        -76  $$ ****************************************************                         
+        -77                                                                                  
+        -78  DDATE = MACRO                                                                   
+        -79  $$ MACRO TO DISPLAY THE DATE AND TIME                                           
+        -80  $$ AS A MESSAGE TO OPERATOR                                                     
+        -81  DD=TEXT/TIMES                                                                   
+        -82  $$ EXTRACT TIME                                                                 
+        -83  DT=TEXT/RANGE,DD,10,17                                                          
+        -84  $$ EXTRACT DATE                                                                 
+        -85  DD=TEXT/RANGE,DD,1,8                                                            
+        -86  PPRINT/DD,'-',DT                                                                
+        -87  TERMAC                                                                          
+        -88                                                                                  
+        -89                                                                                  
+        -90                                                                                  
+        -91                                                                                  
+        -92  $$ ****************************************************                         
+        -93  $$ *        M A C H I N     S E C T I O N S           *                         
+        -94  $$ ****************************************************                         
+        -95                                                                                  
+        -96  CIMFIL/ON,MACHIN                                                                
+        -97   RSLT=POSTF(13)                                                                 
+        -98  SEQNO/OFF       $$ NO SEQUENCE NUMBER, ONLY ON LOADTL                           
+        -99    PROMPT=TEXT/'ENTER PROGRAM NUMBER'                                            
+       -100    RSLT=FILEF(0,1,PROMPT)                                                        
+       -101    STRNG=TEXT/READ,0                                                             
+       -102    SCALR=SCALF(STRNG)                                                            
+       -103    PRGNM=TEXT/CONVF,SCALR,4,0,0,1,1                                              
+       -104   INSERT/'O',PRGNM,'$'                                                           
+       -105  $$ INSERT FILE NAME                                                             
+       -106  $$ NAME OF CL FILE                                                              
+       -107  TXTPRT=TEXT/PART                                                                
+       -108  PPRINT/TXTPRT                                                                   
+       -109   $$ OUTPUT THE DATE AND TIME                                                    
+       -110  CALL/DDATE                                                                      
+       -111  CIMFIL/OFF                                                                      
+       -112                                                                                  
+       -113                                                                                  
+       -114  $$ ****************************************************                         
+       -115  $$ *        L O A D T L     S E C T I O N S           *                         
+       -116  $$ ****************************************************                         
+       -117                                                                                  
+       -118  CIMFIL/ON,LOADTL                                                                
+       -119  DMY=POSTF(20)   $$ SAVE CURRENT CL RECORD                                       
+       -120  SEQNO/ON                                                                        
+       -121  DMY=POSTF(21)   $$ RESTORE SAVED RECORD                                         
+       -122  $$ ADD OFFSET NUMBER IF NOT PROGRAMMED                                          
+       -123  NBEL=POSTF(5)      $$ NUMBER OF WORD                                            
+       -124  IF (NBEL.EQ.4) THEN                                                             
+       -125  $$ ONLY THE TOOL NUMBER HAS BEEN PROGRAMMED                                     
+       -126  $$ ADD ADJUST, OFFSET NUMBER=TOOL                                               
+       -127    DMY=POSTF(9,5,(ICODEF(ADJUST)))                                               
+       -128    DMY=POSTF(10,6,(POSTF(7,4)))                                                  
+       -129  $$ INCREASE NUMBER OF WORD                                                      
+       -130    DMY=POSTF(12,6)                                                               
+       -131  ENDIF                                                                           
+       -132  $$ PROCESS RECORD                                                               
+       -133  DMY=POSTF(13)                                                                   
+       -134  SEQNO/OFF                                                                       
+       -135  CIMFIL/OFF                                                                      
+       -136                                                                                  
+       -137                                                                                  
+       -138  $$ ****************************************************                         
+       -139  $$ *        C U T C O M     S E C T I O N S           *                         
+       -140  $$ ****************************************************                         
+       -141  CIMFIL/ON,CUTCOM                                                                
+       -142  $$ THIS FIL IS USED TO SET A DEFAULT DIAMETER OFFSET NUMBER                     
+       -143  SETV=POSTF(7,4)   $$ GET THE 4TH CL WORD                                        
+       -144  SETT=POSTF(6,4)   $$ GET THE TYPE OF THE 4TH CL WORD                            
+       -145  NBEL=POSTF(5)     $$ NUMBER OF WORD                                             
+       -146  IF(SETT.EQ.0.AND.SETV.NE.(ICODEF(OFF)).AND.NBEL.EQ.4)THEN                       
+       -147  $$ DEFAULT OFFSET NUMBER TO CURRENT TOOL NUMBER                                 
+       -148    DMY=POSTF(10,5,(POSTF(1,3,497)))                                              
+       -149  $$ CHANGE NUMBER OF ARGUMENT                                                    
+       -150    DMY=POSTF(12,5)                                                               
+       -151  ENDIF                                                                           
+       -152  $$ EXECUTE THE CURRENT RECORD (MODIFIED OR NOT``)                               
+       -153  DMY=POSTF(13)                                                                   
+       -154  CIMFIL/OFF                                                                      
+       -155                                                                                  
+       -156                                                                                  
+       -157  $$ ****************************************************                         
+       -158  $$ *        P P R I N T     S E C T I O N S           *                         
+       -159  $$ ****************************************************                         
+       -160                                                                                  
+       -161  CIMFIL/ON,PPRINT                                                                
+       -162  $$ MACRO ON PPRINT TO IGNORE PPRINT                                             
+       -163  $$ WITH THE WORD COMMENTS                                                       
+       -164  MESS=TEXT/CLW                                                                   
+       -165  COM=TEXT/'COMMENTS'                                                             
+       -166  RSLT=INDXF(MESS,COM)                                                            
+       -167  IF (RSLT.EQ.0) THEN                                                             
+       -168  $$ PROCESS THE PPRINT                                                           
+       -169    PPRINT/MESS                                                                   
+       -170  ENDIF                                                                           
+       -171  CIMFIL/OFF                                                                      
+       -172                                                                                  
+       -173                                                                                  
+       -174  $$ ****************************************************                         
+       -175  $$ *        F I N I     S E C T I O N S               *                         
+       -176  $$ ****************************************************                         
+       -177                                                                                  
+       -178  CIMFIL/ON,14        $$ FINI STATEMENT                                           
+       -179  DMY=POSTF(20)       $$ SAVE THE CURRENT RECORD                                  
+       -180  AUXFUN/30           $$ OUTPUT M30                                               
+       -181  DMY=POSTF(21)       $$ RECAL SAVED RECORD                                       
+       -182  DMY=POSTF(13)       $$ PROCESS THE RECORD                                       
+       -183  CIMFIL/OFF                                                                      
+       -184  INCLUD/UNCMIL.F00                                                               
+       -185  $$ ****************************************************                         
+       -186  $$ *             SYSTEM MILL FIL                      *                         
+       -187  $$ ****************************************************                         
+       -188                                                                                  
+       -189  	PRINT/OFF,IN					$$ USE FOR PRODUCTION                                         
+1 
+      2>MACHIN/,11 
+      3>GOTO  /.85,0,.425065 
+1 NC-GPOST Mill UNCX01  6.6.WN00 P-14.0 BUILD=0176 MACHIN/UNCX01,11   DATE:  4/ 6/2017      PAGE   1
+ HAAS VF8                                                          
+  NONE                                                             (INCH)
+  INPUT  CLREC N4G2X34Y34Z34R34I34J34Q34F33S5T2H2D2M2P34                     X         Y         Z       F      S                   
+
+      3      3 $ NONE                                                             
+      3      3 %$
+      3      3 N0010 G01 X.8500 Y.0000 Z.4251 F10.000$                       .8500     .0000     .4251   10.0  
+      4>FEDRAT/3,IPM 
+      5>GOTO  /.647762,0,.425065 
+      5      5 N0020 X.6478 F3.000$                                          .6478                        3.0  
+      6>FEDRAT/3,IPM 
+      7>GOTO  /.647762,0,-1.174935 
+      7      7 N0030 Z-1.1749$                                                                 -1.1749  
+      8>RAPID 
+      9>GOTO  /.85,0,-1.174935 
+      9      9 N0040 G00 X.8500$                                             .8500                      600.0  
+     10>FINI
+     10     10 %$
+
+
+               TAPE      .61 TIME     3.56 WARNING    0
+1
+
+
+                     X-AXIS               Y-AXIS               Z-AXIS
+ POST-MINIMUM         .0000                .0000              -1.1749
+ POST-MAXIMUM         .8500                .0000              30.0000
+
+ TAPE-MINIMUM         .6478                .0000              -1.1749
+ TAPE-MAXIMUM         .8500                .0000                .4251
+
+
+                     A-AXIS               B-AXIS               C-AXIS
+ POST-MINIMUM         .0000                .0000                .0000
+ POST-MAXIMUM         .0000                .0000                .0000
+
+ TAPE-MINIMUM         .0000                .0000                .0000
+ TAPE-MAXIMUM         .0000                .0000                .0000
+
+ Terminated with FIL file ERRORs!
+ Date=04-06-2017 Time=23:02:52

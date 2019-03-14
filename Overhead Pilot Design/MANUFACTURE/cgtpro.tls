@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CGTechToolLibrary Version="6.0">
+  <Tools>
+    <Tool ID="1" Units="Inch">
+      <Description>0_500FEM</Description>
+      <Teeth>2</Teeth>
+      <OptipathReference>0_500FEM</OptipathReference>
+      <SpinAxis>SpindleAxis</SpinAxis>
+      <Type>Milling</Type>
+      <Cutter>
+        <Apt ID="Cutter1" Type="APT 7">
+          <D>0.500000</D>
+          <R>0.000000</R>
+          <E>0.250000</E>
+          <F>0.000000</F>
+          <A>0.000000</A>
+          <B>0.000000</B>
+          <H>4.000000</H>
+          <R2>0</R2>
+          <E2>0</E2>
+          <F2>0</F2>
+          <SpindleDirection>CW</SpindleDirection>
+        </Apt>
+      </Cutter>
+      <GagePoint>
+        <X>0.0</X>
+        <Y>0.0</Y>
+        <Z>0.000000</Z>
+      </GagePoint>
+    </Tool>
+  </Tools>
+</CGTechToolLibrary>

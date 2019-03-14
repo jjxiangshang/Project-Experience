@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MfgParamValuesDocument>
+    <DocType>PRO_NC_PARAM_VALUES</DocType>
+    <DocTitle>Manufacturing Parameters Values</DocTitle>
+    <DateTime>2017-03-28T21:46:41</DateTime>
+    <ApplicationInfo AppName="Creo" Language="usascii" FtVersion="310068" AppVersion="M070" MdlVersion="1836"/>
+    <AssemblyUnits LengthUnit="in"/>
+    <MfgParamCollection>
+        <MfgParam Name="NCL_FILE" Value="-"/>
+        <MfgParam Name="PRE_MACHINING_FILE" Value="-"/>
+        <MfgParam Name="POST_MACHINING_FILE" Value="-"/>
+        <MfgParam Name="CUT_FEED" Value="2"/>
+        <MfgParam Name="ARC_FEED" Value="-"/>
+        <MfgParam Name="FREE_FEED" Value="-"/>
+        <MfgParam Name="RETRACT_FEED" Value="-"/>
+        <MfgParam Name="RETRACT_UNITS" Value="IPM"/>
+        <MfgParam Name="SCAN_TYPE" Value="TYPE_1"/>
+        <MfgParam Name="ROUGH_OPTION" Value="ROUGH_AND_PROF"/>
+        <MfgParam Name="STEPOVER_ADJUST" Value="YES"/>
+        <MfgParam Name="TRIM_TO_WORKPIECE" Value="YES"/>
+        <MfgParam Name="CUT_DIRECTION" Value="STANDARD"/>
+        <MfgParam Name="CORNER_FINISH_TYPE" Value="FILLET"/>
+        <MfgParam Name="OUTPUT_POINT" Value="CENTER"/>
+        <MfgParam Name="GOUGE_AVOID_TYPE" Value="TIP_ONLY"/>
+        <MfgParam Name="STEP_DEPTH" Value="0.15"/>
+        <MfgParam Name="MIN_STEP_DEPTH" Value="-"/>
+        <MfgParam Name="TOOL_CLEARANCE" Value="-"/>
+        <MfgParam Name="END_STEP_DEPTH" Value="-"/>
+        <MfgParam Name="TOLERANCE" Value="0.001"/>
+        <MfgParam Name="NUMBER_PASSES" Value="0"/>
+        <MfgParam Name="NUM_PROF_PASSES" Value="1"/>
+        <MfgParam Name="PROF_INCREMENT" Value="0"/>
+        <MfgParam Name="PROF_STOCK_ALLOW" Value="0.1"/>
+        <MfgParam Name="ROUGH_STOCK_ALLOW" Value="0.1"/>
+        <MfgParam Name="CUT_ANGLE" Value="0"/>
+        <MfgParam Name="Z_STOCK_ALLOW" Value="-"/>
+        <MfgParam Name="END_OVERTRAVEL" Value="0"/>
+        <MfgParam Name="START_OVERTRAVEL" Value="0"/>
+        <MfgParam Name="CORNER_LENGTH" Value="-"/>
+        <MfgParam Name="CHAMFER_DIM" Value="-"/>
+        <MfgParam Name="CORNER_ANGLE" Value="-"/>
+        <MfgParam Name="CONCAVE_RADIUS" Value="-"/>
+        <MfgParam Name="CONVEX_RADIUS" Value="-"/>
+        <MfgParam Name="BACK_CLEAR_ANGLE" Value="5"/>
+        <MfgParam Name="RAMP_STEP_DEPTH" Value="0"/>
+        <MfgParam Name="PLUNGE_RELIEF_DEPTH" Value="0"/>
+        <MfgParam Name="PLUNGE_RELIEF_LENGTH" Value="0"/>
+        <MfgParam Name="SPINDLE_SPEED" Value="400"/>
+        <MfgParam Name="SPINDLE_SENSE" Value="CW"/>
+        <MfgParam Name="MAX_SPINDLE_RPM" Value="-"/>
+        <MfgParam Name="SPEED_CONTROL" Value="CONST_RPM"/>
+        <MfgParam Name="SPINDLE_RANGE" Value="NO_RANGE"/>
+        <MfgParam Name="RANGE_NUMBER" Value="0"/>
+        <MfgParam Name="CIRC_INTERPOLATION" Value="ARC_ONLY"/>
+        <MfgParam Name="NUMBER_OF_ARC_PTS" Value="1"/>
+        <MfgParam Name="COOLANT_OPTION" Value="OFF"/>
+        <MfgParam Name="COOLANT_PRESSURE" Value="NONE"/>
+        <MfgParam Name="CUTCOM" Value="OFF"/>
+        <MfgParam Name="NUMBER_CUTCOM_PTS" Value="1"/>
+        <MfgParam Name="CUTCOM_LOC_APPR" Value="-"/>
+        <MfgParam Name="CUTCOM_LOC_EXIT" Value="-"/>
+        <MfgParam Name="CUTCOM_REGISTER" Value="-"/>
+        <MfgParam Name="FIXT_OFFSET_REG" Value="-"/>
+        <MfgParam Name="COORDINATE_OUTPUT" Value="MACHINE_CSYS"/>
+        <MfgParam Name="TOOL_ORIENTATION" Value="90"/>
+        <MfgParam Name="TOOL_POSITION_ANGLE" Value="0"/>
+        <MfgParam Name="FLASH_TOOL" Value="NO"/>
+        <MfgParam Name="TIP_CONTROL_POINT" Value="1"/>
+        <MfgParam Name="TLCHG_TIP_NUMBER" Value="INITIAL"/>
+        <MfgParam Name="APPROACH_FEED" Value="-"/>
+        <MfgParam Name="EXIT_FEED" Value="-"/>
+        <MfgParam Name="PLUNGE_FEED" Value="-"/>
+        <MfgParam Name="PLUNGE_UNITS" Value="IPM"/>
+        <MfgParam Name="LEAD_RADIUS" Value="0"/>
+        <MfgParam Name="TANGENT_LEAD_STEP" Value="0"/>
+        <MfgParam Name="NORMAL_LEAD_STEP" Value="0"/>
+        <MfgParam Name="RETRACT_RATIO" Value="1.1"/>
+        <MfgParam Name="PLUNGE_ANGLE" Value="0"/>
+        <MfgParam Name="PULLOUT_ANGLE" Value="45"/>
+        <MfgParam Name="APPROACH_DISTANCE" Value="-"/>
+        <MfgParam Name="EXIT_DISTANCE" Value="-"/>
+        <MfgParam Name="RETRACT_CONTROL" Value="NORMAL_TO_CUT"/>
+        <MfgParam Name="ENTRY_ANGLE" Value="90"/>
+        <MfgParam Name="EXIT_ANGLE" Value="90"/>
+        <MfgParam Name="START_MOTION" Value="DIRECT"/>
+        <MfgParam Name="END_MOTION" Value="DIRECT"/>
+        <MfgParam Name="FEED_UNITS" Value="IPM"/>
+        <MfgParam Name="END_STOP_CONDITION" Value="NONE"/>
+        <MfgParam Name="CUT_FEED_CLEAR" Value="0"/>
+        <MfgParam Name="END_CUT_FEED" Value="-"/>
+        <MfgParam Name="PLUNGE_RELIEF_FEED" Value="-"/>
+        <MfgParam Name="STEP_DEPTH_COMPUTATION" Value="BY_REGION"/>
+        <MfgParam Name="CONNECT_OVERLAP" Value="0"/>
+        <MfgParam Name="COOLANT_PRESSURE_VALUE" Value="-"/>
+        <MfgParam Name="COOLANT_PRESSURE_UNIT" Value="BAR"/>
+    </MfgParamCollection>
+</MfgParamValuesDocument>
