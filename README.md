@@ -4,7 +4,7 @@ This repository includes all the project experience of my former project:
 - Humanoid Jumping Robot
 - Storage Cart Control
 - Login System
--Tally Book
+- Tally Book
 - Cart Design
 - CNC Machine Simulation
 - Finite Element Analysis
