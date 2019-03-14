@@ -1,5 +1,5 @@
 # Project-Experience
-This repository includes all the project experience of my former project:
+This repository includes all the project experience of my former projects:
 - Overhead Pilot Design
 - Humanoid Jumping Robot
 - Storage Cart Control
