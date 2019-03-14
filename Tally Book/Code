@@ -1,1 +1,99 @@
-## empty
+from tkinter import *
+
+FILE_NAME = "Tally Book.csv"
+
+window = Tk()
+window.title("Tally Book Designed by Lenan")
+window.geometry("600x600")
+
+
+# create menu bar
+menu_bar = Menu(window)
+file_menu = Menu(menu_bar, tearoff=0)
+menu_bar.add_cascade(label="File", menu=file_menu)
+file_menu.add_cascade(label="New")
+file_menu.add_cascade(label="Exit", command=window.quit)
+
+window.config(menu=menu_bar)
+
+
+Label(window, text="Name (e.g., Supreme Creeper Tee White)").pack()
+entry_name = Entry(window)
+entry_name.pack()
+Label(window, text="Date (e.g., 02/26/19)").pack()
+entry_date = Entry(window)
+entry_date.pack()
+Label(window, text="Type (e.g., Streetwear, Sneaker)").pack()
+entry_type = Entry(window)
+entry_type.pack()
+Label(window, text="Quantity (e.g., 1, 2, 3)").pack()
+entry_quantity = Entry(window)
+entry_quantity.pack()
+Label(window, text="Retail Price (e.g., 38.00, 38)").pack()
+entry_retail = Entry(window)
+entry_retail.pack()
+Label(window, text="Shipping (e.g., 10.00, 10)").pack()
+entry_ship = Entry(window)
+entry_ship.pack()
+Label(window, text="Resell Price (e.g., 38.00, 38)").pack()
+entry_resell = Entry(window)
+entry_resell.pack()
+Label(window, text="Profit").pack()
+label_profit = Label(window, background="grey")
+label_profit.pack()
+Label(window, text="Total Income").pack()
+label_total = Label(window, background="grey")
+label_total.pack()
+
+
+def calculate_profit():
+    name = entry_name.get()
+    date = entry_date.get()
+    type = entry_type.get()
+    quantity = entry_quantity.get()
+    retail = entry_retail.get()
+    ship = entry_ship.get()
+    resell = entry_resell.get()
+    profit = str((eval(quantity) * (eval(resell) - eval(retail) - eval(ship))))
+    label_profit.config(text=profit)
+    try:
+        file_test = open(FILE_NAME, 'r')
+        file_test.close()
+        file = open(FILE_NAME, 'a')
+        item = name + ',' + date + ',' + type + ',' + quantity + ',' + retail + ',' + ship + \
+            ',' + resell + ',' + profit + "\n"
+        file.write(item)
+    except FileNotFoundError:
+        file = open(FILE_NAME, 'w')
+        # define headers
+        headers = "Name, Date, Type, Quantity, Retail Price, Shipping, Resell Price, Profit\n"
+        file.write(headers)
+        item = name + ',' + date + ',' + type + ',' + quantity + ',' + retail + ',' + ship + \
+            ',' + resell + ',' + profit + "\n"
+        file.write(item)
+    # except SyntaxError:
+    #     label_profit.config(text="Please enter completed information according to the examples")
+
+    file.close()
+
+
+def calculate_total_income():
+    try:
+        file = open(FILE_NAME, 'r')
+        file.readline()
+        total_income = 0
+        for line in file:
+            item_list = line.rstrip().split(',')
+            total_income += eval(item_list[-1])
+        label_total.config(text=str(total_income))
+        file.close()
+    except FileNotFoundError:
+        label_total.config(text="No transaction in the tally book now, please enter your first transaction")
+
+
+# create button
+btn_cal = Button(window, text="Calculate Profit", command=calculate_profit).pack()
+btn_total = Button(window, text="Update Total Income", command=calculate_total_income).pack()
+
+
+window.mainloop()
